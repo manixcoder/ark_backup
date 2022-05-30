@@ -1,0 +1,1 @@
+<?php /**PATH D:\Web\htdocs\222holidates_new\resources\views/holidates_web/inc/pic-edit.blade.php ENDPATH**/ ?>

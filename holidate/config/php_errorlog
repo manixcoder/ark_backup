@@ -1,0 +1,16 @@
+[01-Nov-2021 04:45:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/customer/www/holidate.es/public_html/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/holidate.es/public_html/config/services.php on line 18
+[01-Nov-2021 04:46:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/customer/www/holidate.es/public_html/config/mail.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/holidate.es/public_html/config/mail.php on line 19
+[01-Nov-2021 04:55:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/customer/www/holidate.es/public_html/config/filesystems.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/holidate.es/public_html/config/filesystems.php on line 16
+[01-Nov-2021 04:57:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/customer/www/holidate.es/public_html/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/holidate.es/public_html/config/app.php on line 16

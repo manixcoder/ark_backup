@@ -1,0 +1,205 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Retirement Estimator $ | Contact Support</title>
+	<link rel="shortcut icon" href="fav.png" />
+	<link href="css1/style.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+        integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link href="css1/font-awesome.min.css" rel="stylesheet" />
+    <link type="text/css" media="all" href="../assets/fonts/fonts.css" rel="stylesheet" />
+    <style>
+        .formcontent input, .formcontent textarea
+        {
+            color:#000000 !important;
+            font-size:14px !important;
+        }
+    </style>
+    <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-209494108-1');
+</script>
+<!-- Global site tag (gtag.js) - Google Ads: 10786528224 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-10786528224"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-10786528224');
+</script>
+</head>
+
+<body>
+    <div class="mancontainer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-sm-12 header text-center pd15">
+						<h1>Retirement Estimator $</h1>
+				</div>
+				<div class="col-md-12 col-sm-12 border pd20">
+					<div class="row">
+						<div class="col-md-4 col-sm-4 contactInfo pd30">
+							<label class="heading1">Contact Us :</label>
+							<ul>
+								<li>
+									<label>Address :</label>
+								</li>
+								<li>
+									<i class="fa fa-map-marker" aria-hidden="true"></i> D-9, Phase 2, Noida
+								</li>
+								<li>
+									<label>Lets Talk :</label>
+								</li>
+								<li>
+									<i class="fa fa-phone" aria-hidden="true"></i> (+91) 965 093 6880
+								</li>
+								<li>
+									<label>General Support :</label>
+								</li>
+								<li>
+									<i class="fa fa-envelope" aria-hidden="true"></i> developers@arknewtech.com
+								</li>
+							</ul>
+						</div>
+						<div class="col-md-8 col-sm-8 form pd20">
+							<div class="row">
+								<label class="heading col-md-12">Get in touch</label>
+								<small class="subheading col-md-12">Feel free to drop us a line below!</small>
+								<div class="col-md-12 col-sm-12">
+									<form class=" formcontent" action="retirementenquirymail.php" method="post" onsubmit="return validate();"> 
+									
+										<div class="form-group">
+										  <label for="name">Tell us your name</label>
+										  <div class="row">
+											  <div class="col-md-6">
+												  <input type="text" class="form-control" id="fname" name="fname" aria-describedby="name" placeholder="First Name">
+											  </div>
+											  <div class="col-md-6">
+												  <input type="text" class="form-control" id="lname" name="lname" aria-describedby="name" placeholder="Last Name">
+											  </div>
+										  </div>
+										  
+										</div>
+										<div class="form-group">
+										  <label for="EmailField">Enter Email Address</label>
+										  <input type="email" class="form-control" id="enqemails" name="enqemails" aria-describedby="EmailField" placeholder="Enter Email">
+										  <small id="EmailField" class="form-text text-muted pdt5">We'll never share your email with anyone else.</small>
+										</div>
+										<div class="form-group">
+										  <label for="MobileField">Enter Your Mobile Number</label>
+										  <input type="tel" class="form-control" id="MobileField" name="MobileField" aria-describedby="MobileField" placeholder="Enter Mobile Number"
+										  
+										  onkeypress="return isNumberKey(event)" autocomplete="off"
+										  >
+										</div>
+										<div class="form-group">
+										  <label for="exampleFormControlTextarea1">Enter your Message</label>
+										  <textarea class="form-control" id="exampleFormControlTextarea1" name="exampleFormControlTextarea1" rows="3" placeholder="Enter Message"></textarea>
+										</div>
+									  <button type="submit" class="btn">Send Message</button>
+									</form>
+								</div>
+								
+							</div>
+						</div>
+					</div>
+					
+				</div>
+				<div class="col-md-12 col-sm-12 copyright text-center pd15">
+					<p>Copyright &#xA9; 2020 Retirement Estimator $ | All rights reserved. </p>
+				</div>
+			</div>
+		</div>
+	</div>
+        
+		
+       
+     	<!--- Form Validation Script -->
+
+<script type="text/javascript">
+
+    function validate()
+    {
+	var error="";
+var fname = document.getElementById( "fname" );
+	if( fname.value == "" )
+	{
+	error = alert("Enter First Name.");
+	return false;
+	}
+	
+		var error="";
+var lname = document.getElementById( "lname" );
+	if( lname.value == "" )
+	{
+	error = alert("Enter Last Name.");
+	return false;
+	}
+	
+	 var flag=true;
+	  
+ if(flag)
+ {
+     var reg = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
+     var address = document.getElementById('enqemails').value;
+     if(reg.test(address) == false) {
+    error = alert("Enter valid Email Address");
+	return false;
+     }
+ }
+	 
+ 	  if(flag)
+{
+        var x = document.getElementById('MobileField').value;
+        if(isNaN(x)|| x.indexOf(" ")!=-1){
+              error = alert("Enter Numeric values Only ");
+	return false;
+  }
+        
+  if (!(x.length == 16 || x.length == 8))
+  {
+    error = alert("Enter Mobile Number");
+	return false;
+    
+  }
+      
+}
+	  var exampleFormControlTextarea1 = document.getElementById( "exampleFormControlTextarea1" );
+	if( exampleFormControlTextarea1.value == "" )
+	{
+	error = alert("Enter Message");
+	return false;
+	}
+	
+	else
+	{
+	return true;
+	}
+
+    }
+
+</script>
+
+ <script>
+function isNumberKey(evt){
+    var charCode = (evt.which) ? evt.which : event.keyCode
+    if (charCode > 31 && (charCode < 48 || charCode > 57))
+        return false;
+    return true;
+}    
+</script>              
+                   
+               
+</body>
+ <!-- Latest compiled and minified JavaScript -->
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+ integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+ crossorigin="anonymous"></script>
+</html>
