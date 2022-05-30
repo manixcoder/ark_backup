@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/prettydropdowns.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <link rel="icon" href="./images/favicon.png" type="skype-img"/>
+    <title>shopaholicsale</title>
+  </head>
+
+  <body>
+
+  <header>
+      <div class="top-header">
+      <div class="container">
+        <div class="row">
+            <div class="col-md-2 col-sm-2">
+              <a class="logo" href="index.html"><img src="./images/logo.jpg" alt="logo"></a>
+            </div>                          
+
+            <div class="col-md-6 col-sm-6">
+              <form class="form-inline search-form">
+                  <div class="input-group">            
+                    <input type="email" class="form-control" id="exampleInputAmount" placeholder="Search">
+                    <button type="submit" class="btn btn-primary"><i class="fa fa-search"></i></button>
+                  </div>         
+              </form>      
+            </div>  
+
+            <div class="col-md-4 col-sm-4 text-right">
+              <div class="my-cart">
+                <div class="cart">
+                  <figure><img src="./images/shopping-cart.png" alt="shopping-cart"></figure>
+                  <span>99</span>
+                </div>     
+                <div class="cart-price">
+                  <h3>MY CART</h3>
+                  <p>$ 0.00</p>
+                </div>
+              </div>
+              <div class="login_user">
+                <a class="user_dropdown" href="#">
+                  <img src="./images/user-profile.png" alt="img">
+                </a>                                 
+                <ul class="user-dropdown">
+                  <li>                                            
+                    <a href="Account-Settings.html">My Account</a>
+                  </li>                                                                                 
+                  <li>              
+                    <a href="login.html">Logout</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+        </div>  
+      </div>
+    </div>
+      <div class="menu-part">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-12 col-sm-12">
+              <nav class="navbar">
+                  
+                  <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                    </button>
+                  </div>                                          
+                                                                                                                               
+                  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                      <li class="active"><a href="./category-mobile.html">Mobiles</a>   
+                      </li>
+                      <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Fashion<i class="fa fa-angle-down"></i></a>
+                        <ul class="dropdown-menu">
+                          <li><a href="./category-fashion.html">Male</a></li>
+                          <li><a href="./category-fashion.html">Female</a></li>
+                          <li><a href="./special-prices.html">Special Prices</a></li>
+                        </ul>         
+                      </li>                                                                                                         
+                      <li><a href="./special-prices.html">Electronics</a></li>
+                      <li><a href="./special-prices.html">Grocery</a></li>
+                      <li><a href="./special-prices.html">Beauty</a></li>
+                      <li><a href="./special-prices.html">Toys</a></li>
+                    </ul>                                         
+                  </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div> 
+    </header>                                                         
+                                                                                                                                                                 
+  <div class="breadcrumb-sec">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-sm-12">
+          <ul>                                           
+            <li><a href="index.html">Home</a></li>
+            <li>></li>           
+            <li><a href="#">My Account</a></li>
+            <li>></li>
+            <li><a href="#">Account Settings</a></li>
+            <li>></li>
+            <li><span>Add New Shipping Address</span></li>
+          </ul>
+        </div>                                                                              
+      </div>                    
+    </div>                                                                           
+  </div> 
+
+  <div class="add-new-shipping-heading">
+    <div class="container">
+      <div class="row">                                          
+        <div class="col-md-12 col-sm-12">
+          <h1 class="main-heading">Add New Shipping Address</h1>
+        </div>          
+      </div>
+    </div>
+  </div>                          
+
+  <div class="login-page sign-up-page add-new-shipping-address">
+    <form action="./edit-shipping-address.html">
+        <div class="row">
+          <div class="col-md-6 col-sm-6">
+            <div class="form-group">
+              <div class="input">                                                     
+                <input type="text" name="fname" class="form-control" required/>
+                <label for="fname">First Name</label>
+              </div>                                                                
+            </div>                  
+          </div>
+          <div class="col-md-6 col-sm-6">       
+            <div class="form-group">
+              <div class="input">
+                <input type="text" name="lname" class="form-control" required/>
+                <label for="lname">Last Name</label>
+              </div>
+            </div> 
+          </div>
+          <div class="col-md-6 col-sm-6">
+            <div class="form-group">
+              <div class="input">
+                <input type="text" name="address" class="form-control" required/>
+                <label for="address">Address 1</label>
+              </div>
+            </div> 
+          </div>
+          <div class="col-md-6 col-sm-6">
+            <div class="form-group">
+              <div class="input">
+                <input type="text" name="suburb" class="form-control" required/>
+                <label for="suburb">Suburb</label>
+              </div>
+            </div> 
+          </div>
+          <div class="col-md-6 col-sm-6">
+            <div class="form-group">
+              <div class="input">
+                <input type="text" name="city" class="form-control" required/>
+                <label for="city">City</label>
+              </div>
+            </div> 
+          </div>
+          <div class="col-md-6 col-sm-6">
+            <div class="form-group">
+              <div class="input">
+                <input type="number" name="number" class="form-control" required/>
+                <label for="post">Post Code</label>
+              </div>
+            </div> 
+          </div>
+          <div class="col-md-6 col-sm-6">
+            <div class="form-group">
+              <div class="input">
+                <input type="password" name="pwd" class="form-control" required/>
+                <label for="pwd">Password</label>
+              </div>
+            </div> 
+          </div>
+          <div class="col-md-6 col-sm-6">
+            <div class="form-group">
+              <div class="input">
+                <input type="password" name="password" class="form-control" required/>
+                <label for="password">Confirm Password</label>
+              </div>
+            </div> 
+          </div>
+          <div class="col-md-6 col-sm-6">
+            <div class="form-group">
+              <select class="form-control pretty" name="Observation type">
+                <option selected="">State</option>
+                <option>Nodia</option>
+              </select>
+            </div> 
+          </div>                                                             
+          <div class="col-md-6 col-sm-6">
+            <div class="form-group">
+              <select class="form-control pretty" name="Observation type">
+                <option selected="">Country</option>
+                <option>India</option>
+              </select>                                                          
+            </div>                                                                                              
+          </div>                                                               
+          <div class="col-md-12 col-sm-12 submit-btn text-center">
+            <button type="submit" class="btn btn-default">SAVE</button>
+          </div>
+        </div>
+      </form>
+  </div> 
+  <footer>
+    <div class="top-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-sm-3">
+            <div class="payment-part">
+              <a href="#" class="footer-logo"><img src="./images/footer-logo.jpg" alt="footer-logo"></a>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <h6>WE ACCEPT</h6>
+              <ul>
+                <li><a href="#"><img src="./images/payment-img1.jpg" alt="payment-img1"></a></li>
+                <li><a href="#"><img src="./images/payment-img2.jpg" alt="payment-img2"></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-2 col-sm-2">
+            <h3>LINKS</h3>
+            <ul class="footer-menu">
+              <li><a href="./index.html">Home</a></li>
+              <li><a href="./about-us.html">About Us</a></li>
+              <li><a href="./contact-us.html">Contact Us</a></li>
+              <li><a href="./privacy-policy.html">Privacy Policy</a></li>
+              <li><a href="./terms-condition.html">Terms & Conditions</a></li>
+            </ul>
+          </div>
+          <div class="col-md-5 col-sm-5">
+            <div class="newsletter-part">
+              <a href="#">FREE LISTING</a>
+              <form class="form-inline">
+                <div class="form-group">
+                  <label><img src="./images/subscribe.png" alt="subscribe">Subscribe to our newsletter</label>
+                  <div class="input-group">
+                    <input type="email" class="form-control" id="exampleInputAmount" placeholder="Email ID">
+                    <button type="submit" class="btn btn-primary">SUBSCRIBE</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="col-md-2 col-sm-2">
+            <h3>SOCIAL</h3>
+            <ul class="social-icon">
+              <li><a href="#"><i class="fa fa-facebook"></i>Facebook</a></li>
+              <li><a href="#"><i class="fa fa-twitter"></i>Twitter</a></li>
+              <li><a href="#"><i class="fa fa-instagram"></i>Instagram</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bottom-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-sm-12 text-center">
+            <p>© 2021, Shopaholicsale</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+  <!-- Optional JavaScript; choose one of the two! -->
+  <script src="js/jequery-main3.5.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.prettydropdowns.js"></script>
+                                                                                           
+  <script>                                                                      
+    $(document).ready(function() {      
+      $('.pretty').prettyDropdown();
+    });                        
+  </script>
+                                                                                                                                       
+   
+  </body>
+</html>

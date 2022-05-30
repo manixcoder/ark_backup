@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="fonts/font.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="./images/favicon.png" type="skype-img"/>
+    <title>My Account</title>
+   
+</head>
+<body>
+  <header>
+    <div class="col-md-12 head-box">
+    <div class="col-md-6 head ">
+        <a href="./Dashboard.html"><img src="images/logo.png" alt="logo" width="150px"> </a>
+    </div>
+    <div class=" col-md-6 logo-sec text-right">
+        <ul class="text-right">
+            <li><a href="./Notifications.html"><i class="fa fa-bell-o" aria-hidden="true"><span>1</span></i></a></li>
+            <li class="admin-login">
+              <a href="javascript:void(0);">
+                <img src="images/circled-girl.jpg" alt="circled-img">
+              </a>
+              <ul class="dropdown">
+                <li><a href="./Myaccount.html">My Account</a></li>
+                <li><a href="./login.html">Logout</a></li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div>
+</header>
+
+
+    <div class="my-account ">
+      <div class="smallcontainer">
+        <div class="row">
+          <div class="col-md-12 account">
+            <p><a href="#">Dashboard</a> > <a href="#">My Account</a></p>
+            <h3>My Account</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="cherry-blossom-wapper">
+      <div class="smallcontainer">
+        <div class="cherry-user fw" >
+          <div class="boxshedow_details text-center">
+            <div class="user-img">
+              <figure>
+                <img src="images/circled-girl.jpg" alt="icon" />
+              </figure>
+              <a href="./EditBankDetails.html" class="edit-profile"><img src="images/edit.svg" alt="email"></a>
+            </div>
+            <h4>Cherry Blossom</h4>
+            <p><i><a href="mailto:cherryblossom@dummyemail.com" class="email-profile"><img src="images/email.svg" alt="email"></a></i>cherryblossom@dummyemail.com</p>
+          </div>
+          <div class="boxshedow_details">
+            <h5>Bank Details <a href="./EditBankDetails.html" class="edit-profile"><img src="images/edit.svg" alt="email"></a></h5>
+            <div class="bankdetail-box">
+              <div class="row">
+                <div class="col-md-6">
+                  <p><span>Bank Name</span>ABCD Bank Name</p>
+                </div>
+                <div class="col-md-6 text-right">
+                  <p><span>Account Number</span>01234567890200</p>
+                </div>
+                <div class="col-md-6">
+                  <p><span>GST Number</span>65498732102556</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="boxshedow_details">
+            <h5>Update Password</h5>
+            <div class="bankdetail-box login-sec">
+              <form class=" form-box" action="./Dashboard.html">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <label>Current Password</label>
+                      <input type="password" class="form-control text-color"  required>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <label>New Password</label>
+                      <input type="password" class="form-control text-color"  required>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <label>Confirm New Password</label>
+                      <input type="password" class="form-control text-color"  required>
+                    </div>
+                  </div>
+                  <div class="col-md-12 text-center">
+                    <div class="form-group">
+                      <button type="submit" class="btn btn-primary bg-color">SAVE</button>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script>  
+      $(document).ready(function(){  
+          $(".logo-sec .admin-login a").click(function(){  
+              $(".logo-sec .admin-login").toggleClass("admin-dropdopen");  
+          });  
+      });  
+      </script>  
+      <script>
+        var inputs = document.querySelectorAll( 'input[type=text], input[type=email], input[type="password"], input[type="number"], textarea' );
+            for (i = 0; i < inputs.length; i ++) {
+            var inputEl = inputs[i];
+            if( inputEl.value.trim() !== '' ) {
+                inputEl.parentNode.classList.add( 'input--filled' );
+            }
+            inputEl.addEventListener( 'focus', onFocus );
+            inputEl.addEventListener( 'blur', onBlur );
+            }
+
+            function onFocus( ev ) {
+            ev.target.parentNode.classList.add( 'inputs--filled' );
+            }
+
+            function onBlur( ev ) {
+            if ( ev.target.value.trim() === '' ) {
+                ev.target.parentNode.classList.remove( 'inputs--filled' );
+            } else if ( ev.target.checkValidity() == false ) {
+                ev.target.parentNode.classList.add( 'inputs--invalid' );
+                ev.target.addEventListener( 'input', liveValidation );
+            } else if ( ev.target.checkValidity() == true ) {
+                ev.target.parentNode.classList.remove( 'inputs--invalid' );
+                ev.target.addEventListener( 'input', liveValidation );
+            }
+            }
+
+            function liveValidation( ev ) {
+            if ( ev.target.checkValidity() == false ) {
+                ev.target.parentNode.classList.add( 'inputs--invalid' );
+            } else {
+                ev.target.parentNode.classList.remove( 'inputs--invalid' );
+            }
+            }
+
+            var submitBtn = document.querySelector( 'input[type=submit]' );
+            submitBtn.addEventListener( 'click', onSubmit );
+
+            function onSubmit( ev ) {
+            var inputsWrappers = ev.target.parentNode.querySelectorAll( 'div' );
+            for (i = 0; i < inputsWrappers.length; i ++) {
+                input = inputsWrappers[i].querySelector( 'input[type=text], input[type=email], input[type="password"] ,input[type="number"], textarea' );
+                if ( input.checkValidity() == false ) {
+                inputsWrappers[i].classList.add( 'inputs--invalid' );
+                } else if ( input.checkValidity() == true ) {
+                inputsWrappers[i].classList.remove( 'inputs--invalid' );
+                }
+            }
+        }
+    </script>
+</body>
+</html>

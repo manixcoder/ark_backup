@@ -1,0 +1,39 @@
+
+
+@font-face {
+    font-family: 'PFBagueSansW01';
+    src: url('PFBagueSansW01-Thin.woff2') format('woff2'),
+        url('PFBagueSansW01-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PFBagueSlabW01';
+    src: url('PFBagueSlabW01-Bold.woff2') format('woff2'),
+        url('PFBagueSlabW01-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PF Bague Sans Pro';
+    src: url('./PFBagueSansPro.woff') format('woff2'),
+        url('./PFBagueSansPro.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura PT';
+    src: url('FuturaPT-Bold.woff2') format('woff2'),
+        url('FuturaPT-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+

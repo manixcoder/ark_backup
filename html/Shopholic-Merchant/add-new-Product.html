@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link href="css/prettydropdowns.css" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/font.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="./images/favicon.png" type="skype-img"/>
+    <title>Dashboard</title>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 head-box">
+        <div class="col-md-6 head ">
+            <a href="./Dashboard.html"><img src="images/logo.png" alt="logo" width="150px"> </a>
+        </div>
+        <div class=" col-md-6 logo-sec text-right">
+            <ul class="text-right">
+                <li><a href="./Notifications.html"><i class="fa fa-bell-o" aria-hidden="true"><span>1</span></i></a></li>
+                <li class="admin-login">
+                  <a href="javascript:void(0);">
+                    <img src="images/circled-girl.jpg" alt="circled-img">
+                  </a>
+                  <ul class="dropdown">
+                    <li><a href="./Myaccount.html">My Account</a></li>
+                    <li><a href="./login.html">Logout</a></li>
+                  </ul>
+                </li>
+            </ul>
+        </div>
+      </div>
+    </div>
+</div>
+</header>
+  <div class="container">
+    <div class="Merchants-sec MerchantsNew-sec order-MerchantsNew full-width-sec">
+      <div class="breadcrumb-sec col-md-12">
+          <div class="col-md-12 col-sm-12">
+            <ul>                                                                                                    
+              <li><a href="index.html">Dashboard</a></li>
+              <li>&gt;</li>           
+              <li><a href="./Products.html">Products</a></li>
+              <li>&gt;</li>                                                                                                                     
+              <li><a href="./add-new-Product.html">Add new Product</a></li>
+            </ul>
+        </div>                                                                           
+      </div>
+      <div class="col-md-12 col-sm-12">
+        <h1 class="main-heading">Add new Product</h1>
+      </div>
+      <div class="col-md-12 col-sm-12 col-xs-12">
+        <div class="login-page sign-up-page add-new-shipping-address">
+    <form class=" form-box addmnew-form">
+        <div class="row">  
+          <div class="col-md-12 heading-edit">
+            <h3>Product Details</h3>
+          </div>
+          <div class="col-md-12 col-sm-12">
+            <div class="form-group">
+                <label for="fname">Product Title</label>
+                <input type="text" name="fname" class="form-control" required>
+            </div> 
+          </div>
+          <div class="col-md-6 col-sm-6">
+            <div class="form-group">
+                <label for="fname">Product Code</label>
+                <input type="text" name="fname" class="form-control" required>
+            </div> 
+          </div>
+          <div class="col-md-6 col-sm-6">
+            <div class="form-group">
+                <label for="fname">Brand</label>
+                <input type="text" name="fname" class="form-control" required>
+            </div> 
+          </div>
+          <div class="col-md-6 col-sm-6">
+            <div class="form-group custome-select">
+              <select class="form-control pretty" name="Observation type">
+                <option selected="">Select Category</option>
+                <option>Category 1</option>
+                <option>Category 2</option>
+                <option>Category 3</option>
+              </select>
+            </div> 
+          </div> 
+          <div class="col-md-6 col-sm-6">
+            <div class="form-group">
+              <label for="fname">Total Quantity(in Numbers)</label>
+              <input type="text" name="fname" class="form-control" required>
+            </div>  
+          </div>
+          <div class="col-md-12 col-sm-12" style="margin-top: 12px;">
+            <div class="form-group" style="height: 100px;">
+                <label for="fname">Product Description</label>
+                <textarea class="form-control" rows="30"></textarea>
+            </div> 
+          </div>
+          
+          <div class="col-md-6 col-sm-6">
+            <div class="form-group">
+              <div class="row">
+                <div class="small-checkbox col-md-5 col-sm-5 col-xs-12">
+                  <input type="checkbox"> Color
+                </div>
+                <div class="small-form-control col-md-7 col-sm-7 col-xs-12" style="padding-left: 0;">
+                  <select class="form-control pretty" name="Observation type">
+                    <option selected="">Select Color</option>
+                    <option>Red</option>
+                    <option>Blue</option>
+                    <option>Green</option>
+                  </select>
+                </div>
+              </div>
+            </div>  
+          </div> 
+          <div class="col-md-6 col-sm-6">
+            <div class="form-group">
+              <div class="row">
+                <div class="small-checkbox col-md-5 col-sm-5 col-xs-12">
+                  <input type="checkbox"> Size/Variation
+                </div>
+                <div class="small-form-control col-md-7 col-sm-7 col-xs-12" style="padding-left: 0;">
+                  <select class="form-control pretty" name="Observation type">
+                    <option selected="">Select Size</option>
+                    <option>1rem</option>
+                    <option>10rem</option>
+                    <option>15rem</option>
+                  </select>
+                </div>
+              </div>
+            </div>  
+          </div> 
+          <div class="col-md-12 heading-edit">
+            <h3>Product Photos</h3>
+          </div>
+          <div class="col-md-5 upload-photo">
+            <small>Upload Title Photo*</small>
+            <div class="custome-photosec">
+              <div class="imgboxupload">
+                <img src="images/placeholder.png" alt="img" />
+              </div>
+              <div class="pixel-photo">
+                <span>600 X 600 px Minimum Size in pixel</span>
+                <input type="button" value="UPLOAD" class="btn upload-dt" />
+              </div>
+            </div>
+          </div>
+          <div class="col-md-7 upload-photo">
+            <small>Upload Other Photos*</small>
+            <div class="custome-photosec">
+              <div class="imgboxupload">
+                <img src="images/placeholder.png" alt="img" />
+              </div>
+              <div class="imgboxupload">
+                <img src="images/placeholder.png" alt="img" />
+              </div>
+              <div class="imgboxupload">
+                <img src="images/placeholder.png" alt="img" />
+              </div>
+              <div class="imgboxupload">
+                <img src="images/placeholder.png" alt="img" />
+              </div>
+              <div class="pixel-photo fw">
+                <div class="pull-left">
+                  <span>Maximum 4 Photos<br /> can be uploaded</span>
+                </div>
+                <div class="pull-right">
+                  <input type="button" value="UPLOAD" class="btn upload-dt" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12 heading-edit" style="margin-bottom: 10px;">
+            <h3>Pricing <small> (Inclusive GST)</small></h3>
+          </div>
+          <div class="col-md-12">
+            <div class="spl-pricing">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="fname">Normal Price</label>
+                  <input type="text" name="fname" class="form-control" required>
+                </div> 
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="fname">Special Price</label>
+                  <input type="text" name="fname" class="form-control" required>
+                </div> 
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <div class="till-stock fw">
+              <input type="radio" id="age1" name="Stock" value="Stock-radio" required>
+              <label for="age1">Till Stock Lasts</label>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-6">
+            <div class="form-group">
+              <div class="row">
+                <div class="small-checkbox col-md-5 col-sm-5 col-xs-12" style=" font-size: 13px; color: #000;
+                letter-spacing: .5px;">
+                  <input type="radio" style="margin-right: 5px;"> Date Range
+                </div>
+                <div class="small-form-control col-md-7 col-sm-7 col-xs-12" style="padding-left: 0;">
+                  <select class="form-control pretty" name="Date type">
+                    <option selected="">Start Date</option>
+                    <option>12/4/2021</option>
+                    <option>12/5/2021</option>
+                    <option>12/6/2021</option>
+                  </select>
+                </div>
+              </div>
+            </div>  
+          </div>
+          <div class="col-md-6 col-sm-6">
+            <div class="form-group">
+              <div class="row">
+                <div class="small-form-control col-md-7 col-sm-7 col-xs-12" style="padding-left: 0;">
+                  <select class="form-control pretty" name="Date type">
+                    <option selected="">End Date</option>
+                    <option>12/4/2021</option>
+                    <option>12/5/2021</option>
+                    <option>12/6/2021</option>
+                  </select>
+                </div>
+              </div>
+            </div>  
+          </div> 
+          <div class="col-md-12 heading-edit">
+            <h3>Shipping</h3>
+          </div>  
+          <div class="col-md-6 col-sm-6">
+            <div class="form-group">
+                <select class="form-control pretty" name="Date type">
+                    <option selected="">Shipping Area</option>
+                    <option>Shipping Area 1</option>
+                    <option>Shipping Area 2</option>
+                    <option>Shipping Area 3</option>
+                </select>
+            </div> 
+          </div>
+          <div class="col-md-6 col-sm-6">
+            <div class="form-group">
+                <select class="form-control pretty" name="Date type">
+                    <option selected="">Expected Delivery Days</option>
+                    <option>Expected Delivery Days 1</option>
+                    <option>Expected Delivery Days 2</option>
+                    <option>Expected Delivery Days 3</option>
+                </select>
+            </div> 
+          </div>                    
+          <div class="col-md-12 col-sm-12 submit-btn text-center">
+            <a href="#" class="btn btn-default" data-toggle="modal" data-target="#add-tracking-statuss">ADD PRODUCT</a>
+          </div>
+          
+        </div>
+      </form>
+  </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade categoryModal-center" id="add-tracking-statuss" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="category">
+        <div class="fw">
+          <div class="row">
+            <div class="col-md-12 add-new-category ">
+              <h3> <span class="close-icon"><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></span></h3>
+            </div>
+          </div>
+          <div class="row">   
+            <form class="fashion">
+              <div class="col-md-12 add-form form-box">
+                <div class="form-group">
+                    <img src="images/email_sent.png" alt="email-menu">
+                    <p>We've sent an LINK to the email <br> johndoe@dummyemail.com.</p>
+                </div> 
+              </div>
+            </form> 
+          </div>
+        </div>
+    </div>
+  </div> 
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="js/jquery.prettydropdowns.js"></script>                                                                                         
+<script>                                                                      
+  $(document).ready(function() {      
+    $('.pretty').prettyDropdown();
+  });                        
+</script>
+<script>  
+  $(document).ready(function(){  
+      $(".logo-sec .admin-login a").click(function(){  
+          $(".logo-sec .admin-login").toggleClass("admin-dropdopen");  
+      });  
+  });  
+</script>    
+<script>
+  var inputs = document.querySelectorAll( 'input[type=text], input[type=email], input[type="password"], input[type="number"], textarea' );
+      for (i = 0; i < inputs.length; i ++) {
+      var inputEl = inputs[i];
+      if( inputEl.value.trim() !== '' ) {
+          inputEl.parentNode.classList.add( 'input--filled' );
+      }
+      inputEl.addEventListener( 'focus', onFocus );
+      inputEl.addEventListener( 'blur', onBlur );
+      }
+
+      function onFocus( ev ) {
+      ev.target.parentNode.classList.add( 'inputs--filled' );
+      }
+
+      function onBlur( ev ) {
+      if ( ev.target.value.trim() === '' ) {
+          ev.target.parentNode.classList.remove( 'inputs--filled' );
+      } else if ( ev.target.checkValidity() == false ) {
+          ev.target.parentNode.classList.add( 'inputs--invalid' );
+          ev.target.addEventListener( 'input', liveValidation );
+      } else if ( ev.target.checkValidity() == true ) {
+          ev.target.parentNode.classList.remove( 'inputs--invalid' );
+          ev.target.addEventListener( 'input', liveValidation );
+      }
+      }
+
+      function liveValidation( ev ) {
+      if ( ev.target.checkValidity() == false ) {
+          ev.target.parentNode.classList.add( 'inputs--invalid' );
+      } else {
+          ev.target.parentNode.classList.remove( 'inputs--invalid' );
+      }
+      }
+
+      var submitBtn = document.querySelector( 'input[type=submit]' );
+      submitBtn.addEventListener( 'click', onSubmit );
+
+      function onSubmit( ev ) {
+      var inputsWrappers = ev.target.parentNode.querySelectorAll( 'div' );
+      for (i = 0; i < inputsWrappers.length; i ++) {
+          input = inputsWrappers[i].querySelector( 'input[type=text], input[type=email], input[type="password"] ,input[type="number"], textarea' );
+          if ( input.checkValidity() == false ) {
+          inputsWrappers[i].classList.add( 'inputs--invalid' );
+          } else if ( input.checkValidity() == true ) {
+          inputsWrappers[i].classList.remove( 'inputs--invalid' );
+          }
+      }
+  }
+</script>
+</body>
+</html>

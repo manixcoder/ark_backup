@@ -1,0 +1,430 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link href="css/aos.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/prettydropdowns.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.4/css/select2.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <link rel="icon" href="./images/favicon.png" type="skype-img"/>
+    <title>shopaholicsale</title>
+  </head>
+
+  <body>
+
+    <header>
+      <div class="top-header">
+        <div class="container">
+          <div class="row">
+              <div class="col-md-2 col-sm-2">
+                <a class="logo" href="index.html"><img src="./images/logo.jpg" alt="logo"></a>
+              </div>                          
+  
+              <div class="col-md-6 col-sm-6">
+                <form class="form-inline search-form">
+                    <div class="input-group">            
+                      <input type="email" class="form-control" id="exampleInputAmount" placeholder="Search">
+                      <button type="submit" class="btn btn-primary"><i class="fa fa-search"></i></button>
+                    </div>         
+                </form>
+              </div>  
+  
+              <div class="col-md-4 col-sm-4 text-right">
+                <div class="logn-part">
+                  <ul>                          
+                    <li><a href="login.html">LOGIN</a></li>
+                    <li>/</li>                                
+                    <li><a href="sign-up.html">SIGN UP</a></li>
+                  </ul>
+                </div>
+                <a href="./cart.html" class="my-cart">
+                  <div class="cart">
+                    <figure><img src="./images/shopping-cart.png" alt="shopping-cart"></figure>
+                    <span>99</span>
+                  </div>
+                  <div class="cart-price">
+                    <h3>MY CART</h3>
+                    <p>$ 0.00</p>
+                  </div>
+                </a>
+              </div>
+  
+          </div>  
+        </div>
+      </div> 
+  
+      <div class="menu-part">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-12 col-sm-12">
+              <nav class="navbar">
+                  
+                  <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                    </button>
+                  </div>                                          
+                                                                                                                               
+                  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                      <li class="active"><a href="./category-mobile.html">Mobiles</a>   
+                      </li>
+                      <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Fashion<i class="fa fa-angle-down"></i></a>
+                        <ul class="dropdown-menu">
+                          <li><a href="./category-fashion.html">Male</a></li>
+                          <li><a href="./category-fashion.html">Female</a></li>
+                          <li><a href="./special-prices.html">Special Prices</a></li>
+                        </ul>         
+                      </li>                                                                                                         
+                      <li><a href="./special-prices.html">Electronics</a></li>
+                      <li><a href="./special-prices.html">Grocery</a></li>
+                      <li><a href="./special-prices.html">Beauty</a></li>
+                      <li><a href="./special-prices.html">Toys</a></li>
+                    </ul>                                         
+                  </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div> 
+    </header>                                                              
+                                                                                                       
+  <div class="breadcrumb-sec">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-sm-12">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li>></li>
+            <li class="active"><a href="./special-prices.html">Special Prices</a></li>
+          </ul>
+        </div>                                                                              
+      </div>                    
+    </div>                                                                           
+  </div>                                                                                                                                                                                                                                                                              <div class="accessories-sec">
+    <div class="container">                
+      <div class="row">                                
+        <div class="col-md-12 col-sm-12">
+          <h1>Special Prices</h1>
+        </div>                                                                                                                                                                                                        
+        <div class="col-md-3 col-sm-3">                                                  
+          <div class="filter-part">
+            <h3>Filter & Sorting</h3>                  
+            <div class="number-type form-group">
+              <label>Sort by</label>
+              <!--<input type="number" class="form-control" placeholder="Low to High Price" data-list="sortby" list="sortby">-->
+              <!--<datalist id="sortby">-->
+              <!--  <option value="1">-->
+              <!--    <option value="2">-->
+              <!--    <option value="3">-->
+              <!--    <option value="4">-->
+              <!--    <option value="5">-->
+              <!--</datalist>-->
+              <select class="form-control pretty" name="Observation type">
+                  <option selected>Low to High Price</option>
+                <option>5 - 10</option>
+                <option>10 - 50</option>
+                <option>50 - 100</option>
+              </select>
+            </div>
+                                                                 
+            <hr>
+                                                                   
+            <div class="range-slider">
+              <h4>Price Range</h4>
+              <div class="top-row">
+                <div class="col-sm-12">
+                  <div id="slider-range"></div>
+                </div>
+              </div>
+              <div class="row slider-labels">
+                <div class="col-xs-6 caption">
+                  <strong></strong> <span id="slider-range-value1"></span>
+                </div>                      
+                <div class="col-xs-6 text-right caption">
+                  <strong></strong> <span id="slider-range-value2"></span>
+                </div>
+              </div>
+            </div> 
+                                                                                                          
+            <hr>  
+                                                                                                                                   
+            <div class="multiselect-box">                        
+              <h4>Brand</h4>                                                  
+              <select class="js-select2" multiple="multiple">
+                <option value="O1" data-badge="">Apple</option>
+                <option value="O2" data-badge="">Samsung</option>
+                <option value="O3" data-badge="">Xiaomi</option>
+                <option value="O4" data-badge="">Huawei</option>
+                <option value="O5" data-badge="">Lenovo</option>
+                <option value="O6" data-badge="">OnePlus</option>
+                <option value="O7" data-badge="">LG</option>
+                <option value="O1" data-badge="">Apple</option>
+                <option value="O2" data-badge="">Samsung</option>
+                <option value="O3" data-badge="">Xiaomi</option>
+                <option value="O4" data-badge="">Huawei</option>
+                <option value="O5" data-badge="">Lenovo</option>
+                <option value="O6" data-badge="">OnePlus</option>
+                <option value="O7" data-badge="">LG</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-9 col-sm-9">
+          <div class="row">
+            <div class="col-md-3 col-sm-3 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+              <a href="./product-detail-1.html" class="arrival-content">
+                <figure><img src="./images/i-phone-12.png" alt="i-phone-12"></figure>
+                <h4>i Phone 12 (128gb)</h4>
+                <p>Apple</p>
+                <h5>$ 300 <span>$350</span></h5>
+              </a>
+            </div>
+            <div class="col-md-3 col-sm-3 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+              <a href="./product-detail-1.html" class="arrival-content">
+                <figure><img src="./images/real-me-9.png" alt="real-me-9"></figure>
+                <h4>Real me 9</h4>
+                <p>Realme</p>
+                <h5>$ 150 <span>$155</span></h5>
+              </a>
+            </div>                      
+            <div class="col-md-3 col-sm-3 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+              <a href="./product-detail-1.html" class="arrival-content">
+                <figure><img src="./images/real-me-8.png" alt="real-me-8"></figure>
+                <h4>Real me 8</h4>
+                <p>Realme</p>                                        
+                <h5>$ 180 <span>$189</span></h5>                    
+              </a>                                                                  
+            </div>                                    
+            <div class="col-md-3 col-sm-3 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+              <a href="./product-detail-1.html" class="arrival-content">
+                <figure><img src="./images/huawei-10.png" alt="huawei-10"></figure>
+                <h4>Huawei 10</h4>
+                <p>Huawei</p>                    
+                <h5>$ 250 <span>$260</span></h5>
+              </a>                     
+            </div>                                                                                   
+            <div class="col-md-3 col-sm-3 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+              <a href="./product-detail-1.html" class="arrival-content">                                                             
+                <figure><img src="./images/huawei.png" alt="huawei"></figure>
+                <h4>Huawei T</h4>                            
+                <p>Huawei</p>                
+                <h5>$ 180 <span>$189</span></h5>
+              </a>                                  
+            </div>
+            <div class="col-md-3 col-sm-3 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+              <a href="./product-detail-1.html" class="arrival-content">                                                                
+                <figure><img src="./images/samsung-galaxy-s10.png" alt="samsung-galaxy-s10"></figure>
+                <h4>Samsung Galaxy S10</h4>
+                <p>Sansung</p>
+                <h5>$ 499 <span>$550</span></h5>
+              </a>
+            </div>
+            <div class="col-md-3 col-sm-3 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+              <a href="./product-detail-1.html" class="arrival-content">
+                <figure><img src="./images/samsung-m11.png" alt="samsung-m11"></figure>
+                <h4>Samsung M 11</h4>
+                <p>Sansung</p>
+                <h5>$ 210 <span>$240</span></h5>
+              </a>
+            </div>
+            <div class="col-md-3 col-sm-3 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+              <a href="./product-detail-1.html" class="arrival-content">
+                <figure><img src="./images/motorola-13.png" alt="motorola-13"></figure>
+                <h4>Motorola 13</h4>
+                <p>Motorola</p>
+                <h5>$ 150 <span>$160</span></h5>
+              </a>
+            </div>
+            <div class="col-md-3 col-sm-3 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+              <a href="./product-detail-1.html" class="arrival-content">
+                <figure><img src="./images/i-phone-12.png" alt="i-phone-12"></figure>
+                <h4>i Phone 12 (128gb)</h4>
+                <p>Apple</p>
+                <h5>$ 300 <span>$350</span></h5>
+              </a>
+            </div>
+            <div class="col-md-3 col-sm-3 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+              <a href="./product-detail-1.html" class="arrival-content">
+                <figure><img src="./images/real-me-9.png" alt="real-me-9"></figure>
+                <h4>Real me 9</h4>
+                <p>Realme</p>
+                <h5>$ 150 <span>$155</span></h5>
+              </a>
+            </div>
+            <div class="col-md-3 col-sm-3 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+              <a href="./product-detail-1.html" class="arrival-content">
+                <figure><img src="./images/real-me-8.png" alt="real-me-8"></figure>
+                <h4>Real me 8</h4>
+                <p>Realme</p>
+                <h5>$ 180 <span>$189</span></h5>
+              </a>
+            </div>                   
+            <div class="col-md-3 col-sm-3 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+              <a href="./product-detail-1.html" class="arrival-content">
+                <figure><img src="./images/huawei-10.png" alt="huawei-10"></figure>
+                <h4>Huawei 10</h4>
+                <p>Huawei</p>
+                <h5>$ 250 <span>$260</span></h5>
+              </a>
+            </div>
+            <div class="col-md-3 col-sm-3 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+              <a href="./product-detail-1.html" class="arrival-content">
+                <figure><img src="./images/huawei.png" alt="huawei"></figure>
+                <h4>Huawei T</h4>
+                <p>Huawei</p>
+                <h5>$ 180 <span>$189</span></h5>
+              </a>
+            </div>
+            <div class="col-md-3 col-sm-3 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+              <a href="./product-detail-1.html" class="arrival-content">
+                <figure><img src="./images/samsung-galaxy-s10.png" alt="samsung-galaxy-s10"></figure>
+                <h4>Samsung Galaxy S10</h4>
+                <p>Sansung</p>
+                <h5>$ 499 <span>$550</span></h5>
+              </a>
+            </div>
+            <div class="col-md-3 col-sm-3 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+              <a href="./product-detail-1.html" class="arrival-content">
+                <figure><img src="./images/samsung-m11.png" alt="samsung-m11"></figure>
+                <h4>Samsung M 11</h4>
+                <p>Sansung</p>
+                <h5>$ 210 <span>$240</span></h5>
+              </a>
+            </div>
+            <div class="col-md-3 col-sm-3 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+              <a href="./product-detail-1.html" class="arrival-content">
+                <figure><img src="./images/motorola-13.png" alt="motorola-13"></figure>
+                <h4>Motorola 13</h4>
+                <p>Motorola</p>
+                <h5>$ 150 <span>$160</span></h5>
+              </a>
+            </div>
+            <div class="col-md-12 col-sm-12 text-center">
+              <a href="#" class="more-btn">LOAD MORE<i class="fa fa-angle-double-down"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="top-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-sm-3">
+            <div class="payment-part">
+              <a href="#" class="footer-logo"><img src="./images/footer-logo.jpg" alt="footer-logo"></a>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <h6>WE ACCEPT</h6>
+              <ul>
+                <li><a href="#"><img src="./images/payment-img1.jpg" alt="payment-img1"></a></li>
+                <li><a href="#"><img src="./images/payment-img2.jpg" alt="payment-img2"></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-2 col-sm-2">
+            <h3>LINKS</h3>
+            <ul class="footer-menu">
+              <li><a href="./index.html">Home</a></li>
+              <li><a href="./about-us.html">About Us</a></li>
+              <li><a href="./contact-us.html">Contact Us</a></li>
+              <li><a href="./privacy-policy.html">Privacy Policy</a></li>
+              <li><a href="./terms-condition.html">Terms & Conditions</a></li>
+            </ul>
+          </div>
+          <div class="col-md-5 col-sm-5">
+            <div class="newsletter-part">
+              <a href="#">FREE LISTING</a>
+              <form class="form-inline">
+                <div class="form-group">
+                  <label><img src="./images/subscribe.png" alt="subscribe">Subscribe to our newsletter</label>
+                  <div class="input-group">
+                    <input type="email" class="form-control" id="exampleInputAmount" placeholder="Email ID">
+                    <button type="submit" class="btn btn-primary">SUBSCRIBE</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="col-md-2 col-sm-2">
+            <h3>SOCIAL</h3>
+            <ul class="social-icon">
+              <li><a href="#"><i class="fa fa-facebook"></i>Facebook</a></li>
+              <li><a href="#"><i class="fa fa-twitter"></i>Twitter</a></li>
+              <li><a href="#"><i class="fa fa-instagram"></i>Instagram</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bottom-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-sm-12 text-center">
+            <p>© 2021, Shopaholicsale</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  
+  <!-- Optional JavaScript; choose one of the two! -->
+  <script src="js/jequery-main3.5.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/range-slider.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.4/js/select2.min.js"></script>
+  <script src="js/jquery.prettydropdowns.js"></script>
+  
+    <script>                                                                      
+    $(document).ready(function() {      
+      $('.pretty').prettyDropdown();
+    });                        
+  </script>                                                                                                                                      
+    <script>
+      $(window).bind("load", function () {
+         if (document.readyState === "complete") {
+             // aos init
+             AOS.init({
+               once: false,
+               duration: 1000,
+           });
+         }
+      })
+    </script>
+
+    <script>
+      $(".js-select2").select2({
+        closeOnSelect : false,
+        placeholder : "Type to search",
+        allowHtml: true,                                                          
+        allowClear: true,                                                    
+        tags: true // создает новые опции на лету
+      });                                                                                                                                                                                                                                                              
+                                        
+      function iformat(icon, badge,) {
+        var originalOption = icon.element;
+        var originalOptionBadge = $(originalOption).data('badge');
+       
+        return $('<span><i class="fa ' + $(originalOption).data('icon') + '"></i> ' + icon.text + '<span class="badge">' + originalOptionBadge + '</span></span>');
+      }
+
+    </script>
+
+
+   
+  </body>
+</html>

@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="fonts/font.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="./images/favicon.png" type="skype-img"/>
+    <title>Category</title>
+   
+    
+</head>
+
+<body>
+    
+  <header>
+    <div class="col-md-12 head-box">
+    <div class="col-md-6 head ">
+        <a href="./Dashboard.html"><img src="images/logo.png" alt="logo" width="150px"> </a>
+    </div>
+    <div class=" col-md-6 logo-sec text-right">
+        <ul class="text-right">
+            <li><a href="./Notifications.html"><i class="fa fa-bell-o" aria-hidden="true"><span>1</span></i></a></li>
+            <li class="admin-login">
+              <a href="javascript:void(0);">
+                <img src="images/circled-girl.jpg" alt="circled-img">
+              </a>
+              <ul class="dropdown">
+                <li><a href="./Myaccount.html">My Account</a></li>
+                <li><a href="./login.html">Logout</a></li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div>
+</header>
+  <div class="dashboard-wapper">
+    <div class="side-bar">
+        <ul class="sidebar-menu">
+          <li ><a href="./Dashboard.html">Dashboard</a></li>
+          <li class=""><a href="./Merchants.html">Merchants</a></li>
+          <li><a href="./Users.html">Users</a></li>
+          <li><a href="./Subscribers.html">Subscribers</a></li>
+          <li class="active"><a href="./Category.html">Category</a></li>
+          <li><a href="./Commission.html">Commission</a></li>
+          <li><a href="./OrderStatusSettings.html">Order Settings</a></li>
+          <li><a href="./InvoiceTemplate.html">Invoice Template</a></li>
+        </ul> 
+    </div>
+      <div class="Merchants-sec">
+       <div class="extrapad-wapper">
+         <div class="row">
+          <div class="col-md-7 heading-full"> <h3>Category</h3></div>
+          <div class="col-md-5  select-box"> 
+             <div class="row">
+               <div class="col-md-6">
+                <select name="abc" id="name" >
+                  <option value="">All</option>
+                  <option value="">All</option>
+                </select>
+               </div>
+               <div class="col-md-6 text-right">
+                <div class="form-group">
+                  <button type="submit" class="btn btn-primary bg-color  btn-section export-btn " data-toggle="modal" data-target="#categoryModal" >ADD NEW CATEGORY</button>
+              </div>                                                                    
+               </div>
+             </div>
+          </div>
+          </div>
+          </div>
+          <div class="extrapad-wapper">
+            <div class="white-boxbg">
+              <div class="table-responive">  
+              <table border="0  " width="100%">
+                <tr>
+                    <th class="category-box">Category Name </th>
+                    <th>Action</th>
+                    <th>Status</th>
+                </tr>
+                <tr>
+                  <td>Mobile</td>
+                  <td> 
+                    <span data-toggle="modal" data-target="#Subcategory-newModal"><i class="fa fa-plus-circle bg-green" aria-hidden="true"></i>Add New Subcategory</span>
+                    <span data-toggle="modal" data-target="#categoryeditModal"><i class="fa fa-pencil bg-orange" aria-hidden="true"></i> Edit</span>
+                    <span><i class="fa fa-caret-square-o-down" aria-hidden="true"></i>Archive</span>
+                  </td>
+                  <td> <label class="switch right-click">
+                    <input type="checkbox">
+                    <span class="slider round"></span>
+                  </label>
+                  Active</td>
+                </tr>
+                <tr>
+                  <td>Fashion</td>
+                  <td> 
+                    <span data-toggle="modal" data-target="#Subcategory-newModal"><i class="fa fa-plus-circle bg-green" aria-hidden="true"></i>Add New Subcategory</span>
+                    <span><i class="fa fa-pencil bg-orange" aria-hidden="true"></i> Edit</span>
+                    <span><i class="fa fa-caret-square-o-down" aria-hidden="true"></i>Archive</span>
+                  </td>
+                  <td>
+                    <label class="switch right-click">
+                    <input type="checkbox">
+                    <span class="slider round"></span>
+                  </label>
+                  Active</td>
+                </tr>
+                <tr>
+                  <td class="kids-right">Men</td>
+                  <td> 
+                    <span data-toggle="modal" data-target="#Subcategory-editModal"><i class="fa fa-pencil bg-orange" aria-hidden="true"></i> Edit</span>
+                    <span><i class="fa fa-caret-square-o-down" aria-hidden="true"></i>Archive</span>
+                  </td>
+                  <td> <label class="switch right-click">
+                    <input type="checkbox">
+                    <span class="slider round"></span>
+                  </label>
+                  Active</td>
+                </tr>
+                <tr>
+                  <td class="kids-right">Female</td>
+                  <td> 
+                    <span><i class="fa fa-pencil bg-orange" aria-hidden="true"></i> Edit</span>
+                    <span><i class="fa fa-caret-square-o-down" aria-hidden="true"></i>Archive</span>
+                  </td>
+                  <td> <label class="switch right-click">
+                    <input type="checkbox">
+                    <span class="slider round"></span>
+                  </label>
+                  Active</td>
+                </tr>
+                <tr>
+                  <td class="kids-right">Kids</td>
+                  <td> 
+                    <span><i class="fa fa-pencil bg-orange" aria-hidden="true"></i> Edit</span>
+                    <span><i class="fa fa-caret-square-o-down" aria-hidden="true"></i>Archive</span>
+                  </td>
+                  <td> <label class="switch right-click">
+                    <input type="checkbox">
+                    <span class="slider round"></span>
+                  </label>Active</td>
+                </tr>
+                <tr>
+                  <td>Electronics</td>
+                  <td> 
+                    <span><i class="fa fa-plus-circle bg-green" aria-hidden="true"></i>Add New Subcategory</span>
+                    <span><i class="fa fa-pencil bg-orange" aria-hidden="true"></i> Edit</span>
+                    <span><i class="fa fa-caret-square-o-down" aria-hidden="true"></i>Archive</span>
+                  </td>
+                  <td> 
+                    <label class="switch right-click">
+                    <input type="checkbox">
+                    <span class="slider round"></span>
+                  </label>
+                  Active</td>
+                </tr>
+                <tr>
+                  <td>Grocery</td>
+                  <td> 
+                    <span><i class="fa fa-plus-circle bg-green" aria-hidden="true"></i>Add New Subcategory</span>
+                    <span><i class="fa fa-pencil bg-orange" aria-hidden="true"></i> Edit</span>
+                    <span><i class="fa fa-caret-square-o-down" aria-hidden="true"></i>Archive</span>
+                  </td>
+                  <td> 
+                    <label class="switch right-click">
+                    <input type="checkbox">
+                    <span class="slider round"></span>
+                  </label>
+                  Active</td>
+                </tr>
+                <tr>
+                  <td>Beauty</td>
+                  <td> 
+                    <span><i class="fa fa-plus-circle bg-green" aria-hidden="true"></i>Add New Subcategory</span>
+                    <span><i class="fa fa-pencil bg-orange" aria-hidden="true"></i> Edit</span>
+                    <span><i class="fa fa-caret-square-o-down" aria-hidden="true"></i>Archive</span>
+                  </td>
+                  <td> <label class="switch right-click">
+                    <input type="checkbox">
+                    <span class="slider round"></span>
+                  </label>
+                  Active</td>
+                </tr>
+                <tr>
+                  <td>Toys</td>
+                  <td> 
+                    <span><i class="fa fa-plus-circle bg-gray" aria-hidden="true"></i>Add New Subcategory</span>
+                    <span><i class="fa fa-pencil bg-gray" aria-hidden="true"></i> Edit</span>
+                    <span><i class="fa fa-caret-square-o-up" aria-hidden="true"></i>Unarchive</span>
+                  </td>
+                  <td> 
+                  <label class="switch right-click deactive">
+                    <input type="checkbox">
+                    <span class="slider round"></span>
+                   </label>
+                  Deactive</td>
+                </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+      
+ <!-- Modal -->
+<div class="modal categoryModal-center fade" id="categoryModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="category">
+        <div class="fw">
+            <div class="row">
+              <div class="col-md-12 add-new-category ">
+                  <h3>Add new category <span class="close-icon"><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button></span></h3>
+              </div>
+          </div>
+          <div class="row">   
+            <form class="fashion">
+              <div class="col-md-12 add-form form-box">
+                <div class="form-group">
+                    <label>Category Name</label>
+                    <input type="text" class="form-control text-color"  required>
+                </div> 
+              </div>
+              <div class="col-md-12 btn-sec">
+                <div class="form-group text-center">
+                  <button type="submit" class="btn btn-primary bg-color">ADD</button>
+                </div> 
+              </div>
+            </form> 
+          </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade categoryModal-center" id="categoryeditModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="category">
+      <div class="fw">
+          <div class="row">
+            <div class="col-md-12 add-new-category ">
+                <h3>Edit Category <span class="close-icon"><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button></span></h3>
+            </div>
+        </div>
+        <div class="row">   
+          <form class="fashion">
+            <div class="col-md-12 add-form form-box">
+              <div class="form-group">
+                  <label>Category Name</label>
+                  <input type="text" class="form-control text-color"  required>
+              </div> 
+            </div>
+            <div class="col-md-12 btn-sec">
+              <div class="form-group text-center">
+                <button type="submit" class="btn btn-primary bg-color">ADD</button>
+              </div> 
+            </div>
+          </form> 
+        </div>
+      </div>
+  </div>
+</div>
+<div class="modal fade categoryModal-center" id="Subcategory-newModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="category">
+      <div class="fw">
+          <div class="row">
+            <div class="col-md-12 add-new-category ">
+                <h3>Add New Subcategory <span class="close-icon"><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button></span></h3>
+                <p>This subcategory will go under : <b>Fashion</b></p>
+              </div>
+            
+        </div>
+        <div class="row">   
+          <form class="fashion">
+            <div class="col-md-12 add-form form-box">
+              <div class="form-group">
+                  <label>Subcategory Name</label>
+                  <input type="text" class="form-control text-color"  required>
+              </div> 
+            </div>
+            <div class="col-md-12 btn-sec">
+              <div class="form-group text-center">
+                <button type="submit" class="btn btn-primary bg-color">ADD</button>
+              </div> 
+            </div>
+          </form> 
+        </div>
+      </div>
+  </div>
+</div>
+<div class="modal fade categoryModal-center" id="Subcategory-editModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="category">
+      <div class="fw">
+          <div class="row">
+            <div class="col-md-12 add-new-category ">
+                <h3>Edit Subcategory <span class="close-icon"><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button></span></h3>
+                <p>This subcategory will go under : <b>Fashion</b></p>
+              </div>
+            
+        </div>
+        <div class="row">   
+          <form class="fashion">
+            <div class="col-md-12 add-form form-box">
+              <div class="form-group">
+                  <label>Subcategory Name</label>
+                  <input type="email" class="form-control text-color"  required>
+              </div> 
+            </div>
+            <div class="col-md-12 btn-sec">
+              <div class="form-group text-center">
+                <button type="submit" class="btn btn-primary bg-color">SAVE</button>
+              </div> 
+            </div>
+          </form> 
+        </div>
+      </div>
+  </div>
+</div>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script>  
+  $(document).ready(function(){  
+      $(".logo-sec .admin-login a").click(function(){  
+          $(".logo-sec .admin-login").toggleClass("admin-dropdopen");  
+      });  
+  });  
+  </script>
+<script>
+  var inputs = document.querySelectorAll( 'input[type=text], input[type=email], input[type="password"], input[type="number"], textarea' );
+      for (i = 0; i < inputs.length; i ++) {
+      var inputEl = inputs[i];
+      if( inputEl.value.trim() !== '' ) {
+          inputEl.parentNode.classList.add( 'input--filled' );
+      }
+      inputEl.addEventListener( 'focus', onFocus );
+      inputEl.addEventListener( 'blur', onBlur );
+      }
+
+      function onFocus( ev ) {
+      ev.target.parentNode.classList.add( 'inputs--filled' );
+      }
+
+      function onBlur( ev ) {
+      if ( ev.target.value.trim() === '' ) {
+          ev.target.parentNode.classList.remove( 'inputs--filled' );
+      } else if ( ev.target.checkValidity() == false ) {
+          ev.target.parentNode.classList.add( 'inputs--invalid' );
+          ev.target.addEventListener( 'input', liveValidation );
+      } else if ( ev.target.checkValidity() == true ) {
+          ev.target.parentNode.classList.remove( 'inputs--invalid' );
+          ev.target.addEventListener( 'input', liveValidation );
+      }
+      }
+
+      function liveValidation( ev ) {
+      if ( ev.target.checkValidity() == false ) {
+          ev.target.parentNode.classList.add( 'inputs--invalid' );
+      } else {
+          ev.target.parentNode.classList.remove( 'inputs--invalid' );
+      }
+      }
+
+      var submitBtn = document.querySelector( 'input[type=submit]' );
+      submitBtn.addEventListener( 'click', onSubmit );
+
+      function onSubmit( ev ) {
+      var inputsWrappers = ev.target.parentNode.querySelectorAll( 'div' );
+      for (i = 0; i < inputsWrappers.length; i ++) {
+          input = inputsWrappers[i].querySelector( 'input[type=text], input[type=email], input[type="password"] ,input[type="number"], textarea' );
+          if ( input.checkValidity() == false ) {
+          inputsWrappers[i].classList.add( 'inputs--invalid' );
+          } else if ( input.checkValidity() == true ) {
+          inputsWrappers[i].classList.remove( 'inputs--invalid' );
+          }
+      }
+  }
+</script>
+</body>
+</html>

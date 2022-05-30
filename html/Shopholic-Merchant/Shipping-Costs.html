@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link href="css/prettydropdowns.css" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/font.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="./images/favicon.png" type="skype-img"/>
+    <title>Dashboard</title>
+</head>
+<body>
+  <header>
+    <div class="col-md-12 head-box">
+    <div class="col-md-6 head ">
+        <a href="./Dashboard.html"><img src="images/logo.png" alt="logo" width="150px"> </a>
+    </div>
+    <div class=" col-md-6 logo-sec text-right">
+        <ul class="text-right">
+            <li><a href="./Notifications.html"><i class="fa fa-bell-o" aria-hidden="true"><span>1</span></i></a></li>
+            <li class="admin-login">
+              <a href="javascript:void(0);">
+                <img src="images/circled-girl.jpg" alt="circled-img">
+              </a>
+              <ul class="dropdown">
+                <li><a href="./Myaccount.html">My Account</a></li>
+                <li><a href="./login.html">Logout</a></li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div>
+</header>
+  <div class="dashboard-wapper">
+    <div class="side-bar">
+      <h3 class="sideorder-heading">Shipping Costs</h3>
+        <ul class="sidebar-menu">
+          <li class=""><a href="./Dashboard.html">Dashboard</a></li>
+          <li ><a href="./Order.html">Orders</a></li>
+          <li><a href="./Products.html">Products</a></li>
+          <li><a href="./Special-Price.html">Special Price</a></li>
+          <li class="active"><a href="./Shipping-Costs.html">Shipping Costs</a></li>
+          <li ><a href="./Myaccount.html">My Account</a></li>
+        </ul> 
+    </div>
+    <div class="Merchants-sec MerchantsNew-sec order-MerchantsNew">
+      <div class="col-md-9 col-sm-10 col-xs-12">
+        <div class="order-selectbox fw">
+          <div class="col-md-4 col-sm-5 pull-left">
+            
+          </div>
+          <div class="col-md-3 col-sm-3 pull-right">
+            <div class="form-group">
+              <select class="form-control pretty" >
+                <option selected>All </option>
+                <option>Orders 1</option>
+                <option>Orders 2</option>
+                <option>Orders 3</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="boxtable-Merchant shipping-coust-td">
+          <div class="table-responsive">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th class="locationth">Location</th>
+                  <th class="costth">Cost</th>
+                  <th class="actionth">Action</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><span class="table-input"><input type="type" class="form-contorl" placeholder="Pick Up"/></span></td>
+                  <td class="costth"><span class="table-input"><input type="type" class="form-contorl" placeholder="Free"/></span></td>
+                  <td class="actionth"><span class="action-icon"><img src="images/delete_2.svg" alt="icon"></span></td>
+                </tr>
+                <tr>
+                  <td><span class="table-input"><input type="type" class="form-contorl" placeholder="Aukcland"/></span></td>
+                  <td class="costth"><span class="table-input"><input type="type" class="form-contorl" placeholder="Free"/></span></td>
+                  <td class="actionth"><span class="action-icon"><img src="images/delete_2.svg" alt="icon"></span></td>
+                </tr>
+                <tr>
+                  <td><span class="table-input"><input type="type" class="form-contorl" placeholder="Wellington"/></span></td>
+                  <td class="costth"><span class="table-input"><input type="type" class="form-contorl" placeholder="$0.00"/></span></td>
+                  <td class="actionth"><span class="action-icon"><img src="images/delete_2.svg" alt="icon"></span></td>
+                </tr>
+                <tr>
+                  <td><span class="table-input"><input type="type" class="form-contorl" placeholder="City/Area Name"/></span></td>
+                  <td class="costth"><span class="table-input"><input type="type" class="form-contorl" placeholder="$0.00"/></span></td>
+                  <td class="actionth"><span class="action-icon"><img src="images/delete_2.svg" alt="icon"></span></td>
+                </tr>
+              </tbody>
+            </table>
+            <div class="add-another-area">
+              <a href="#" class="another-btn">
+                <span>&#43;</span> ADD ANOTHER SHIPPING AREA
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> 
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="js/jquery.prettydropdowns.js"></script>                                                                                         
+<script>                                                                      
+  $(document).ready(function() {      
+    $('.pretty').prettyDropdown();
+  });                        
+</script>
+<script>  
+  $(document).ready(function(){  
+      $(".logo-sec .admin-login a").click(function(){  
+          $(".logo-sec .admin-login").toggleClass("admin-dropdopen");  
+      });  
+  });  
+</script>    
+<script>
+  var inputs = document.querySelectorAll( 'input[type=text], input[type=email], input[type="password"], input[type="number"], textarea' );
+      for (i = 0; i < inputs.length; i ++) {
+      var inputEl = inputs[i];
+      if( inputEl.value.trim() !== '' ) {
+          inputEl.parentNode.classList.add( 'input--filled' );
+      }
+      inputEl.addEventListener( 'focus', onFocus );
+      inputEl.addEventListener( 'blur', onBlur );
+      }
+
+      function onFocus( ev ) {
+      ev.target.parentNode.classList.add( 'inputs--filled' );
+      }
+
+      function onBlur( ev ) {
+      if ( ev.target.value.trim() === '' ) {
+          ev.target.parentNode.classList.remove( 'inputs--filled' );
+      } else if ( ev.target.checkValidity() == false ) {
+          ev.target.parentNode.classList.add( 'inputs--invalid' );
+          ev.target.addEventListener( 'input', liveValidation );
+      } else if ( ev.target.checkValidity() == true ) {
+          ev.target.parentNode.classList.remove( 'inputs--invalid' );
+          ev.target.addEventListener( 'input', liveValidation );
+      }
+      }
+
+      function liveValidation( ev ) {
+      if ( ev.target.checkValidity() == false ) {
+          ev.target.parentNode.classList.add( 'inputs--invalid' );
+      } else {
+          ev.target.parentNode.classList.remove( 'inputs--invalid' );
+      }
+      }
+
+      var submitBtn = document.querySelector( 'input[type=submit]' );
+      submitBtn.addEventListener( 'click', onSubmit );
+
+      function onSubmit( ev ) {
+      var inputsWrappers = ev.target.parentNode.querySelectorAll( 'div' );
+      for (i = 0; i < inputsWrappers.length; i ++) {
+          input = inputsWrappers[i].querySelector( 'input[type=text], input[type=email], input[type="password"] ,input[type="number"], textarea' );
+          if ( input.checkValidity() == false ) {
+          inputsWrappers[i].classList.add( 'inputs--invalid' );
+          } else if ( input.checkValidity() == true ) {
+          inputsWrappers[i].classList.remove( 'inputs--invalid' );
+          }
+      }
+  }
+</script>
+</body>
+</html>

@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+  <head>
+   
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="fonts/font.css">
+    <link rel="stylesheet" href="css/style.css">
+   <link rel="icon" href="./images/favicon.png" type="skype-img"/>
+  
+    <title>Notifications</title>
+    <header>
+        <div class="col-md-12 head-box">
+        <div class="col-md-6 head ">
+            <a href="./Dashboard.html"><img src="images/logo.png" alt="logo" width="150px"> </a>
+        </div>
+        <div class=" col-md-6 logo-sec text-right">
+            <ul class="text-right">
+                <li><a href="./Notifications.html"><i class="fa fa-bell-o" aria-hidden="true"><span>1</span></i></a></li>
+                <li class="admin-login">
+                  <a href="javascript:void(0);">
+                    <img src="images/circled-girl.jpg" alt="circled-img">
+                  </a>
+                  <ul class="dropdown">
+                    <li><a href="./Myaccount.html">My Account</a></li>
+                    <li><a href="./login.html">Logout</a></li>
+                  </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+    </header>
+    <div class="dashboard">
+        <div class="container">
+            <div class=" bred-menu">
+                <p><a href="#">Dashboard</a> > <a href="#">Notifications</a></p>                                                                                            
+            </div>
+            <div class="notification ">
+                <div class="extrapad-wapper">
+                <h3>Notifications</h3>
+                    <div class="dashboard-notifications">
+                        <div class="col-md-12 heading-sec">
+                        <h4>Notification Title
+                            <span>New</span>
+                            <small >16:21</small>
+                        </h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                        
+                    </div>
+                        <div class="col-md-12 heading-sec">
+                        <h4>Notification Title
+                            <span>New</span>
+                            <small >Yesterday</small>
+                        </h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                        
+                    </div>
+                        <div class="col-md-12 heading-sec">
+                        <h4>Notification Title
+                            <small >8 Aug</small>
+                        </h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                        
+                    </div>
+                        <div class="col-md-12 heading-sec">
+                        <h4>Notification Title
+                            <small >30 Jan</small>
+                        </h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                    </div>
+                        <div class="col-md-12 heading-sec">
+                        <h4>Notification Title
+                            <small >25 Dec 2020</small>
+                        </h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                    </div>
+                    </div>
+                </div>
+             </div>
+        </div>
+    </div>   
+  </head>
+  <body> 
+   
+                     
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script>  
+    $(document).ready(function(){  
+        $(".logo-sec .admin-login a").click(function(){  
+            $(".logo-sec .admin-login").toggleClass("admin-dropdopen");  
+        });  
+    });  
+    </script>  
+    <script>  
+    $(document).ready(function(){
+
+        $('.items').slick({
+        dots: true,
+        infinite: true,
+        speed: 800,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        slidesToShow: 4,
+        slidesToScroll: 4,
+        responsive: [
+        {
+        breakpoint: 1024,
+        settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        infinite: true,
+        dots: true
+        }
+        },
+        {
+        breakpoint: 600,
+        settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+        }
+        },
+        {
+        breakpoint: 480,
+        settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+        }
+        }        
+        ]
+        });
+        });
+        </script>
+  </body>
+</html>

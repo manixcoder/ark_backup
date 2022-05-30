@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link href="css/prettydropdowns.css" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/font.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="./images/favicon.png" type="skype-img"/>
+    <title>Dashboard</title>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 head-box">
+        <div class="col-md-6 head ">
+            <a href="./Dashboard.html"><img src="images/logo.png" alt="logo" width="150px"> </a>
+        </div>
+        <div class=" col-md-6 logo-sec text-right">
+            <ul class="text-right">
+                <li><a href="./Notifications.html"><i class="fa fa-bell-o" aria-hidden="true"><span>1</span></i></a></li>
+                <li class="admin-login">
+                  <a href="javascript:void(0);">
+                    <img src="images/circled-girl.jpg" alt="circled-img">
+                  </a>
+                  <ul class="dropdown">
+                    <li><a href="./Myaccount.html">My Account</a></li>
+                    <li><a href="./login.html">Logout</a></li>
+                  </ul>
+                </li>
+            </ul>
+        </div>
+      </div>
+    </div>
+</div>
+</header>
+  <div class="container">
+    <div class="Merchants-sec MerchantsNew-sec order-MerchantsNew full-width-sec">
+      <div class="breadcrumb-sec col-md-12">
+          <div class="col-md-12 col-sm-12">
+            <ul>                                                                                                    
+              <li><a href="index.html">Home</a></li>
+              <li>&gt;</li>           
+              <li><a href="./Account-Settings.html">My Account</a></li>
+              <li>&gt;</li>                                                                                                                     
+              <li><a href="./edit-personal-information.html">Edit Profile</a></li>
+            </ul>                   
+        </div>                                                                           
+      </div>
+      <div class="col-md-12 col-sm-12">
+        <h1 class="main-heading">Edit Personal Information</h1>
+      </div>
+      <div class="col-md-12 col-sm-12 col-xs-12">
+        <div class="login-page sign-up-page add-new-shipping-address">
+    <form class=" form-box">
+        <div class="row">  
+          <div class="col-md-12 text-center">
+            <div class="image-upload">              
+                <input type="file" name="" id="logo" onchange="fileValue(this)">
+                <label for="logo" class="upload-field" id="file-label">
+                  <div class="file-thumbnail">                                   
+                      <img id="image-preview" src="./images/our-img1.png" alt="our-img1"><br>
+                      <button>UPLOAD NEW PHOTO</button>                                     
+                  </div>
+                </label>
+            </div>
+          </div>       
+          <div class="col-md-6 col-sm-6">
+            <div class="form-group">
+                <label for="fname">First Name</label>
+                <input type="text" name="fname" class="form-control" required>
+            </div> 
+          </div>
+          <div class="col-md-6 col-sm-6">
+            <div class="form-group">
+              <label for="lname">Last Name</label>
+              <input type="text" name="lname" class="form-control"  required>
+            </div> 
+          </div>
+          <div class="col-md-6 col-sm-6">
+            <div class="form-group">
+              <label for="email">Email ID</label>
+              <input type="email" name="email" class="form-control">
+            </div> 
+          </div>
+          <div class="col-md-6 col-sm-6">
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input type="number" name="phone" class="form-control" required>
+            </div> 
+          </div>    
+          <div class="col-md-12 heading-edit">
+            <h3>Edit Address</h3>
+          </div> 
+          <div class="col-md-6 col-sm-6">
+            <div class="form-group">
+              <label for="address">Address 1</label>
+              <input type="text" name="address" class="form-control" >
+            </div> 
+          </div>
+          <div class="col-md-6 col-sm-6">
+            <div class="form-group">
+              <label for="suburb">Suburb</label>
+              <input type="text" name="suburb" class="form-control" required>
+            </div> 
+          </div>
+          <div class="col-md-6 col-sm-6">
+            <div class="form-group">
+              <label for="city">City</label>
+              <input type="text" name="city" class="form-control" >
+            </div> 
+          </div>
+          <div class="col-md-6 col-sm-6">
+            <div class="form-group">
+              <label for="post">Post Code</label>
+              <input type="number" name="number" class="form-control" required>
+            </div> 
+          </div>
+          <div class="col-md-6 col-sm-6">
+            <div class="form-group custome-select">
+              <select class="form-control pretty" name="Observation type">
+                <option selected="">State</option>
+                <option>Nodia</option>
+              </select>
+            </div> 
+          </div>
+          <div class="col-md-6 col-sm-6">
+            <div class="form-group custome-select">
+              <select class="form-control pretty" name="Observation type">
+                <option selected="">Country</option>
+                <option>India</option>
+              </select>                       
+            </div> 
+          </div>    
+          <div class="col-md-12 heading-edit">
+            <h3>Edit Bank Details</h3>
+          </div>     
+          <div class="col-md-6 col-sm-6">
+            <div class="form-group">
+              <label for="pwd">Password</label>
+              <input type="password" name="pwd" class="form-control" required>
+            </div> 
+          </div>
+          <div class="col-md-6 col-sm-6">
+            <div class="form-group">
+              <label for="pwd">Account Number</label>
+              <input type="number" name="pwd" class="form-control" required>
+            </div> 
+          </div>
+          <div class="col-md-6 col-sm-6">
+            <div class="form-group">
+              <label for="pwd">GST Number(Optional)</label>
+              <input type="text" name="pwd" class="form-control" required>
+            </div> 
+          </div>                                                
+          <div class="col-md-12 col-sm-12 submit-btn text-center editsave-popup">
+            <a href="#" class="btn btn-default" data-toggle="modal" data-target="#add-tracking-statuss">SAVE</a>
+          </div>
+          
+        </div>
+      </form>
+  </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade categoryModal-center newmailpopup" id="add-tracking-statuss" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="category">
+        <div class="fw">
+          <div class="row">
+            <div class="col-md-12 add-new-category ">
+              <h3> <span class="close-icon"><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></span></h3>
+            </div>
+          </div>
+          <div class="row">   
+            <form class="fashion">
+              <div class="col-md-12 add-form form-box">
+                <div class="form-group">
+                    <img src="images/email_sent.png" alt="email-menu">
+                    <p>We've sent an LINK to the email <br> johndoe@dummyemail.com.</p>
+                </div> 
+              </div>
+            </form> 
+          </div>
+        </div>
+    </div>
+  </div> 
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="js/jquery.prettydropdowns.js"></script>                                                                                         
+<script>                                                                      
+  $(document).ready(function() {      
+    $('.pretty').prettyDropdown();
+  });                        
+</script>
+<script>  
+  $(document).ready(function(){  
+      $(".logo-sec .admin-login a").click(function(){  
+          $(".logo-sec .admin-login").toggleClass("admin-dropdopen");  
+      });  
+  });  
+</script>    
+<script>
+  var inputs = document.querySelectorAll( 'input[type=text], input[type=email], input[type="password"], input[type="number"], textarea' );
+      for (i = 0; i < inputs.length; i ++) {
+      var inputEl = inputs[i];
+      if( inputEl.value.trim() !== '' ) {
+          inputEl.parentNode.classList.add( 'input--filled' );
+      }
+      inputEl.addEventListener( 'focus', onFocus );
+      inputEl.addEventListener( 'blur', onBlur );
+      }
+
+      function onFocus( ev ) {
+      ev.target.parentNode.classList.add( 'inputs--filled' );
+      }
+
+      function onBlur( ev ) {
+      if ( ev.target.value.trim() === '' ) {
+          ev.target.parentNode.classList.remove( 'inputs--filled' );
+      } else if ( ev.target.checkValidity() == false ) {
+          ev.target.parentNode.classList.add( 'inputs--invalid' );
+          ev.target.addEventListener( 'input', liveValidation );
+      } else if ( ev.target.checkValidity() == true ) {
+          ev.target.parentNode.classList.remove( 'inputs--invalid' );
+          ev.target.addEventListener( 'input', liveValidation );
+      }
+      }
+
+      function liveValidation( ev ) {
+      if ( ev.target.checkValidity() == false ) {
+          ev.target.parentNode.classList.add( 'inputs--invalid' );
+      } else {
+          ev.target.parentNode.classList.remove( 'inputs--invalid' );
+      }
+      }
+
+      var submitBtn = document.querySelector( 'input[type=submit]' );
+      submitBtn.addEventListener( 'click', onSubmit );
+
+      function onSubmit( ev ) {
+      var inputsWrappers = ev.target.parentNode.querySelectorAll( 'div' );
+      for (i = 0; i < inputsWrappers.length; i ++) {
+          input = inputsWrappers[i].querySelector( 'input[type=text], input[type=email], input[type="password"] ,input[type="number"], textarea' );
+          if ( input.checkValidity() == false ) {
+          inputsWrappers[i].classList.add( 'inputs--invalid' );
+          } else if ( input.checkValidity() == true ) {
+          inputsWrappers[i].classList.remove( 'inputs--invalid' );
+          }
+      }
+  }
+</script>
+</body>
+</html>

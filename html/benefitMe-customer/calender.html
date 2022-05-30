@@ -1,0 +1,460 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/aos.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/owl.carousel.min.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.4/css/select2.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/calendar.css" rel="stylesheet" />
+    <link href="fonts/fonts.css" rel="stylesheet">
+    <link rel="icon" href="./images/favicon.png" type="skype-img"/>
+    <title>Benefitme Customer</title>
+  </head>
+  <body>
+
+    <header class="customer-header  fw">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2 col-sm-3">
+            <a href="./index-loginheader.html" class="site-logo"><img src="images/header_logo.png" alt="logo" /></a>
+          </div>
+          <div class="col-md-10 col-sm-9 text-right">
+            <ul class="account-custmoer">
+              <li><a href="./my_favorites.html" class="logo-icon"><img src="images/he_favourite.png" alt="icon"></a></li>
+              <li><a href="#" class="notification-icon"><img src="images/he_notification.png" alt="icon"></a></li>
+              <li class="dropdown userheader-icon">
+                <a class="profile-img" id="dLabel" data-target="#dLabel" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><img src="images/profile_placeholder.png" alt="icon">
+                  
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="dLabel">
+                  <li><a href="./my-account-overview.html"><i><img src="images/m_my_account.png" alt="icon"></i>My Account </a></li>
+                  <li><a href="./transactions.html"><i><img src="images/m_transactions.png" alt="icon"></i>Transactions </a></li>
+                  <li><a href="./qr-scan.html"><i><img src="images/m_scan_qr_code.png" alt="icon"></i>Scan QR Code</a></li>
+                  <li><a href="./massege.html"><i><img src="images/m_messages.png" alt="icon"></i>Messages</a></li>
+                  <li><a href="./index.html"><i><img src="images/m_logout.png" alt="icon"></i>Logout</a></li>
+                </ul>
+              </li>
+            </ul>
+            <div class="togglebtn" style="display: none;">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <ul class="header-menu">
+              <li ><a href="./index-loginheader.html">Home</a></li>
+              <li><a href="./browse-offers.html">Browse Offers</a></li>
+              <li><a href="./hot-discounts.html">Hot Discounts</a></li>
+              <li class="active"><a href="./calender.html">calendar</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="notifactionBox-pg">
+        <div class="notifaction-sec">
+          <h4>Notifications <span><img src="images/close_popup.png" alt="icon"/></span></h4>
+          <div class="notifactionBox-sec">
+            <div class="notifactionBox fw">
+              <figure>
+                <img src="images/hotelbg-img.jpg" alt="img" />
+              </figure>
+              <div class="notifactionCont">
+                <h5>Booking Confirmed</h5>
+                <p>Your booking has been confirmed for Superior Double or Twin Room in Huyatt Dynamite,</p>
+              </div>
+            </div>
+            <div class="notifactionBox fw">
+              <figure>
+                <img src="images/hotelbg-img.jpg" alt="img" />
+              </figure>
+              <div class="notifactionCont">
+                <h5>20 Points Received</h5>
+                <p>You received 20 point for visiting the Migeez Store.</p>
+              </div>
+            </div>
+            <div class="notifactionBox fw">
+              <figure>
+                <img src="images/hotelbg-img.jpg" alt="img" />
+              </figure>
+              <div class="notifactionCont">
+                <h5>Booking Confirmed</h5>
+                <p>Your booking has been confirmed for Superior Double or Twin Room in Huyatt Dynamite,</p>
+              </div>
+            </div>
+            <div class="notifactionBox fw">
+              <figure>
+                <img src="images/hotelbg-img.jpg" alt="img" />
+              </figure>
+              <div class="notifactionCont">
+                <h5>20 Points Received</h5>
+                <p>Your booking has been confirmed for Superior Double or Twin Room in Huyatt Dynamite,</p>
+              </div>
+            </div>
+            <div class="notifactionBox fw">
+              <figure>
+                <img src="images/hotelbg-img.jpg" alt="img" />
+              </figure>
+              <div class="notifactionCont">
+                <h5>Booking Confirmed</h5>
+                <p>Your booking has been confirmed for Superior Double or Twin Room in Huyatt Dynamite,</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header> 
+    <section class="calender-pgsec">
+      <div class="container">
+        <div class="calenderform">
+          <table id="calendar">
+            <tr id="monthrow">
+                <th colspan="7">
+                    <button id="prev" onclick="prevMonth()">&#10094;</button>
+                    <span id="month"></span>
+                    <button id="next" onclick="nextMonth()">&#10095;</button>
+                </th>
+            </tr>
+            <tr class="daysoftheweek">
+                <th>Sun</th>
+                <th>Mon</th>
+                <th>Tue</th>
+                <th>Wed</th>
+                <th>Thu</th>
+                <th>Fri</th>
+                <th>Sat</th>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </section>
+    <section class="booking-calender fw">
+      <div class="container">
+        <h3>Bookings</h3>
+        <div class="bookingsBox">
+          <div class="bookingtopdetail fw">
+            <figure><img src="images/hotel-img12.jpg" alt="icon" /></figure>
+            <div class="bookingtopleft-cont">
+              <div class="row">
+                <div class="col-sm-7 col-md-7 col-xs-12">
+                  <h3>Huyatt Dynamite</h3>
+                  <p><span class="lefticon"><img src="images/full_address.png" alt="icon"></span> 3245 Twin House Lane, Springfield</p>
+                </div>
+                <div class="col-md-5 col-sm-5 col-xs-12">
+                  <ul class="fw text-right">
+                    <li><a href="#"><img src="images/navigate.png" alt="icon" /></a></li>
+                    <li><a href="#"><img src="images/c_call.png" alt="icon" /></a></li>
+                    <li><a href="#"><img src="images/message.png" alt="icon" /></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="bookingbtmdetail fw">
+            <div class="imgleft">
+              <img src="images/hotel-img1.jpg" alt="img" />
+            </div>
+            <div class="bookingbtmleft-cont">
+              <div class="row">
+                <div class="col-md-8 col-sm-8 col-xs-12">
+                  <h4>Superior Double or Twin Room </h4>
+                  <ul class="fw">
+                    <li><i><img src="images/guest.png" /></i>2 Adults</li>
+                    <li><i><img src="images/guest.png" /></i>0 Children</li>
+                    <li><i><img src="images/guest.png" /></i>1 Room</li>
+                  </ul>
+                </div>
+                <div class="col-md-4 col-sm-8 col-xs-12">
+                  <span class="status-cont pendingtext">
+                    Pending
+                  </span>
+                </div>
+              </div>
+              <div class="row checkin-status">
+                <div class="col-md-4 col-sm-4 col-xs-12 nth1">
+                  <p><span>Check-in</span> SAT, 27 Sep 21</p>
+                  <small>Until 3:00 pm 12:00 pm</small>
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-12 nth2">
+                  <p><span>Check-in</span> SAT, 27 Sep 21</p>
+                  <small>3 Night Stay</small>
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-12 nth3">
+                  <p><span>Amount</span> $ 2520</p>
+                </div>
+              </div>
+              <p class="text-right grytext">Requested on : 14 Oct 21</p>
+            </div>
+          </div>
+        </div>
+        <div class="bookingsBox">
+          <div class="bookingtopdetail fw">
+            <figure><img src="images/hotel-img12.jpg" alt="icon" /></figure>
+            <div class="bookingtopleft-cont">
+              <div class="row">
+                <div class="col-sm-7 col-md-7 col-xs-12">
+                  <h3>Huyatt Dynamite</h3>
+                  <p><span class="lefticon"><img src="images/full_address.png" alt="icon"></span> 3245 Twin House Lane, Springfield</p>
+                </div>
+                <div class="col-md-5 col-sm-5 col-xs-12">
+                  <ul class="fw text-right">
+                    <li><a href="#"><img src="images/navigate.png" alt="icon" /></a></li>
+                    <li><a href="#"><img src="images/c_call.png" alt="icon" /></a></li>
+                    <li><a href="#"><img src="images/message.png" alt="icon" /></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="bookingbtmdetail fw">
+            <div class="imgleft">
+              <img src="images/hotel-img1.jpg" alt="img" />
+            </div>
+            <div class="bookingbtmleft-cont">
+              <div class="row">
+                <div class="col-md-8 col-sm-8 col-xs-12">
+                  <h4>Superior Double or Twin Room </h4>
+                  <ul class="fw">
+                    <li><i><img src="images/guest.png" /></i>2 Adults</li>
+                    <li><i><img src="images/guest.png" /></i>0 Children</li>
+                    <li><i><img src="images/guest.png" /></i>1 Room</li>
+                  </ul>
+                </div>
+                <div class="col-md-4 col-sm-8 col-xs-12">
+                  <span class="status-cont pendingtext">
+                    Pending
+                  </span>
+                </div>
+              </div>
+              <div class="row checkin-status">
+                <div class="col-md-4 col-sm-4 col-xs-12 nth1">
+                  <p><span>Check-in</span> SAT, 27 Sep 21</p>
+                  <small>Until 3:00 pm 12:00 pm</small>
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-12 nth2">
+                  <p><span>Check-in</span> SAT, 27 Sep 21</p>
+                  <small>3 Night Stay</small>
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-12 nth3">
+                  <p><span>Amount</span> $ 2520</p>
+                </div>
+              </div>
+              <p class="text-right grytext">Requested on : 14 Oct 21</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="site-footer fw">
+      <div class="container">
+        <div class="footertop-sec">
+          <div class="row">
+            <div class="col-md-4">
+              <a href="#" class="logo-footer">
+                <img src="images/footer_logo.png" alt="icon" />
+              </a>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+              <h4>Download the app</h4>
+              <div class="appimg-footer">
+                <span><a href="https://en.softonic.com/downloads/app-store"><img src="images/download_app_store.png" alt="icon"></a></span>
+                <span><a href="https://play.google.com/store"><img src="images/download_google_play.png" alt="icon"></a></span>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="footer-leftpad">
+                <h5>Quick Links</h5>
+                <ul>
+                  <li><a href="./browse-offers.html">Browse Offers</a></li>
+                  <li><a href="./hot-discounts.html">Hot Discounts</a></li>
+                  <li><a href="./calender.html">Calendar</a></li>
+                  <li><a href="./messege.html">Be a Partner</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="footer-leftpad">
+                <div class="pull-right">
+                  <h5>Legal</h5>
+                  <ul>
+                    <li><a href="./about-us.html">About Us</a></li>
+                    <li><a href="./privacy-policy.html">Privacy Policy</a></li>
+                    <li><a href="./terms-condition.html">Terms & Conditions</a></li>
+                    <li><a href="./contact-us.html">Contact Us</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footercopy-sec text-center">
+          <p>© 2021. All Rights Reserved. Proudly Designed By BenefitMe Design Team.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Modal -->
+    <!-- Modal -->
+    <div class="modal fade booking-request-popup" id="successfully-request" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-body">
+            <div class="booking-box text-center fw">
+              <div class="greenbox-booking">
+                <figure><img src="images/done.png" alt="icon"></figure>
+                <h4>Appointment Request Sent</h4>
+              </div>
+              <p><small>Your appointment request has been sent successfully, you'll be notify as it confirm</small></p>
+              <div class="search-filter ">
+                <a href="#" class="searchbtn">Show My Booking</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+  <!-- Optional JavaScript; choose one of the two! -->
+  <script src="js/jequery-main3.5.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/owl.animate.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.4/js/select2.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js"></script>
+  <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/MorphSVGPlugin.min.js"></script>
+  <script src="js/calendar.js"></script>
+                                                                                                                                       
+    <script>
+      $(window).bind("load", function () {
+         if (document.readyState === "complete") {
+             // aos init
+             AOS.init({
+               once: false,
+               duration: 1000,
+           });
+         }
+      })
+      jQuery(document).ready(function($) {
+        $('.fadeOut').owlCarousel({
+          items: 1,
+          animateOut: 'fadeOut',
+          loop: true,
+          margin: 0,
+          autoplay:true,
+
+        });
+      });
+      $('.loop').owlCarousel({
+      center: true,
+      items:2,
+      loop:true,
+      margin:10,
+      responsive:{
+          600:{
+              items:4
+          }
+      }
+  });
+      
+    </script>
+   <script>
+    $(".js-select2").select2({
+      closeOnSelect : false,
+      placeholder : "Type to search",
+      allowHtml: true,                                                          
+      allowClear: true,                                                    
+      tags: true // создает новые опции на лету
+    });                                                                                                                                                                                                                                                              
+                                      
+    function iformat(icon, badge,) {
+      var originalOption = icon.element;
+      var originalOptionBadge = $(originalOption).data('badge');
+     
+      return $('<span><i class="fa ' + $(originalOption).data('icon') + '"></i> ' + icon.text + '<span class="badge">' + originalOptionBadge + '</span></span>');
+    }
+
+  </script>
+  <script >
+    var app = {
+      settings: {
+        container: $('.calendar'),
+        calendar: $('.front'),
+        days: $('.weeks span'),
+        form: $('.back'),
+        input: $('.back input'),
+        buttons: $('.back button')
+      },
+
+      init: function() {
+        instance = this;
+        settings = this.settings;
+        this.bindUIActions();
+      },
+      swap: function(currentSide, desiredSide) {
+        settings.container.toggleClass('flip');
+
+        currentSide.fadeOut(900);
+        currentSide.hide();
+        desiredSide.show();
+      },
+      bindUIActions: function() {
+        settings.days.on('click', function(){
+          instance.swap(settings.calendar, settings.form);
+          settings.input.focus();
+        });
+        settings.buttons.on('click', function(){
+          instance.swap(settings.form, settings.calendar);
+        });
+      }
+    }
+
+    app.init();
+  </script>
+  <script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-36251023-1']);
+    _gaq.push(['_setDomainName', 'jqueryscript.net']);
+    _gaq.push(['_trackPageview']);
+  
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  
+  </script>
+  <script type='text/javascript'>
+      
+    $(document).ready(function(){
+        $(".notification-icon").click(function(){
+          $(".notifactionBox-pg").addClass("notifactionBox-open");
+        });
+    });
+    $(document).ready(function(){
+        $(".notifaction-sec h4 span").click(function(){
+          $(".notifactionBox-pg").removeClass("notifactionBox-open");
+        });
+    });
+    </script>
+  <script>
+    $(document).ready(function () {
+      $('.header-menu li a').click(function(){
+          $('.header-menu li a').removeClass('active');
+          $(this).addClass('active');
+      })
+    });
+  </script>
+  <script>
+      $(document).ready(function(){ 
+          $('.togglebtn').click(function(){
+          $(".customer-header  .header-menu").toggleClass("mobilemenu-open");
+          });
+      });
+  </script>
+  </body>
+</html>

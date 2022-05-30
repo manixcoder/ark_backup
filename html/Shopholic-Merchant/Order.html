@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link href="css/prettydropdowns.css" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/font.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="./images/favicon.png" type="skype-img"/>
+    <title>Dashboard</title>
+</head>
+<body>
+  <header>
+    <div class="col-md-12 head-box">
+    <div class="col-md-6 head ">
+        <a href="./Dashboard.html"><img src="images/logo.png" alt="logo" width="150px"> </a>
+    </div>
+    <div class=" col-md-6 logo-sec text-right">
+        <ul class="text-right">
+            <li><a href="./Notifications.html"><i class="fa fa-bell-o" aria-hidden="true"><span>1</span></i></a></li>
+            <li class="admin-login">
+              <a href="javascript:void(0);">
+                <img src="images/circled-girl.jpg" alt="circled-img">
+              </a>
+              <ul class="dropdown">
+                <li><a href="./Myaccount.html">My Account</a></li>
+                <li><a href="./login.html">Logout</a></li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div>
+</header>
+  <div class="dashboard-wapper">
+    <div class="side-bar">
+      <h3 class="sideorder-heading">Orders</h3>
+        <ul class="sidebar-menu">
+          <li class=""><a href="./Dashboard.html">Dashboard</a></li>
+          <li class="active"><a href="./Order.html">Orders</a></li>
+          <li><a href="./Products.html">Products</a></li>
+          <li><a href="./Special-Price.html">Special Price</a></li>
+          <li><a href="./Shipping-Costs.html">Shipping Costs</a></li>
+          <li><a href="./Myaccount.html">My Account</a></li>
+        </ul> 
+    </div>
+    <div class="Merchants-sec MerchantsNew-sec order-MerchantsNew pad-rightetra ">
+      <div class="order-selectbox fw">
+        <div class="col-md-4 col-sm-5 pull-left">
+          <div class="form-group">
+            <input type="search" class="form-control search-input" placeholder="Order Number">
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-3 pull-right">
+          <div class="form-group">
+            <select class="form-control pretty" >
+              <option selected>All Orders</option>
+              <option>Orders 1</option>
+              <option>Orders 2</option>
+              <option>Orders 3</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <div class="right-account-hestory pad-rightetra">
+        <div class="col-md-12 col-sm-12">
+          <div class="row">
+            <div class="order-number">
+              <div class="col-md-6 col-sm-6">
+                <div class="order-amount">
+                  <ul>
+                    <li><span>Order Number</span></li>
+                    <li>ABC123456</li>
+                  </ul>
+                  <ul>
+                    <li><span>Date of Order</span></li>
+                    <li>06 Aug 2021</li>
+                  </ul>                </div>
+              </div>
+              <div class="col-md-6 col-sm-6">
+                <div class="order-amount">
+                  <ul>
+                    <li><span>Order Amount</span></li>
+                    <li>$ 512</li>
+                  </ul>
+                  <ul>
+                    <li><span>Expected Delivery</span></li>
+                    <li>06 Aug 2021</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="account-imgsec col-md-12">
+                <span>
+                    <a href="./Order-Detail.html"><img src="images/samsung-galaxy-s10.png" alt="img"></a>
+                </span>
+                <span>
+                  <a href="./Order-Detail.html"><img src="images/hp-pavilion.png" alt="img"></a>
+                </span>
+                <span>
+                  <a href="./Order-Detail.html"><img src="images/marvel-legends-apocaly.png" alt="img"></a>
+                </span>
+              </div>
+            </div>
+            <div class="order-number">
+              <div class="col-md-6 col-sm-6">
+                <div class="order-amount">
+                  <ul>
+                    <li><span>Order Number</span></li>
+                    <li>ABC123456</li>
+                  </ul>
+                  <ul>
+                    <li><span>Date of Order</span></li>
+                    <li>06 Aug 2021</li>
+                  </ul>                </div>
+              </div>
+              <div class="col-md-6 col-sm-6">
+                <div class="order-amount">
+                  <ul>
+                    <li><span>Order Amount</span></li>
+                    <li>$ 512</li>
+                  </ul>
+                  <ul>
+                    <li><span>Expected Delivery</span></li>
+                    <li><span class="delivered-box">Delivered</span> 15 Jul 2021</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="account-imgsec col-md-12">
+                <span>
+                  <a href="./Order-Detail.html"><img src="images/samsung-galaxy-s10.png" alt="img"></a>
+                </span>
+                <span>
+                  <a href="./Order-Detail.html"><img src="images/hp-pavilion.png" alt="img"></a>
+                </span>
+                <span>
+                  <a href="./Order-Detail.html"><img src="images/marvel-legends-apocaly.png" alt="img"></a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+     </div>
+    </div>
+  </div> 
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="js/jquery.prettydropdowns.js"></script>                                                                                         
+<script>                                                                      
+  $(document).ready(function() {      
+    $('.pretty').prettyDropdown();
+  });                        
+</script>
+<script>  
+  $(document).ready(function(){  
+      $(".logo-sec .admin-login a").click(function(){  
+          $(".logo-sec .admin-login").toggleClass("admin-dropdopen");  
+      });  
+  });  
+</script>    
+</body>
+</html>

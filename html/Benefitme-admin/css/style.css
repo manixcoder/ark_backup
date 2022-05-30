@@ -1,0 +1,1596 @@
+*{
+    margin: 0; padding: 0; box-sizing: border-box;
+}
+header {
+    position: fixed;
+    z-index: 99;
+    float: left;
+    width: 100%;
+    background: #fff;
+}
+.benefitme {
+    float: left;
+    width: 100%;
+    padding: 15px 35px;
+    box-shadow: 0 2px 4px #00000033;
+    vertical-align: middle;
+}
+.benefitme a {
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 18px;
+    color: #06C6B3;
+    text-decoration: none;
+}
+.side-bar {
+    float: left;
+    width: 250px;
+    background-color: #06C6B3;
+    min-height: 100vh;
+    position: fixed;
+    height: 100%;
+    padding-top: 85px;
+}
+.side-bar ul li {
+    list-style: none;
+}
+.side-bar a img {
+    vertical-align: middle;
+    display: inline-block;
+    margin-top: -3px;
+    margin-right: 10px;
+    width: 15px;
+    position: absolute;
+    left: 40px;
+    top: 16px;
+}
+.side-bar a {
+    width: 100%;
+    padding: 10px 26px 10px 70px;
+    display: inline-block;
+    font-size: 16px;
+    text-decoration: none;
+    color: #FFFFFF;
+    line-height: 20px;
+    font-family: 'PFBagueSansW01';
+    font-weight: 300;
+    vertical-align: middle;
+    position: relative;
+}
+.side-bar ul {
+    float: left;
+    width: 100%;
+    position: relative;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+/* header-side-bar-css */
+
+.login-to-access {
+    float: left;
+    width: 100%;
+    background-color: #06C6B3;
+    height: 100vh;
+    padding-top: 90px;
+}
+.login-to-access .login-form {
+    padding: 30px;
+    width: 450px;
+    background: #fff;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 16px;
+    box-shadow: 0 16px 14px #00000029;
+   
+}
+.login-to-access .login-form figure{
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.login-to-access .login-form h3{
+    font-size: 28px;
+    font-weight: 700;
+    color:#000000 ;
+    font-family: 'Futura PT';
+    line-height: 30px;
+}
+.login-to-access .login-form .form-group .form-control {
+    height: 44px;
+    border-radius: 8px;
+    border: 1px solid #707070;
+    color: #000;
+    font-size: 16px;
+    font-family: 'PF Bague Sans Pro';
+    font-weight: 400;
+    
+}
+.login-to-access .login-form .password-show{
+    background-image: url(../images/pass_show.png);
+    background-repeat: no-repeat;
+    background-position:96% center ;
+    background-size: 24px;
+}
+
+.login-to-access .login-form  a {
+    font-size: 22px;
+    line-height: 30px;
+    color: #9B3270;
+    font-family: auto;
+    text-decoration: none;
+    font-weight:400 ;
+    font-family: 'PF Bague Sans Pro';
+}
+.login-to-access .login-form .bg-color{
+    width: 100%;
+    height: 44px;
+    border-radius: 8px;
+    background: #06C6B3;
+    font-size: 18px;
+    border: none;
+    color: #fff;
+    font-family: 'PF Bague Sans Pro';
+    font-weight: 400;
+}
+.login-to-access .login-form .form-group{
+    margin-bottom: 22px;
+}
+.login-to-access .login-form .form-group p {
+    font-size: 18px;
+    line-height: 24px;
+    padding: 5px 10px 0px;
+    color: #ACACAC;
+    font-family: 'PF Bague Sans Pro';
+    font-weight: 400;
+}
+.add-newuser-add {
+    float: right;
+    width: calc(100% - 250px);
+    width: -webkit-calc(100% - 250px);
+    width: -ms-calc(100% - 250px);
+    width: -moz-calc(100% - 250px);
+    padding: 90px 50px 30px 25px;
+}
+.add-newuser {
+    float: left;
+    width: 100%;
+    padding: 12px 28px 12px;
+    background: rgb(183 183 183 / 28%);
+    margin-top: 15px;
+}
+.add-newuser .user-color {
+    color: #06C6B3;
+}
+.add-newuser  a {
+    font-size: 18px;
+    padding: 8px 16px;
+    color: #fff;
+    background: #06C6B3;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 100;
+    font-family: 'PF Bague Sans Pro';
+}
+.add-newuser p {
+    font-size: 17px;
+    line-height: 30px;
+    color: #777777;
+    font-family: 'PF Bague Sans Pro';
+    font-weight: 400;
+    margin: 0;
+}
+.add-newuser-add .user-name {
+    float: left;
+    width: 75%;
+}
+.advertising .menu-images {
+    float: left;
+    width: 100%;
+   
+    position: relative;
+}
+.advertising span {
+    position: absolute;
+    z-index: 9;
+    right: 0;
+    top: 0;
+    background: #FFFFFF;
+    height: 34px;
+    width: 34px;
+    text-align: center;
+    line-height: 32px;
+    border-radius: 0px 0px 0px 10px;
+    box-shadow: 0px 3px 6px #00000029;
+}
+.add-newuser-add .user-name .form-control {
+    display: block;
+    width: 100%;
+    height: 44px;
+    padding: 6px 12px;
+    font-size: 16px;
+    line-height: 1.42857143;
+    color: #212121;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #999;
+    border-radius: 6px;
+    font-family: 'PF Bague Sans Pro';
+}
+.add-newuser-add .user-name .form-group {
+    margin-bottom: 24px;
+}
+.add-newuser-add .user-name label {
+    font-size: 16px;
+    color: #ACACAC;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: 'PF Bague Sans Pro';width: 100%;
+}
+.add-newuser-add .user-name button {
+    width: 100%;
+    height: 44px;
+    background: #fff;
+    border: 1px solid#9B3270;
+    color: #9B3270;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 24px;
+    font-family: 'PF Bague Sans Pro';
+}
+.add-newuser-add .user-name .btn-group {
+    float: left;
+    width: 100%;
+    margin-top: 20px;
+}
+.add-newuser-add .user-name .btn-group .bgcolor {
+    border: none;
+    background: #06C6B3;
+    color: #ffff;
+}
+.add-newuser-add .user-name h3 {
+    font-size: 28px;
+    line-height: 30px;
+    font-weight: 600;
+    margin: 2px 0px 10px;
+}
+.add-newuser-add .user-name .givepoint-img {
+    -webkit-appearance: none;
+    background-image: url(../images/down_arrow_icon.png);
+    background-repeat: no-repeat;
+    background-position: 96% center;
+    padding-right: 35px;
+    background-size: 14px;
+    color: #ACACAC;
+}
+.add-newuser-add .user-name  .form-group .bg-calender {
+    background-image: url(../images/calender_icon.png);
+    background-repeat: no-repeat;
+    background-position: 96% center;
+    padding-right: 35px;
+    background-size: 14px;
+} 
+.advertising{
+    float: left;
+    width: 100%;
+}
+.advertising figure{
+    width: 100%;
+    height: 350px;
+    margin-bottom: 20px;
+}
+.advertising figure img {
+    width: 100%;
+    height: 350px;
+    float: left;
+    border-radius: 12px;
+}
+
+.company-categroy {
+    width: calc(100% - 250px);
+    width: -webkit-calc(100% - 250px);
+    width: -ms-calc(100% - 250px);
+    width: -moz-calc(100% - 250px);
+    float: right;
+    padding: 105px 45px 50px 20px;
+}
+.company-categroy .company-sec {
+    float: left;
+    width: 100%;
+    padding: 10px;
+    border-radius: 2px;
+    background: rgb(204 204 204 / 39%);
+    border: 0;
+}
+.company-categroy .company-sec p {
+    font-size: 20px;
+    color: #777777;
+    font-family: 'PF Bague Sans Pro';
+    font-weight: 400;
+    margin-bottom: 0;
+    margin-top: 9px;
+    line-height: 20px;
+}
+.company-categroy .table-responsive {
+    float: left;
+    width: 100%;
+}
+.sub-category  .table {
+    width: 100%;
+    max-width: 100%;
+    margin-top: 15px;
+}
+.company-categroy tr {
+    box-shadow: 0px 2px 4px #00000029;
+    border-radius: 8px;
+}
+.company-categroy td {
+    border-top: 0 !important;
+    padding: 12px 15px !important;
+    font-size: 17px;
+    color: #212121;
+    font-weight: 600;
+    font-family: 'PF Bague Sans Pro';
+}
+.company-categroy tr td span a {
+    padding: 0px 5px;
+}
+
+.company-categroy .company-sec a {
+    text-decoration: none;
+    font-size: 15px;
+    background: #06C6B3;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: #ffff;
+    display: inline-block;
+}
+.company-categroy .sub-category {
+    float: left;
+    width: 100%;
+    padding: 30px 0 0;
+}
+.company-categroy .sub-category  ul {
+    border: 1px solid #06c6b3;
+    display: inline-block;
+    margin: 0 !important;
+    border-radius: 3px;
+    overflow: hidden;
+}
+.company-categroy .sub-category  ul.nav.nav-tabs li {
+    font-size: 18px;
+    line-height: 26px;
+    font-family: 'Poppins';
+    background-color: #fff;
+    display: inline-block;
+    margin: 0 !important;
+}
+.company-categroy .sub-category  ul.nav.nav-tabs li.active {
+    border-radius: 5px;
+}
+.company-categroy .sub-category  ul.nav.nav-tabs .checkin-venuepg{
+    border: 1px solid #06C6B3;
+    display: inline-block;
+    width: 295px;
+}
+.company-categroy .sub-category  ul.nav.nav-tabs a {
+    color: #06C6B3;
+    padding: 8px 24px;
+    text-decoration: none;
+    border: none;
+    background-color: #fff;
+    margin-right: 0;
+    border-radius: 0;
+    font-family: 'PF Bague Sans Pro';
+}
+.company-categroy .sub-category  ul.nav.nav-tabs a:hover{
+color: #000;
+}
+.company-categroy .sub-category  ul.nav.nav-tabs li a:hover , .company-categroy .sub-category  ul.nav.nav-tabs li.active a{
+background-color: #06C6B3;
+color: #fff;
+}
+.company-categroy .table-responsive span {
+    font-weight: 300;
+}          
+
+.add-newuser-add .user-name .upload-file {
+    float: left;
+    width: 100%;
+    min-height: 220px;
+    position: relative;
+    text-align: center;
+    border: 1px dashed #B9B9B9;
+    border-radius: 10px;
+    padding-top: 80px;
+    color: #B9B9B9;
+    font-family: 'PF Bague Sans Pro';
+    font-weight: 400;
+    letter-spacing: .52px;
+    font-size: 18px;
+}
+.add-newuser-add .user-name .choise-file {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    z-index: 9;
+}
+.add-newuser-add .user-name .upload-file figure {
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.add-newuser-add .company-name {
+    float: left;
+    width: 100%;
+    padding: 20px;
+    box-shadow: 0 3px 6px #00000029;
+    border-radius: 8px;
+}
+.company-name.role-manager ul li span {
+    color: #ACACAC;
+}
+.add-newuser-add .company-name li {
+    font-size: 16px;
+    list-style: none;
+    line-height: 26px;
+    color: #212121;   
+    font-weight: 400;
+    font-family: 'PF Bague Sans Pro';
+}
+.add-newuser-add .company-name ul {
+    margin: 0;
+}
+.add-newuser-add h3 {
+    font-size: 22px;
+    color: #000;
+    font-weight: 600;
+    font-family: 'Futura PT';
+}
+.add-newuser-add .company-name h3 {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    padding-bottom: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: 'PF Bague Sans Pro';
+}
+.add-newuser-add .company-name p {
+    font-size: 16px;
+    color: #212121;
+    margin: 0;
+    padding-bottom: 6px;
+    font-family: 'PF Bague Sans Pro';
+    font-weight: 400;
+}
+.add-newuser-add .company-name .free-bgcolor {
+    color: #06C6B3;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    padding-left: 8px;
+}
+.add-newuser-add .role-manager span {
+    min-width: 130px;
+    display: inline-block;
+    font-size: 17px;
+    font-weight: 400;
+    color: #ACACAC;
+}
+.add-newuser-add .company-name span {
+    font-size: 16px;
+    color: #212121;
+    font-weight: 300;
+}
+.add-newuser-add span.auto-accept {
+    margin: 4px 0px;
+    width: 100%;
+    display: inline-block;
+}
+.add-newuser-add .auto-accept {
+    margin: 30px 0px;
+    font-size: 18px;
+    color: #ACACAC;
+    line-height: 24px;
+    font-family: 'PF Bague Sans Pro';
+    font-weight: 400;
+}
+.add-newuser-add .min-color {
+    color: #9B3270;
+}
+.add-newuser-add .pull-right.messg-icon{
+    min-width: 40px;
+}
+.add-newuser-add .accept-btn {
+    float: left;
+    width: 100%;
+}
+.add-newuser-add .accept-btn button {
+    min-width: 160px;
+    padding: 10px;
+    font-size: 18px;
+    line-height: 28px;
+    color: #9B3270;
+    background: #fff;
+    border: 1px solid #9B3270;
+    border-radius: 6px;
+    font-weight: 400;
+    font-family: 'PF Bague Sans Pro';
+}
+.add-newuser-add .accept-btn .bgcolor{
+    background-color: #06C6B3;
+    color: #FFFFFF;
+    border: none;
+}
+.add-newuser-add .normal-business {
+    float: left;
+    width: 75%;
+    margin-top: 18px;
+}
+
+.normal-business span.box-input {
+    position: relative;
+    width: 17px;
+    height: 17px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.normal-business span.box-input input{
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+    cursor: pointer;
+    opacity: 0;
+    display: block;
+    margin: 0;
+}
+span.box-input small {
+    background: #fff;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border-radius: 2px;
+    border: 1px solid#ACACAC;
+}
+span.box-input input:checked + small {
+    background: #06C6B3;
+    border-color:#06C6B3;
+}
+
+span.box-input input:checked + small:after{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 5px;
+    width: 6px;
+    height: 12px;
+    border: solid #fff;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+.add-newuser-add .normal-business label{
+    font-size: 15px;
+    line-height: 25px;
+    color: #000000;
+    font-weight: 400;
+    font-family: 'PF Bague Sans Pro';
+
+}
+.add-newuser-add .total-user p {
+    font-size: 20px;
+    line-height: 40px;
+    color: #212121;
+    font-family: 'PF Bague Sans Pro';
+    vertical-align: middle;
+}
+.add-newuser-add .total-user {
+    float: left;
+    width: 100%;
+    padding: 20px 28px;
+    vertical-align: middle;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    background: #fff;
+    box-shadow: 0px 5px 12px rgb(36 189 174 / 13%);
+}
+.add-newuser-add   .view-all a {
+    color: #06C6B3;
+    font-weight: 700;
+    text-decoration: none;
+    font-family: 'PF Bague Sans Pro';
+    font-size: 20px;
+}
+.add-newuser-add .total-user p {
+    line-height: 1;
+    margin: 0;
+}
+.requests-table{
+    float: left;
+    width: 100%;
+}
+
+
+.requests-table .company-name tr {
+    float: left;
+    width: 100%;
+    box-shadow: 0px 2px 4px #00000029;
+    border-radius: 8px;
+    padding: 12px 0px 12px 22px;
+    margin-bottom: 15px;
+}
+.requests-table .company-name td {
+    font-size: 16px;
+    color: #212121;
+    font-weight: 400;
+    width: 50%;
+    float: left;
+    font-family: 'PF Bague Sans Pro';
+   
+}
+.requests-table .company-name td h3 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #212121;
+    margin: 0 0px;
+    font-family: 'PF Bague Sans Pro';
+}
+.requests-table .company-name .view-all a{
+    color: #06C6B3;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 18px;
+}
+.requests-table .company-name button {
+    width: 135px;
+    margin: 15px 0px 15px 20px;
+    padding: 6px;
+    border-color: #9B3270;
+    color: #9B3270;
+    background: #fff;
+    font-size: 16px;
+    border-radius: 4px;
+    font-weight: 400;
+    font-family: 'PF Bague Sans Pro';
+}
+.requests-table .company-name .bgcolor{
+   border: none;
+    color: #fff;
+    background: #06C6B3;
+}
+
+.add-newuser-add .john-doe p {
+    font-size: 18px;
+    margin: 0;
+    color: #212121;
+    line-height: 28px;
+    font-family: 'PF Bague Sans Pro';
+}
+.add-newuser-add .john-doe h3 {
+    font-size: 20px;
+    margin: 10px 0px 0px;
+    color: #212121;
+    font-weight: 700;
+    line-height: 28px;
+    font-family: 'PF Bague Sans Pro';
+}
+.add-newuser-add .john-doe figure {
+    text-align: center;
+    float: left;
+    width: 100%;
+}
+.add-newuser-add .john-doe figure img {
+    border-radius: 100%;
+}
+
+.add-newuser-add .john-doe {
+    float: left;
+    width: 100%;
+    margin-top: 20px;
+    box-shadow: 0px 3px 3px #00000029;
+    padding: 10px 0px;
+    border-radius: 10px;
+}
+.add-newuser-add .john-doe .lost-login {
+    font-size: 16px;
+    color: #ACACAC;
+    line-height: 30px;
+    letter-spacing: .52px;
+    padding: 10px;
+    font-family: 'PF Bague Sans Pro';
+}
+.add-newuser-add .john-doe span {
+    font-size: 16px;
+    color: #212121;
+    line-height: 28px;
+    font-family: 'PF Bague Sans Pro';
+    font-weight: 400;
+}
+.john-doe .toggle-img {
+    float: left;
+    width: 100%;
+}
+.john-doe .toggle-img img {
+    margin: 0px 12px;
+}
+.requests-table .company-name.Companies span {
+    font-size: 16px;
+    color: #ACACAC;
+    vertical-align: middle;
+    line-height: 28px;
+}
+.requests-table .company-name.Companies{                                                                                                                                                                                                                   
+    float: left;
+    width: 100%;
+}
+.requests-table .company-name.Companies span img {
+    margin-right: 10px;
+}
+.requests-table .company-name.Companies .min-timer {
+    color: #9B3270;
+}
+
+
+
+.checkpost {
+    width: 50%;
+    float: left;
+    background: antiquewhite;
+    padding:30px;
+    text-align: center;
+}
+.checkpost span {
+    position: relative;
+    width: 17px;
+    height: 17px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.checkpost span input {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 9;
+    margin: 0;
+    display: block;
+}
+.checkpost span small {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    display: inline-block;
+    border: 1px solid #000;
+    border-radius: 2px;
+}
+.checkpost span input:checked + small:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 5px;
+    width: 6px;
+    height: 12px;
+    border: solid yellow;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+.checkpost span input:checked + small{
+    background: red;
+    border-color:red;
+}
+
+
+.add-newuser-add table.menu-table {
+    float: left;
+    width: 100%;
+    box-shadow: none;
+}
+.add-newuser-add table.menu-table .mexican {
+    width: 250px;
+    padding:25px ;
+    vertical-align: top;
+}
+.add-newuser-add table.menu-table .mexican figure img {
+    border-radius: 10px;
+}
+.add-newuser-add table.menu-table .wave-pizza{
+    vertical-align: top;
+    padding:25px ;
+}
+.add-newuser-add table.menu-table .wave-pizza .discount-fish {
+    color: #FF4E4E;
+    font-family: 'PF Bague Sans Pro';
+    font-weight: 700;
+}
+.add-newuser-add table.menu-table tr {
+     box-shadow: 0 3px 6px #00000029;
+     border-radius: 8px;
+}
+.company-categroy table.Companies {
+    float: left;
+    width: 100%;
+}
+table.Companies .table-for {
+    width: 0px;
+}
+
+.add-newuser-add table.menu-table .wave-pizza p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #0000009e;
+    line-height: 24px;
+    padding-bottom: 4px;
+}
+.Companies .wave-pizza label {
+    font-size: 18px;
+    color: #212121;
+    font-weight: 700;
+    margin: 0;
+    line-height: 30px;
+    margin-bottom: 4px;
+    font-family: 'PF Bague Sans Pro';
+}
+.Companies .wave-pizza span {
+    font-size: 18px;
+    line-height: 30px;
+    color: #ACACAC;
+    letter-spacing: 0.50px;
+}
+.Companies .wave-pizza .active-icon {
+    color: #212121;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: .57px;
+    font-family: 'PF Bague Sans Pro';
+    font-weight: 400;
+}
+.Companies .wave-pizza  span.mr-left {
+    margin-right: 10px;
+    font-family: 'PF Bague Sans Pro';
+    font-weight: 400;
+}
+.Companies .wave-pizza  span b {
+    color: #000;
+    font-weight: 700;
+}
+.Companies .wave-pizza  small {
+    color: #000;
+    font-family: 'PF Bague Sans Pro';
+    font-weight: 400;
+}
+.add-newuser-add table.menu-table .wave-pizza a {
+    font-size: 16px;
+    color: #168AFF;
+    font-family: 'PF Bague Sans Pro';
+    font-weight: 400;
+    line-height: 20px;
+    text-decoration: none;
+}
+.login-to-access .login-form .form-group p b {
+    color: #000;
+    font-weight: 700;
+}
+
+.login-to-access .login-form li input {
+    width: 38px;
+    height: 36px;
+    text-align: center;
+    outline: none;
+    color: #000;
+    border: 1px solid #999;
+    border-radius: 4px;
+}
+.login-to-access .login-form li {
+    display: inline-block;
+    padding: 0px 7px;
+}
+.login-to-access .login-form ul {
+    margin-bottom: 18px;
+    display: inline-block;
+    width: 100%;
+}
+.add-newuser-add .john-doe .col-md-3.col-sm-3 {
+    padding-left: 0;
+}
+.add-newuser-add .john-doe figure {
+    text-align: center;
+    float: none;
+    width: 115px;
+    height: 115px;
+    overflow: hidden;
+    border-radius: 100%;
+    display: inline-block;
+}
+.add-newuser-add .john-doe figure img {
+    border-radius: 100%;
+    width: 100%;
+    height: 100%;
+}
+.add-newuser-add .john-doe .col-md-2.col-sm-2 {
+    text-align: center;
+}
+.add-newuser-add .user-name {
+    margin-top: 20px;
+}
+.requests-table .company-name.Companies figure img {
+    width: 100%;
+    height: 100%;
+}
+.requests-table .company-name.Companies figure {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    overflow: hidden;
+    display: inline-block;
+}
+.requests-table .company-name.Companies  .company-profile {
+    display: inline-block;
+    width: calc(100% - 110px);
+    width: -ms-calc(100% - 110px);
+    width: -moz-calc(100% - 110px);
+    width: -webkit-calc(100% - 110px);
+    padding-left: 10px;
+    vertical-align: top;
+}
+.calldetail-box .switch {
+    position: relative;
+    display: inline-block;
+    width: 52px;
+    height: 25px;
+    border: 1px solid #06c6b3;
+}
+  
+.calldetail-box   .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+.calldetail-box   .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #a9cac7;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .calldetail-box   .slider:before {
+    position: absolute;
+    content: "";
+    height: 25px;
+    width: 26px;
+    left: 0;
+    bottom: -1px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border: 1px solid #06c6b3;
+    border-left: 0;
+}
+  
+
+  .calldetail-box  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .calldetail-box  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .calldetail-box  .slider.round:before {
+    border-radius: 50%;
+  }
+  .company-categroy .sub-category .calldetail-box {
+        border: 0;
+        display: inline-block;
+        width: 100%;
+        text-align: right;
+    }
+    .company-categroy .sub-category .calldetail-box li {
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: 10px;
+    }
+    .company-categroy .sub-category .calldetail-box li a {
+        /* width: 20px; */
+        display: inline-block;
+        vertical-align: top;
+    }
+    .company-categroy .sub-category .calldetail-box li a img {
+        width: 30px; 
+    }
+    .calldetail-box  .switch {
+        margin-left: 10px;
+        margin-bottom: 0;
+        display: inline-block;
+        vertical-align: top;
+        position: relative;
+    }
+    .calldetail-box input:checked + .slider {
+        background-color: #06c6b3;
+    }
+    .companyinfo-banner {
+        width: 100%;
+        float: left;
+        margin-top: 15px;
+    }
+    .companyinfo-banner img {
+        width: 100%;
+        height: 280px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+    .parallax-resturent-sec {
+        float: left;
+        width: 100%;
+    }
+    .parallax-resturent-sec .imgleft {
+        width: 100px;
+        height: 100px;
+        overflow: hidden;
+        border-radius: 100px;
+        float: left;
+        margin-top: -40px;
+    }
+    .parallax-resturent-sec .imgleft  img {
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+    }
+    .parallax-resturent-sec .right-pracont {
+        float: left;
+        width: calc(100% - 100px);
+        width: -webkit-calc(100% - 100px);
+        width: -ms-calc(100% - 100px);
+        width: -moz-calc(100% - 100px);
+        padding-left: 18px;
+    }
+    .parallax-resturent-sec .right-pracont .social-cont {
+        width: auto;
+        float: right;
+        list-style: none;
+        border: 0;
+        margin: 0;
+        padding: 0;
+    }
+    .parallax-resturent-sec .right-pracont .social-cont li {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .parallax-resturent-sec .right-pracont .social-cont li a {
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 10px;
+    }
+    .parallax-resturent-sec .right-pracont .social-cont li a img {
+        width: 25px;
+    }
+    .parallax-resturent-sec .freeversion-sec {
+        float: left;
+        width: 100%;
+    }
+    .parallax-resturent-sec .freeversion-sec h4 {
+        margin: 0;
+        font-size: 14px;
+        color: #B7B7B7;
+        line-height: 1;
+        margin-bottom: 10px;
+    }
+    .parallax-resturent-sec .freeversion-sec h4 span {
+        margin-left: 10px;
+    }
+    .parallax-resturent-sec .freeversion-sec h4.red {
+        color: #FF4E4E;
+    }
+    .parallax-resturent-sec .freeversion-sec .msg-sec {
+        margin-top: -45px;
+    }
+    .parallax-resturent-sec .freeversion-sec .msg-sec a {
+        display: inline-block;
+        vertical-align: top;
+    }
+    .parallax-resturent-sec .freeversion-sec .msg-sec a img {
+        width: 35px;
+    }
+    .parallax-resturent-sec .right-pracont h3 {
+        margin-top: 12px;
+    }
+    .parallax-resturent-sec {
+        padding-left: 20px;
+    }
+    .praadress-cont {
+        float: left;
+        width: 100%;
+    }
+    .praadress-cont h4 {
+        font-size: 15px;
+        color: #000;
+    }
+    .praadress-cont h4 i {
+        display: inline-block;
+        vertical-align: bottom;
+        margin-right: 8px;
+    }
+    .praadress-cont h4 i img {
+        width: 13px;
+    }
+    .praadress-cont h4 span {
+        color: #B7B7B7;
+        margin-right: 10px;
+    }
+    .praadress-cont .mrtop20 {
+        margin-top: 20px;
+    }
+    .company-aboutpra-cont {
+        float: left;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .company-aboutpra-cont h3 {
+        margin-top: 4px;
+        font-size: 18px;
+    }
+    .company-aboutpra-cont  p {
+        font-size: 14px;
+        color: #ACACAC;
+        line-height: 25px;
+    }
+    .praadress-cont .pra {
+        color: #B7B7B7;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .calldetail-box {
+        width: 100%;
+        float: left;
+        list-style: none;
+    }
+    .calldetail-box li {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .calldetail-box li a {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .calldetail-box li a img {
+        display: inline-block;
+        vertical-align: middle;
+        width: 13px;
+        margin-right: 0 !important;
+    }
+    .sabscrib-sec {
+        float: left;
+        width: 100%;
+        padding-left: 15px;
+    }
+    .sabscrib-sec h3 {
+        font-family: 'Futura PT' !important;
+        line-height: 1 !important;
+    }
+    .sabscrib-sec p{font-size: 17px !important;}
+    .sabscrib-sec .advertisements-sec {
+        float: left;
+        width: 100%;
+    }
+    .sabscrib-sec .advertisements-sec p {
+        font-size: 16px !important;
+    }
+    .sabscrib-sec .advertisements-sec p img {
+        width: 11px;
+        display: inline-block;
+        vertical-align: middle;
+        margin-top: -4px;
+        margin-right: 10px;
+    }
+    .john-doe.pading-none {
+        box-shadow: none;
+    }
+    .add-newuser-add .user-name .form-control.extrapad {
+        padding-left: 30px;
+    }
+    .rediocheck-box {
+        float: left;
+        width: 100%;
+    }
+    .rediocheck-box .rediocheck-cont {
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 20px;
+    }
+    .rediocheck-box .rediocheck-cont .redio-input {
+        display: inline-block;
+        vertical-align: middle;
+        margin: 0 !important;
+        margin-top: -5px !important;
+        margin-right: 5px !important;
+    }
+    .rediocheck-box .rediocheck-cont label {
+        display: inline-block;
+        margin: 0 !important;
+        width: auto;
+        line-height: 1;
+    }
+    .add-newuser-add.fw {
+        width: 100% !important;
+        padding: 15px 0 0;
+    }
+    .add-newuser-add.fw .form-group {
+        margin: 0 0 10px;
+    }
+    .add-newuser-add.fw .form-group label {
+        display: inline;
+        margin-left: 5px;
+        width: auto;
+    }
+    
+      .graph-cart.wrapper {
+        display: block;
+        margin: 2em auto;
+        border: 0;
+        width: 100%;
+        height: 350px;
+        position: relative;
+        float: left;
+        box-shadow: 0 3px 3px rgb(0 0 0 / 10%);
+    }
+    .graph-cart.wrapper .label {
+        height: 1em;
+        padding: .3em;
+        background: rgba(255, 255, 255, .8);
+        position: absolute;
+        display: none;
+        color:#333;
+        
+      }
+      .payment-table {
+        float: left;
+        width: 100%;
+    }
+    .payment-table table.table {
+        float: left;
+        width: 100%;
+    }
+    .payment-table table.table th {
+        border: 0;
+        background: #9B3270;
+        color: #fff;
+        font-size: 14px;
+        font-weight: 400;
+        padding: 8px 15px;
+    }
+    .payment-table table.table  td {
+        padding: 8px 15px;
+        font-size: 14px;
+        color: #000;
+    }
+    .payment-table table.table td .lightblue {
+        color: #06C6B3;
+    }
+    .payment-table table.table td 
+ span.greentext {
+    color: #00B548;
+}
+.payment-table table.table td 
+ span.erdtext {
+    color: #FF5151;
+}
+.payment-table table.table th:last-child {
+    width: 145px;
+}
+.massageBox_sec {float: left; width: 100%; margin-top: 30px;}
+.massageBox_sec  .innerrow {
+    margin: 0 -15px;
+    display: block;
+}
+.massageBox_sec  .col_grid5 {
+    width: 41.66666667%;
+    float: left;
+    padding: 0 15px;
+}
+
+.notifivation_box {
+    box-shadow: 0px 3px 2px rgb(6 198 179 / 50%);
+    padding: 32px 28px 22px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-top: 8px;
+    background: #fff;
+}
+.massageBox_sec .fw {
+    width: 100%;
+    float: left;
+}
+.massageBox_sec .notifivation_box {
+    padding: 16px;
+    background-color: #fff;
+}
+
+.massageBox_sec .notifivation_box {
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+.massageBox_sec .img_notiProfile {
+    float: left;
+    width: 38px;
+    height: 38px;
+    overflow: hidden;
+    border-radius: 60px;
+    box-shadow: 0px 1px 3px rgb(0 0 0 / 20%);
+}
+.massageBox_sec .notification_cont {
+    float: left;
+    width: calc(100% - 45px);
+    width: -webkit-calc(100% - 45px);
+    width: -ms-calc(100% - 45px);
+    width: -moz-calc(100% - 45px);
+    padding-left: 14px;
+}
+.text-left {
+    text-align: left;
+}
+
+.massageBox_sec .col_grid7 {
+    width: 58.33333333%;
+    float: left;
+    padding: 0 15px;
+}
+.massageBox_sec .notifivation_box .col_grid5.text-right {
+    padding-left: 0;
+}
+
+.text-right {
+    text-align: right;
+}
+.massageBox_sec .col_grid5 {
+    width: 41.66666667%;
+    float: left;
+    padding: 0 15px;
+}
+.massageBox_sec .notification_cont h4 {
+    font-size: 15px;
+    font-family: 'Futura PT';
+    font-weight: normal;
+}
+
+.massageBox_sec .notification_cont h4 {
+    color: #086C84;
+    margin: 0;
+}
+.massageBox_sec .dateText {
+    color: #000;
+    font-size: 14px;
+    font-family: 'PF Bague Sans Pro';
+    opacity: .4;
+}
+
+.massageBox_sec .text-right {
+    text-align: right;
+}
+.massageBox_sec .notification_cont .notipra_text {
+    margin-top: 5px;
+}
+.massageBox_sec .notipra_text p {
+    color: #7F7F7F;
+    font-size: 14px;
+    line-height: 14px;
+    font-family: 'PF Bague Sans Pro';
+    margin: 0;
+}
+.massageBox_sec .col_grid7 {
+    width: 58.33333333%;
+    float: left;
+    padding: 0 15px;
+}
+.massageBox_sec .msgSendBox_Cont {
+    float: left;
+    width: 100%;
+    background: #fff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: relative;
+    padding: 0 12px 12px;
+}
+.massageBox_sec .padrow {
+    margin: 0 -12px;
+    display: block;
+}
+.msgSendBox_Cont .chatHeadBox {
+    padding: 14px 15px 12px;
+    background: #E5F6F6;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    font-size: 16px;
+    color: #086C84;
+    font-family: 'Futura PT';
+}
+.massageBox_sec  .chatHeadBox .chatuser_img, .usertick_box span {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.massageBox_sec  .chatHeadBox .chatuser_img img, .usertick_box span img {
+    width: 100%;
+}
+.massageBox_sec  .otherUser_greenSec {
+    margin-top: 40px;
+}
+.massageBox_sec .otherUser_greenBox {
+    line-height: 20px;
+    width: 380px;
+    float: right;
+    background: rgb(6 198 179 / 19%);
+    padding: 15px 30px 15px 18px;
+    text-align: left;
+    color: #212121;
+    font-family: 'PF Bague Sans Pro';
+    font-size: 14px;
+    border-radius: 20px;
+    border-bottom-right-radius: 0;
+}
+.massageBox_sec .usertick_box {
+    vertical-align: middle;
+    display: inline-block;
+    font-size: 12px;
+    color: #afafaf;
+    font-family: 'Futura PT';
+    margin-top: 11px;
+}
+.massageBox_sec  .usertick_box span {
+    width: 22px;
+    height: 22px;
+    margin-right: 4px;
+    margin-top: -4px;
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: middle;
+}
+.massageBox_sec .selpUser_redBox {
+    float: left;
+    border-radius: 20px;
+    border-bottom-left-radius: 0;
+    background: #9B3270;
+    color: #fff;
+}
+.massageBox_sec .findblog_search .input-icon i img {
+    width: 15px;
+}
+.massageBox_sec  .findblog_search {
+    position: relative;
+    box-shadow: 0px 2px 5px rgb(0 0 0 / 15%);
+    padding: 4px;
+    border-radius: 6px;
+    margin-bottom: 35px;
+    background-color: #fff;
+    margin-top: 30px;
+}
+.massageBox_sec  .findblog_search .from-group {
+    position: relative;
+    float: left;
+    width: 100%;
+}
+.massageBox_sec  .sendBox_msg_input .input-icon {
+    width: calc(100% - 100px);
+    width: -webkit-calc(100% - 100px);
+    width: -ms-calc(100% - 100px);
+    width: -moz-calc(100% - 100px);
+    float: left;
+}
+.massageBox_sec .findblog_search .input-icon i {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    z-index: 999;
+    color: #000;
+    opacity: .5;
+    cursor: pointer;
+    margin-top: -9px;
+}
+.massageBox_sec .findblog_search .input-icon .form-control {
+    width: 100%;
+    border: 0;
+    position: relative;
+    color: #000;
+    font-size: 16px;
+    padding: 8px 15px 1px 40px;
+    background-color: transparent;
+    height: 44px !important;
+    line-height: 44px !important;
+}
+.massageBox_sec  .findblog_search .btn_group {
+    float: right;
+    width: 100px;
+    min-width: 95px;
+}
+.massageBox_sec .sendBox_msg_input .btn_group button.input-btn {
+    height: 55px;
+    line-height: 58px;
+    font-size: 18px;
+    font-family: 'PF Bague Sans Pro';
+    letter-spacing: 0.5px;
+}
+
+.massageBox_sec .input-btn {
+    background: #06C6B3;
+    border: 0;
+    width: 100%;
+    border-radius: 6px;
+    font-size: 26px;
+    color: #fff;
+    letter-spacing: .5px;
+    font-family: 'PF Bague Sans Pro';
+    cursor: pointer;
+    z-index: 99;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    transition: all .5s ease .0s;
+    -webkit-transition: all .5s ease .0s;
+    -ms-transition: all .5s ease .0s;
+    -moz-transition: all .5s ease .0s;
+    padding: 12px !important;
+    box-shadow: 0px 3px 6px rgb(0 0 0 / 15%);
+    -webkit-box-shadow: 0px 3px 6px rgb(0 0 0 / 15%);
+    -moz-box-shadow: 0px 3px 6px rgb(0 0 0 / 15%);
+    font-weight: normal !important;
+    height: auto !important;
+    line-height: initial !important;
+    position: relative;
+}
+
+.massageBox_sec  .sendBox_msg_input .btn_group button.input-btn {
+    height: 55px;
+    line-height: 58px;
+    font-size: 18px;
+    font-family: 'PF Bague Sans Pro';
+    letter-spacing: 0.5px;
+}
+.massageBox_sec .img_notiProfile img {
+    width: 100%;
+    height: 100%;
+}
+header .benefitme a {
+    margin: 0;
+}
+header .benefitme .col-sm-6.text-right a {
+    margin-top: 14px;
+}
+.add-newuser-add .accept-btn .addbtn-table {
+    padding: 15px;
+    min-width: 150px;
+}
+.requests-table .company-name.Companies span.pull-right.view-all {
+    margin-top: 20px;
+} 

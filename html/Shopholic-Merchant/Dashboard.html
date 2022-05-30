@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="fonts/font.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="./images/favicon.png" type="skype-img"/>
+    <title>Dashboard</title>
+</head>
+<body>
+  <header>
+    <div class="col-md-12 head-box">
+    <div class="col-md-6 head ">
+        <a href="./Dashboard.html"><img src="images/logo.png" alt="logo" width="150px"> </a>
+    </div>
+    <div class=" col-md-6 logo-sec text-right">
+        <ul class="text-right">
+            <li><a href="./Notifications.html"><i class="fa fa-bell-o" aria-hidden="true"><span>1</span></i></a></li>
+            <li class="admin-login">
+              <a href="javascript:void(0);">
+                <img src="images/circled-girl.jpg" alt="circled-img">
+              </a>
+              <ul class="dropdown">
+                <li><a href="./Myaccount.html">My Account</a></li>
+                <li><a href="./login.html">Logout</a></li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div>
+</header>
+  <div class="dashboard-wapper">
+    <div class="side-bar">
+        <ul class="sidebar-menu">
+          <li class="active"><a href="./Dashboard.html">Dashboard</a></li>
+          <li class=""><a href="./Order.html">Orders</a></li>
+          <li><a href="./Products.html">Products</a></li>
+          <li><a href="./Special-Price.html">Special Price</a></li>
+          <li><a href="./Shipping-Costs.html">Shipping Costs</a></li>
+          <li><a href="./Myaccount.html">My Account</a></li>
+        </ul> 
+    </div>
+    <div class="Merchants-sec MerchantsNew-sec">
+      <div class="samll-container">
+        <div class="row">
+            <div class="col-md-12  heading-full"> 
+              <h3>Dashboard
+                <div class="select-date-reange">
+                  <div class="form-group">
+                    <label>Select Date Range</label>
+                    <input class="form-control" type="date">
+                  </div>
+                  <span>To</span>
+                  <div class="form-group">
+                    <input class="form-control" type="date">
+                  </div>
+                </div>
+              </h3>
+            </div>
+        </div>
+      </div>
+      <div class="samll-container footer-sec">
+        <div class="row">
+          <div class="col-md-6 ">
+            <div class="new-user total-order">
+            <div class="row">
+              <div class="col-md-5 login-img">
+                <img src="images/total_order.svg" alt="login" width="100px">
+              </div>
+              <div class="col-md-7 socical-box">
+                <span class="text-number">150</span>
+                <p> Total Order</p>
+              </div>
+            </div>
+          </div>
+          </div>
+          <div class="col-md-6 ">
+            <div class="new-user delivered">
+            <div class="row">
+              <div class="col-md-5 login-img">
+                <img src="images/delivered.svg" alt="login" width="100px">
+              </div>
+              <div class="col-md-7 socical-box">
+                <span class="text-number">100</span>
+                <p>Delivered</p>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 ">
+            <div class="new-user cancelled">
+            <div class="row">
+              
+              <div class="col-md-5 login-img">
+                <img src="images/cancelled.svg" alt="login" width="100px">
+              </div>
+              <div class="col-md-7 socical-box">
+                <span class="text-number">10</span>
+                <p> Cancelled</p>
+              </div>
+            </div>
+          </div>
+          </div>
+          <div class="col-md-6 ">
+            <div class="new-user total-sale-bg">
+            <div class="row">
+              <div class="col-md-5 login-img">
+                <img src="images/total_sale.svg" alt="login" width="100px">
+              </div>
+              <div class="col-md-7 socical-box">
+                <span class="text-number">$5000</span>
+                <p>Total sale</p>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> 
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script>  
+    $(document).ready(function(){  
+        $(".logo-sec .admin-login a").click(function(){  
+            $(".logo-sec .admin-login").toggleClass("admin-dropdopen");  
+        });  
+    });  
+    </script>    
+</body>
+</html>

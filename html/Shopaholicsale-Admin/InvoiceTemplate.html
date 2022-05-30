@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="fonts/font.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="./images/favicon.png" type="skype-img"/>
+    <title>Invoice Template</title>
+    <style>
+      
+
+    </style>
+</head>
+<body>
+  <header>
+    <div class="col-md-12 head-box">
+    <div class="col-md-6 head ">
+        <a href="./Dashboard.html"><img src="images/logo.png" alt="logo" width="150px"> </a>
+    </div>
+    <div class=" col-md-6 logo-sec text-right">
+        <ul class="text-right">
+            <li><a href="./Notifications.html"><i class="fa fa-bell-o" aria-hidden="true"><span>1</span></i></a></li>
+            <li class="admin-login">
+              <a href="javascript:void(0);">
+                <img src="images/circled-girl.jpg" alt="circled-img">
+              </a>
+              <ul class="dropdown">
+                <li><a href="./Myaccount.html">My Account</a></li>
+                <li><a href="./login.html">Logout</a></li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div>
+</header>
+  <div class="dashboard-wapper">
+    <div class="side-bar">
+        <ul class="sidebar-menu">
+          <li ><a href="./Dashboard.html">Dashboard</a></li>
+          <li class=""><a href="./Merchants.html">Merchants</a></li>
+          <li><a href="./Users.html">Users</a></li>
+          <li><a href="./Subscribers.html">Subscribers</a></li>
+          <li><a href="./Category.html">Category</a></li>
+          <li><a href="./Commission.html">Commission</a></li>
+          <li><a href="./OrderStatusSettings.html">Order Settings</a></li>
+          <li class="active"><a href="./InvoiceTemplate.html">Invoice Template</a></li>
+        </ul> 
+    </div>
+      <div class="Merchants-sec invoice-tem">
+       <div class="fw"> 
+            <h3>Invoice Template
+              <div class="select-box text-right">
+                <div class="form-group">
+                  <button type="submit" class="btn btn-primary bg-color export-btn upload-newbtn">UPLOAD NEW</button>
+                </div>
+              </div>
+            </h3>
+            <div class="col-md-12 invoice-sec">
+              <p class="version-text">
+                <span>File Name</span> <span class="blc">invoice_version_1.pdf</span>
+              </p>
+              <p class="version-text">
+                <span>Date of Upload</span><span class="blc">06 Aug 2021</span>
+              </p>
+            </div>
+          </div>
+            <div class="fw white-boxbg">
+              <div class="why_us_image">
+                <figure>
+                  <img src="images/why_us_image@2x.png" alt="why_us_image" >
+                </figure> 
+              </div>
+            </div>
+          </div> 
+        </div>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script>  
+    $(document).ready(function(){  
+        $(".logo-sec .admin-login a").click(function(){  
+            $(".logo-sec .admin-login").toggleClass("admin-dropdopen");  
+        });  
+    });  
+    </script>  
+</body>
+</html>

@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="Fonts/font.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <title>add availability</title>
+</head>
+<body>
+    <header>
+        <div class="benefitme">
+            <div class="col-md-6 col-sm-6 " >
+                <img src="images/header_logo.png" alt="header_logo" width="230px">
+            </div>           
+            <div class="col-md-6 col-sm-6 text-right">
+                <div class="user-dropdown">
+                    <div class="dropdown">
+                        <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <span><img src="images/circle.jpg" alt="circle" width="60px"></span>
+                            Shoppy
+                          <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dLabel">
+                         <li><a href="./myprofile.html"> <img src="images/my_profile.png" alt="my_profile" width="15px"> My profile</a></li>
+                         <li><a href="./login.html"> <img src="images/logout.png" alt="logout" width="15px">  Log out</a></li>
+                        </ul>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="side-bar text-left">
+        <ul>
+            <li><a href="./dashboard.html"> <img src="images/sp_dashboard.png" alt="Dashboard"> Dashboard</a></li>
+            <li><a href="./products_services_products.html"> <img src="images/sp_products_&_services.png" alt="Products"> Products & Services</a></li>
+            <li><a href="./loyalty-points.html"> <img src="images/sp_loyalty_points.png" alt="Loyalty"> Loyalty Points</a></li>
+            <li><a href="./customer-journey.html"> <img src="images/sp_customer_journey.png" alt="Customer-journey"> Customer Journey</a></li>
+            <li><a href="./my-qr-code-givepoint.html"> <img src="images/sp_my_qr_code.png" alt="sp_my_qr_code"> My QR Code</a></li>
+            <li><a href="./massege.html"> <img src="images/sp_messages.png" alt="sp_messages"> Messages</a></li>
+            <li><a href="./appointments.html"> <img src="images/sp_appointments.png" alt="Appointments"> Appointments</a></li>
+            <li><a href="./table.html"> <img src="images/sp_tables.png" alt="Tables"> Tables</a></li>
+            <li><a href="./room.html"> <img src="images/sp_rooms.png" alt="Rooms"> Rooms</a></li>
+            <li><a href="./menu-switch.html"> <img src="images/sp_menu.png" alt="Menu"> Menu</a></li>
+            <li><a href="./check.html"> <img src="images/sp_check_in.png" alt="Check"> Check In</a></li>
+            <li><a href="./advertising.html"> <img src="images/sp_advertising.png" alt="Advertising"> Advertising</a></li>
+            <li><a href="./invite-people.html"> <img src="images/sp_invite_people.png" alt="sp_invite_people"> Invite People</a></li>
+            <li><a href="./awards_set_award.html"> <img src="images/sp_awards.png" alt="Awards"> Awards</a></li>
+        </ul>
+    </div>
+
+
+    <div class="appoint-ment">
+        <div class="appoint-sec">
+            <div class="col-md-6 text-left">
+                <p>Add Availability </p>
+            </div>
+           
+        </div>
+
+
+        <div class="new-requests">
+                      <div class="row">
+                          <div class="col-md-5 text-left">
+                              <div class="Jessica-pra calendar-box">
+                                <div class="calendar">
+                                    <div class="header">
+                                        <a data-action="prev-month" href="javascript:void(0)" title="Previous Month"><i></i></a>
+                                        <div class="text" data-render="month-year"></div>
+                                        <a data-action="next-month" href="javascript:void(0)" title="Next Month"><i></i></a>
+                                    </div>
+                                    <div class="months" data-flow="left">
+                                        <div class="month month-a">
+                                            <div class="render render-a"></div>
+                                        </div>
+                                        <div class="month month-b">
+                                            <div class="render render-b"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                              </div>
+                          </div>
+                          <div class="col-md-5 text-left">
+                             <div class="appointment-for title">
+                               <form>
+                                   <div class="form-group">
+                                       <label>Appointment Title</label>
+                                    <input type="name" class="form-control"  placeholder="Write title here">
+                                   </div>
+                                   <div class="form-group">
+                                       <label >From</label>
+                                    <input type="name" class="form-control timer-icon"  placeholder="HH:MM">
+                                   </div>
+                                   <div class="form-group">
+                                    <label >To</label>
+                                    <input type="name" class="form-control timer-icon"  placeholder="HH:MM">
+                                   </div>
+                                   <div class="form-group">
+                                       <label class="recurring">Recurring Appointment</label>
+                                      <span class="pull-right">
+                                        <label class="switch right-click">
+                                            <input type="checkbox ">
+                                            <span class="slider round"></span>
+                                          </label>
+                                      </span>
+                                   </div>
+                               </form>
+                               <div class="Jessica-pra appointment">
+                                <div class="pro-service Message">
+                                    <a href="#" data-toggle="modal" data-target="#ConnectProduct">Connect with Product/Service <img src="images/arrow_view.png" alt="arrow_view"> </a>
+                                </div>   
+                                <span class="mobile-box">
+                                    <figure>
+                                      <img src="images/mobile-reparing.jpeg" alt="">
+                                  </figure>
+                                  <p>Mobile Repairing</p>
+                              </span>
+                                <span class="mobile-box">
+                                    <figure>
+                                      <img src="images/laptop-repairing.jpeg" alt="">
+                                    </figure>
+                                    <p>Laptop Repairing</p>
+                                </span>
+                              </div>
+                            </div>
+                          </div>
+                         <div class="col-md-8">
+                             <div class="row">
+                                 <form action="./availability-appointments.html">
+                                 <div class="col-md-6">
+                                    <div class="form-group">
+                                        <button type="submit" class="btn btn-primary">Cancel</button>
+                                    </div>
+                                 </div>
+                                 <div class="col-md-6">
+                                    <div class="form-group">
+                                        <button type="submit" class="btn btn-primary bgcolor">Add</button>
+                                    </div>
+                                 </div>
+                                </form>
+                             </div>
+                         </div>
+                </div> 
+            </div>
+            </div>
+                 
+           
+
+    <script src="js/libaury.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <div class="modal fade " id="ConnectProduct" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close ConnectPclose" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="modal-body">
+                    <div class="messagepopCant">
+                        <h3>Appointment availibility connect with</h3>
+                        <div class="offerconnect">
+                            <!-- Nav tabs -->
+                            <ul class="nav nav-tabs" role="tablist">
+                                <li role="presentation" class="active"><a href="#Products" aria-controls="home" role="tab" data-toggle="tab">Products</a></li>
+                                <li role="presentation"><a href="#Services" aria-controls="profile" role="tab" data-toggle="tab">Services</a></li>
+                            </ul>
+                            <!-- Tab panes -->
+                            <div class="tab-content">
+                                <div class="form-group">
+                                    <input type="button" class="form-control" placeholder="Search" />
+                                </div>
+                                <div role="tabpanel" class="tab-pane active" id="Products">
+                                    <table class="table">
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <span class="firstimg">
+                                                        <img src="images/vivo.jpg" />
+                                                    </span>
+                                                </td>
+                                                <td>
+                                                    #89478494
+                                                </td>
+                                                <td>
+                                                    HUAWEI P50 Pro
+                                                </td>
+                                                <td>
+                                                   <span class="tdcheckbox">
+                                                       <input type="checkbox" class="checkbox" >
+                                                       <small>&#10004;</small>
+                                                   </span> 
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <span class="firstimg">
+                                                        <img src="images/vivo.jpg" />
+                                                    </span>
+                                                </td>
+                                                <td>
+                                                    #89478494
+                                                </td>
+                                                <td>
+                                                    HUAWEI P50 Pro
+                                                </td>
+                                                <td>
+                                                   <span class="tdcheckbox">
+                                                       <input type="checkbox" class="checkbox" >
+                                                       <small>&#10004;</small>
+                                                   </span> 
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <span class="firstimg">
+                                                        <img src="images/vivo.jpg" />
+                                                    </span>
+                                                </td>
+                                                <td>
+                                                    #89478494
+                                                </td>
+                                                <td>
+                                                    HUAWEI P50 Pro
+                                                </td>
+                                                <td>
+                                                   <span class="tdcheckbox">
+                                                       <input type="checkbox" class="checkbox" >
+                                                       <small>&#10004;</small>
+                                                   </span> 
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <span class="firstimg">
+                                                        <img src="images/vivo.jpg" />
+                                                    </span>
+                                                </td>
+                                                <td>
+                                                    #89478494
+                                                </td>
+                                                <td>
+                                                    HUAWEI P50 Pro
+                                                </td>
+                                                <td>
+                                                   <span class="tdcheckbox">
+                                                       <input type="checkbox" class="checkbox" >
+                                                       <small>&#10004;</small>
+                                                   </span> 
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <span class="firstimg">
+                                                        <img src="images/vivo.jpg" />
+                                                    </span>
+                                                </td>
+                                                <td>
+                                                    #89478494
+                                                </td>
+                                                <td>
+                                                    HUAWEI P50 Pro
+                                                </td>
+                                                <td>
+                                                   <span class="tdcheckbox">
+                                                       <input type="checkbox" class="checkbox" >
+                                                       <small>&#10004;</small>
+                                                   </span> 
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div role="tabpanel" class="tab-pane" id="Services">
+                                    
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <button type="button" class="btn comanebtn">Done</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var Calendar = function(t) {
+    this.divId = t.RenderID ? t.RenderID : '[data-render="calendar"]', this.DaysOfWeek = t.DaysOfWeek ? t.DaysOfWeek : ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"], this.Months = t.Months ? t.Months : ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+    var e = new Date;
+    this.CurrentMonth = e.getMonth(), this.CurrentYear = e.getFullYear();
+    var r = t.Format;
+    this.f = "string" == typeof r ? r.charAt(0).toUpperCase() : "M"
+};
+Calendar.prototype.nextMonth = function() {
+    11 == this.CurrentMonth ? (this.CurrentMonth = 0, this.CurrentYear = this.CurrentYear + 1) : this.CurrentMonth = this.CurrentMonth + 1, this.divId = '[data-active="false"] .render', this.showCurrent()
+}, Calendar.prototype.prevMonth = function() {
+    0 == this.CurrentMonth ? (this.CurrentMonth = 11, this.CurrentYear = this.CurrentYear - 1) : this.CurrentMonth = this.CurrentMonth - 1, this.divId = '[data-active="false"] .render', this.showCurrent()
+}, Calendar.prototype.previousYear = function() {
+    this.CurrentYear = this.CurrentYear - 1, this.showCurrent()
+}, Calendar.prototype.nextYear = function() {
+    this.CurrentYear = this.CurrentYear + 1, this.showCurrent()
+}, Calendar.prototype.showCurrent = function() {
+    this.Calendar(this.CurrentYear, this.CurrentMonth)
+}, Calendar.prototype.checkActive = function() {
+    1 == document.querySelector(".months").getAttribute("class").includes("active") ? document.querySelector(".months").setAttribute("class", "months") : document.querySelector(".months").setAttribute("class", "months active"), "true" == document.querySelector(".month-a").getAttribute("data-active") ? (document.querySelector(".month-a").setAttribute("data-active", !1), document.querySelector(".month-b").setAttribute("data-active", !0)) : (document.querySelector(".month-a").setAttribute("data-active", !0), document.querySelector(".month-b").setAttribute("data-active", !1)), setTimeout(function() {
+        document.querySelector(".calendar .header").setAttribute("class", "header active")
+    }, 200), document.querySelector("body").setAttribute("data-theme", this.Months[document.querySelector('[data-active="true"] .render').getAttribute("data-month")].toLowerCase())
+}, Calendar.prototype.Calendar = function(t, e) {
+    "number" == typeof t && (this.CurrentYear = t), "number" == typeof t && (this.CurrentMonth = e);
+    var r = (new Date).getDate(),
+        n = (new Date).getMonth(),
+        a = (new Date).getFullYear(),
+        o = new Date(t, e, 1).getDay(),
+        i = new Date(t, e + 1, 0).getDate(),
+        u = 0 == e ? new Date(t - 1, 11, 0).getDate() : new Date(t, e, 0).getDate(),
+        s = "<span>" + this.Months[e] + " &nbsp; " + t + "</span>",
+        d = '<div class="table">';
+    d += '<div class="row head">';
+    for (var c = 0; c < 7; c++) d += '<div class="cell">' + this.DaysOfWeek[c] + "</div>";
+    d += "</div>";
+    for (var h, l = dm = "M" == this.f ? 1 : 0 == o ? -5 : 2, v = (c = 0, 0); v < 6; v++) {
+        d += '<div class="row">';
+        for (var m = 0; m < 7; m++) {
+            if ((h = c + dm - o) < 1) d += '<div class="cell disable">' + (u - o + l++) + "</div>";
+            else if (h > i) d += '<div class="cell disable">' + l++ + "</div>";
+            else {
+                d += '<div class="cell' + (r == h && this.CurrentMonth == n && this.CurrentYear == a ? " active" : "") + '"><span>' + h + "</span></div>", l = 1
+            }
+            c % 7 == 6 && h >= i && (v = 10), c++
+        }
+        d += "</div>"
+    }
+    d += "</div>", document.querySelector('[data-render="month-year"]').innerHTML = s, document.querySelector(this.divId).innerHTML = d, document.querySelector(this.divId).setAttribute("data-date", this.Months[e] + " - " + t), document.querySelector(this.divId).setAttribute("data-month", e)
+}, window.onload = function() {
+    var t = new Calendar({
+        RenderID: ".render-a",
+        Format: "M"
+    });
+    t.showCurrent(), t.checkActive();
+    var e = document.querySelectorAll(".header [data-action]");
+    for (i = 0; i < e.length; i++) e[i].onclick = function() {
+        if (document.querySelector(".calendar .header").setAttribute("class", "header"), "true" == document.querySelector(".months").getAttribute("data-loading")) return document.querySelector(".calendar .header").setAttribute("class", "header active"), !1;
+        var e;
+        document.querySelector(".months").setAttribute("data-loading", "true"), this.getAttribute("data-action").includes("prev") ? (t.prevMonth(), e = "left") : (t.nextMonth(), e = "right"), t.checkActive(), document.querySelector(".months").setAttribute("data-flow", e), document.querySelector('.month[data-active="true"]').addEventListener("webkitTransitionEnd", function() {
+            document.querySelector(".months").removeAttribute("data-loading")
+        }), document.querySelector('.month[data-active="true"]').addEventListener("transitionend", function() {
+            document.querySelector(".months").removeAttribute("data-loading")
+        })
+    }
+};
+    </script>
+</body>
+</html>

@@ -1,0 +1,5546 @@
+*{
+    margin: 0; padding: 0; box-sizing: border-box;
+}
+header .benefitme {
+    float: left;
+    width: 100%;
+    padding: 15px 30px 10px;
+    box-shadow: 0 2px 4px #00000033;
+    vertical-align: middle;
+}
+header .benefitme .user-dropdown .dropdown {
+    position: relative;
+    float: right;
+}
+header .benefitme .user-dropdown ul.dropdown-menu {
+    position: absolute;
+    min-width: 110px;
+    text-align: left;
+    left: auto;
+    border: none;
+    right: 0;
+    padding: 0;
+    margin-top: 10px;
+    box-shadow: 0 3px 7px rgb(0 0 0 / 18%);
+}
+header .benefitme .user-dropdown .dropdown-menu li a {
+    padding: 4px 10px;
+    color: #06C6B3;
+    font-size: 13px;
+}
+header .benefitme .user-dropdown button#dLabel {
+    border: none;
+    background: transparent;
+    font-size: 15px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.side-bar {
+    float: left;
+    width: 250px;
+    background-color: #06C6B3;
+    min-height: 100vh;
+}
+.side-bar ul li {
+    list-style: none;
+}
+.side-bar a img {
+    display: inline-block;
+    vertical-align: middle;
+    width: 15px;
+    margin-top: -3px;
+    margin-right: 10px;
+    position: absolute;
+    left: 45px;
+    top: 16px;
+}
+.side-bar a {
+    width: 100%;
+    padding: 10px 26px 10px 70px;
+    display: inline-block;
+    font-size: 16px;
+    text-decoration: none;
+    color: #FFFFFF;
+    line-height: 20px;
+    font-family: 'PF Bague Sans Pro';
+    font-weight: 300;
+    vertical-align: middle;
+    position: relative;
+}
+.add-newoffer{
+    width: calc(100% - 250px);
+    float: left;
+    padding: 0px 25px;
+}
+.add-newoffer .pra-sec p {
+    font-size: 18px;
+    padding: 25px 30px 10px;
+    color: #777777;
+    line-height: 30px;
+    font-family: 'PF Bague Sans Pro';
+    font-weight: 300;
+}
+.add-newoffer .form-box {
+    width: 75%;
+    float: left;
+}
+.add-newoffer .pro-service a {
+    font-size: 18px;
+    line-height: 30px;
+    color: #06C6B3;
+    text-decoration: none;
+    font-family: 'PF Bague Sans Pro';
+    font-weight: 300;
+    padding: 10px 14px;
+    display: block;
+}
+.add-newoffer .form-box.Customer-journey figure {
+    float: left;
+    width: 100%;
+    text-align: center;
+    padding: 6px 12px;
+}
+.add-newoffer .pro-service span {
+    display: inline-block;
+}
+.add-newoffer .pro-service {
+    float: left;
+    width: 100%;
+    box-shadow: 0 2px 4px #00000029;
+    border-radius: 8px;
+   margin-bottom: 30px;
+}
+.add-newoffer .pro-service img {
+    margin-left: 16px;
+}
+.add-newoffer .form-box figure p {
+    padding-top: 10px;
+    font-size: 12px;
+    line-height: 20px;
+    font-family: 'PF Bague Sans Pro';
+    font-weight: 300;
+    padding-left: 14px;
+}
+.add-newoffer .form-box button {
+    min-width: 100%;
+    height: 48px;
+    border: 1px solid#9B3270;
+    background-color: #fff;
+    color: #9B3270;
+    font-size: 18px;
+    font-family: 'PF Bague Sans Pro';
+    line-height: 20px;
+    margin-top: 14px;
+}
+.add-newoffer .form-box .bgcolor{
+    background-color: #06C6B3;
+    border:none;
+    color: #fff;
+}
+.add-newoffer .form-box .form-control {
+    height: 48px;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #ACACAC;
+    border: 1px solid#70707094;
+    font-family: 'PF Bague Sans Pro';
+}
+.add-newoffer .form-box .form-group .discount-offer{
+    background-image: url(../images/discount_sale_icon.png);
+    background-repeat: no-repeat;
+    background-position: 96% center;
+    padding-right: 35px;
+    background-size: 16px;
+}
+.add-newoffer .form-box .form-group .bg-calender {
+    background-image: url(../images/calender_icon.png);
+    background-repeat: no-repeat;
+    background-position: 96% center;
+    padding-right: 35px;
+    background-size: 14px;
+}
+.add-newoffer .Customer-journey {
+    width: 100%;
+    float: left;
+}
+.add-newoffer .form-box h3 {
+    font-size: 20px;
+    margin: 0;
+    line-height: 24px;
+    font-weight: 700;
+    padding: 8px 0px;
+    font-family: 'Futura PT';
+}
+.form-box.Customer-journey .Message {
+    box-shadow: none;
+    margin-bottom: 0;
+}
+.add-newoffer .Customer-journey label {
+    font-size: 16px;
+    color: #ACACAC;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: 'PF Bague Sans Pro';
+}
+.add-newoffer .Customer-journey option{
+    color: #000;
+}
+.add-newoffer .Customer-journey .text-color{
+    font-size: 18px;
+    -webkit-appearance: none;
+    background-image: url(../images/down_arrow_icon.png);
+    background-repeat: no-repeat;
+    background-position:96% center ;
+    padding-right: 35px;
+    background-size: 12px;
+}
+.add-newoffer .generate .givepoint-img{
+    -webkit-appearance: none;
+    background-image: url(../images/down_arrow_icon.png);
+    background-repeat: no-repeat;
+    background-position:97% center ;
+    padding-right: 35px;
+    background-size: 12px;
+}
+.add-newoffer .Customer-journey .category-mr {
+    margin-right: -25px;
+    margin-left: -25px;
+}
+.add-newoffer .generate {
+    float: left;
+    width: 100%;
+    margin-top: 14px;
+}
+.add-newoffer .generate p {
+    margin-top: 0px;
+    font-size: 16px;
+    color: #000;
+    font-weight: bold;
+}
+.add-newoffer .code-img {
+    float: left;
+    width: 100%;
+    padding: 24px;
+}
+.add-newoffer .generate .loction {
+    margin-top: 20px;
+}
+.add-newoffer .code-img figure {
+    float: left;
+    width: 180px;
+    padding: 30px;
+    height: 180px;
+}
+.add-newoffer .code-img figure img {
+    width: 100%;
+    height: 100%;
+}
+.add-newoffer .code-img a{
+    color: #06C6B3;
+    font-family: 'PF Bague Sans Pro';
+    font-weight: 400;
+   text-decoration: none;
+   font-size: 18px;
+}
+.add-newoffer .code-img p{
+    text-align: center;
+}
+/* -----------footer-css--------- */
+.footer-sec {
+    float: left;
+    width: 100%;
+    padding: 10px 30px ;
+    background-color: #DB3F9B;
+    margin-bottom: 20px;
+}
+.footer-sec ul{
+    margin-top: 7px;
+}
+.footer-sec ul li {
+    display: inline-block;  
+}
+.footer-sec ul li a {
+    font-size: 16px;
+    padding-right: 40px;
+    text-decoration: none;
+    color: #fff;
+}
+.footer-sec .gogle-play {
+    padding-right: 25px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+}
+/* -----------footer-css--------- */
+
+
+
+.add-newoffer .form-box .coutome-uploadbtn {
+    color: #ACACAC;
+    float: left;
+    font-size: 18px;
+    padding-top: 50px;
+    width: 100%;
+    position: relative;
+    height: 170px;
+    text-align: center;
+    border: 1px solid #707070;
+    border-radius: 6px;
+}
+.add-newoffer .generate span figure  {
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.add-newoffer .form-group {
+    margin-bottom: 15px;
+    float: left;
+    width: 100%;
+}
+.add-newoffer .form-box .upload-file {
+    height: 170px;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    z-index: 9;
+}
+.add-newoffer .form-group .discount-sale{
+    background-image: url(../images/discount_sale_icon.png);
+    background-repeat: no-repeat;
+    background-position:96% center ;
+    padding-right: 35px;
+}
+.add-newoffer .Customer-journey .click-bar {
+    margin: 10px 0px 20px;
+}
+.add-newoffer .switch {
+    position: relative;
+    display: inline-block;
+    width: 26px;
+    height: 16px;
+    vertical-align: middle;
+}
+.add-newoffer .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.add-newoffer .slider.round {
+    border-radius: 34px;
+}
+.add-newoffer .slider.round:before {
+    border-radius: 50%;
+}
+.add-newoffer .generate span {
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 400;
+    font-family: 'PF Bague Sans Pro';
+    color: #ACACAC;
+}
+.add-newoffer .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #06C6B3;
+    -webkit-transition: .4s;
+    transition: .4s;
+    width: 26px;
+} 
+.add-newoffer .slider:before {
+    position: absolute;
+    content: "";
+    height: 12px;
+    font-size: 10px;
+    width: 12px;
+    left: 2px;
+    bottom: 2px;
+    background-color: #fff;
+    -webkit-transition: .4s;
+    transition: .4s;
+    text-align: center;
+    line-height: 12px;
+}
+.add-newoffer input:checked + .slider:before {
+    -webkit-transform: translateX(20px);
+    -ms-transform: translateX(20px);
+    transform: translateX(10px);
+}
+.category-sec {
+    width: calc(100% - 250px);
+    float: left;
+    padding: 30PX 20px;
+}
+.category-sec .menu-category {
+    float: left;
+    width: 100%;
+    padding-right: 8px;
+}
+.menu-category a {
+    font-size: 16px;
+    background: #06C6B3;
+    padding: 10px;
+    color: #FFFFFF;
+    border-radius: 6px;
+    font-family: 'PF Bague Sans Pro';
+    font-weight: 400;
+    text-decoration: none;
+}
+.menu-category span {
+    font-size: 18px;
+    line-height: 30px;
+    color: #777777;
+}
+.menu-category .color-text{
+    color:#06C6B3;
+}
+.category-sec .table-responsive {
+    float: left;
+    width: 100%;
+    margin-top: 40px;
+}
+.category-sec td {
+    border-top: 0 !important;
+    padding: 24px 20px !important;
+    font-size: 18px;
+    color: #212121;
+    font-family: 'PF Bague Sans Pro';
+    font-weight: 700;
+}
+.category-sec td a img {
+    width: 18px;
+    margin-left: 18px;
+}
+
+.category-sec .table-responsive i.fa.fa-trash-o {
+    color: #9B3270;
+    font-size: 28px;
+}
+.category-sec tr td span a {
+    padding: 0px 5px; 
+}
+.category-sec tr {
+    box-shadow: 0px 2px 4px #00000029;
+    border-radius: 8px;
+}
+.category-sec .menu-switch .refresh a  {
+    color: #168AFF;
+    padding-right: 22px;
+    font-size: 20px;
+    font-weight: 400;
+    background-color: #fff;
+    font-family: 'PF Bague Sans Pro';
+}
+.category-sec .menu-images {
+    float: left;
+    width: 100%;
+    margin-top: 30px;
+    position: relative;
+}
+.category-sec figure img {
+    float: left;
+    width: 100%;
+    border-radius: 10px;
+}
+.category-sec .menu-images figure {
+    float: left;
+    width: 100%;
+    position: relative; 
+}
+.category-sec .menu-images span {
+    position: absolute;
+    z-index: 9;
+    right: 0;
+    top: 0;
+    background: #FFFFFF;
+    height: 32px;
+    width: 32px;
+    text-align: center;
+    line-height: 32px;
+    border-radius: 0px 0px 0px 10px;
+    box-shadow: 0px 3px 6px #00000029;
+}
+.category-sec .menu-images span a{
+    color: #9B3270;
+    font-size: 18px;
+}
+.check-in-tabing .checkin-venuepg {
+    float: left;
+    width: 100%;
+}
+.check-in-tabing ul {
+    margin-left: 0;
+    border: none;
+    border: 1px solid #06c6b3;
+    display: inline-block;
+    margin: 0 !important;
+    border-radius: 3px;
+    overflow: hidden;
+}
+.check-in-tabing ul.nav.nav-tabs li {
+    font-size: 18px;
+    line-height: 26px;
+    font-family: 'Poppins';
+    background-color: #fff;
+    display: inline-block;
+    margin: 0 !important;
+}
+.check-in-tabing ul.nav.nav-tabs li.active {
+    border-radius: 5px;
+}
+.check-in-tabing ul.nav.nav-tabs .checkin-venuepg{
+    border: 1px solid #06C6B3;
+    display: inline-block;
+    width: 295px;
+}
+.check-in-tabing ul.nav.nav-tabs a {
+    color: #06C6B3;
+    padding: 10px 50px;
+    text-decoration: none;
+    border: none;
+    background-color: #fff;
+    margin-right: 0;
+}
+.check-in-tabing ul.nav.nav-tabs a:hover{
+    color: #000;
+}
+.check-in-tabing ul.nav.nav-tabs li a:hover , .check-in-tabing ul.nav.nav-tabs li.active a{
+    background-color: #06C6B3;
+    color: #fff;
+}
+.check-in-add .generate.Customer-journey figure img {
+    width: auto;
+    display: inline-block;
+    max-width: 100%;
+}
+.check-in-add .generate.Customer-journey figure {
+    display: inline-block;
+    vertical-align: middle;
+    width: 200px;
+    float: none;
+    padding: 20px;
+}
+.login {
+    vertical-align: middle;
+    width: 100%;
+    background-image: url(../images/l_bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: table;
+    background-position: center 250px;
+}
+.login .login-form {
+    display: table-cell;
+    width: 800px;
+    margin: 0 auto;
+    vertical-align: middle;
+    text-align: center;
+}
+.login .login-form  .login-form-sec {
+    display: inline-block;
+    width: 950px;
+    vertical-align: middle;
+    background: #ffff;
+    border-radius: 16px;
+    box-shadow: 0px 12px 14px #00000029;
+}
+.login .login-form .login-form-sec .contrary-popular {
+    width: 50%;
+    background: rgb(155,50,112);
+    background: linear-gradient(0deg, rgba(155,50,112,1) 0%, rgba(219,63,155,1) 100%);
+    float: left;
+    padding:50px 32px 80px;
+    border-top-left-radius: 16px ;
+    border-bottom-left-radius:16px ;
+    min-height: 570px;
+}
+.login-form-sec .contrary-popular  figure {
+    float: left;
+    width: 100%;
+    margin-bottom: 40px;
+}
+.login-form-sec .contrary-popular figure img {
+    width: 230px;
+    margin-bottom: 30px;
+}
+.login-form-sec .contrary-popular h3 {
+    color: #FFFFFF;
+    font-size: 29px;
+    line-height: 30px;
+    font-weight: 600;
+    font-family: 'PF Bague Sans Pro';
+    letter-spacing: .80px;
+    margin: 15px 0px;
+}
+.login-form-sec .contrary-popular  p {
+    text-align: center;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-family: 'PF Bague Sans Pro';
+    font-weight: 400;
+    line-height: 26px;
+}
+.login .login-with {
+    float: left;
+    width: 50%;
+    padding-top: 40px;
+}
+.login  h3 {
+    font-size: 32px;
+    line-height: 23px;
+    font-weight: bold;
+    font-family: 'Futura PT';
+    color: #000000;
+    margin-bottom: 18px;
+}
+.login-with .form-box-sec {
+    float: left;
+    width: 100%;
+    padding: 25px 32px;
+}
+.login-with .form-box-sec .form-control {
+    height: 48px;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    font-family: 'PF Bague Sans Pro';
+    border: 1px solid#70707094;
+}
+.login-with .form-box-sec button {
+    font-size: 18px;
+    font-family: 'PF Bague Sans Pro';
+    line-height: 20px;
+    margin-top: 14px;
+    width: 100%;
+    height: 45px;
+    color: #FFFFFF;
+    background-color: #06C6B3;
+    border: none;
+}
+.login .login-facebook {
+    float: left;
+    width: 100%;
+}
+.login .login-with .form-box-sec .password-show {
+    background-image: url(../images/pass_show.png);
+    background-repeat: no-repeat;
+    background-position: 96% center;
+    background-size: 24px;
+}
+.login .login-facebook button {
+    font-size: 15px;
+    background: #fff;
+    color: #1977F3;
+    border: 1px solid #1977F3;
+    margin-bottom: 24px;
+}
+.login .login-facebook button img{
+    margin-right: 8px;
+}
+.login .login-facebook .text-color{
+    color: #E84234;
+    border: 1px solid#E84234;
+}
+.login .login-facebook p{
+    font-size: 18px;
+    line-height: 30px;
+    color: #ACACAC;
+    font-family: 'PF Bague Sans Pro';
+    font-weight: 400;
+}
+.login .login-facebook span {
+    color: #06C6B3;
+    font-size: 22px;
+}
+.login .login-with .sign-up{
+    background-image: url(../images/down_arrow_icon.png);
+    background-repeat: no-repeat;
+    background-position: 96% center;
+    padding-right: 35px;
+    -webkit-appearance: none;
+    background-size: 14px;
+    color: #000;
+}
+.login .sign-up-benefitme{
+    max-height: 570px;
+    overflow-x:  auto;
+}
+.login .login-with .switch {
+    float: right;
+    position: relative;
+    width: 26px;
+    height: 16px;
+    vertical-align: middle;
+}
+.login .login-with .switch.off-cilck{
+    margin-right: 10px;
+}
+.login .login-with  .switch input {
+    width: 0;
+    height: 0;
+    opacity: 0;
+}
+.form-box-sec .slider.bg-color{
+    background-color: #ACACAC;
+}
+.form-box-sec .General{
+    font-size: 18px;
+    line-height: 24px;
+    color: #212121;
+    font-family: 'PF Bague Sans Pro';
+    font-weight: 400;
+}
+.form-box-sec .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #06C6B3;
+    -webkit-transition: .4s;
+    transition: .4s;
+    width: 26px;
+} 
+.login-with .form-box-sec .slider.click:before {
+    border-radius: 50%;
+}
+.login-with .form-box-sec .slider{
+    border-radius: 34px;
+}
+.form-box-sec .slider.bg-color:before{
+    position: absolute;
+    content: "";
+    height: 12px;
+    font-size: 10px;
+    width: 12px;
+    left: 2px;
+    bottom: 2px;
+    background-color:#fff;
+    -webkit-transition: .4s;
+    transition: .4s;
+    text-align: center;
+    line-height: 12px;
+}
+.login-with .form-box-sec .slider:before {
+    position: absolute;
+    content: "";
+    height: 12px;
+    font-size: 10px;
+    width: 12px;
+    right: 2px;
+    bottom: 2px;
+    background-color:#fff;
+    -webkit-transition: .4s;
+    transition: .4s;
+    text-align: center;
+    line-height: 12px;
+}
+.login-with .form-box-sec input:checked + .slider:before {
+    -webkit-transform: translateX(-20px);
+    -ms-transform: translateX(-20px);
+    transform: translateX(-10px);
+}
+.login-with .form-box-sec input:checked + .slider.bg-color:before {
+    -webkit-transform: translateX(20px);
+    -ms-transform: translateX(20px);
+    transform: translateX(10px);
+}
+.login-with .form-box-sec .bg-calender {
+    background-image: url(../images/calender_icon.png);
+    background-repeat: no-repeat;
+    background-position: 96% center;
+    padding-right: 35px;
+    background-size: 14px;
+}
+.Subscription {
+    width: 100%;
+    float: left;
+    background-color: #06C6B3;
+    padding: 30px 0px 50px;
+}
+.Subscription figure{
+    float: left;
+    width: 100%;
+    margin-top: 25px;
+}
+.Subscription h3 {
+    font-size: 43px;
+    color: #FFFFFF;
+    line-height: 40px;
+    font-family: 'Futura PT';
+    font-weight: 600;
+}
+.Subscription p {
+    font-size: 28px;
+    color: #FFFFFF;
+    line-height: 30px;
+    font-family: 'PF Bague Sans Pro';
+    font-weight: 400;
+}
+.Subscription ul {
+    margin-bottom: 22px;
+}
+.Subscription ul li {
+    color: #FFFFFF;
+    list-style: none;
+    padding: 2px 0px;
+    font-size: 20px;
+    line-height: 28px;
+    font-family: 'PF Bague Sans Pro';
+    font-weight: 400;
+}
+.Subscription a {
+    font-size: 18px;
+    padding: 10px 20px 10px;
+    background: #fff;
+    text-decoration: none;
+    margin-top: 0px;
+    color: #06C6B3;
+    border-radius: 5px;
+    font-family: 'PF Bague Sans Pro';
+    font-weight: 400;
+}
+.subscri-features {
+    float: left;
+    width: 100%;
+}
+.subscri-features h3 {
+    font-size: 40px;
+    line-height: 50px;
+    font-family: 'Futura PT';
+    font-weight: 600;
+    color: #000000;
+    text-align: center;
+}
+.subscri-features p {
+    font-size: 26px;
+    line-height: 30px;
+    font-family: 'PF Bague Sans Pro';
+    font-weight: 400;
+    color: #777777;
+    text-align: center;
+}
+ .standard {
+    float: left;
+    width: 100%;
+    margin-top: 20px;
+}
+.standard p{
+    text-align: left !important;
+}
+ .standard p {
+    text-align: left;
+    font-size: 30px;
+    padding: 18px 16px 18px 26px;
+    background: #01C0A242;
+    border-radius: 10px 10px 0px 0px;
+    color: #212121;
+    font-family: 'PF Bague Sans Pro';
+}
+ .standard .month {
+    color: #006756;
+    font-weight: 600;
+}
+.standard .products-promotions {
+    float: left;
+    width: 100%;
+    padding: 8px 32px;
+}
+.standard .products-promotions li {
+    font-size: 18px;
+    list-style: none;
+    padding: 8px 0px;
+    color: #212121;
+    font-family: 'PF Bague Sans Pro';
+    font-weight: 400;
+}
+.standard .products-promotions img {
+    margin-right: 8px;
+    width: 14px;
+}
+.basic-sec{
+    background: #fff !important;
+    width: auto;
+}
+.basic-sec figure{
+    text-align: center;
+    margin-bottom: 20px !important;
+}
+.basic-sec img {
+    width: auto !important;
+}
+.basic-sec h3{
+     color: #000 !important;
+     text-align: center !important;
+     font-size: 32px !important;
+     line-height: 23px !important;
+     font-weight: bold !important;
+     font-family: 'Futura PT' !important;
+     margin-bottom: 24px !important;
+}
+.basic-sec p{font-size: 30px !important;
+    padding: 18px 16px 18px 26px !important;
+    background: #01C0A242 !important;
+    border-radius: 10px 10px 0px 0px !important;
+    color: #212121 !important;
+    font-family: 'PF Bague Sans Pro' !important;
+}
+.standard .products-promotions button.form-control {
+    background: #06C6B3;
+    height: 45px;
+    border: none;
+    font-size: 18px;
+    font-family: 'PF Bague Sans Pro';
+    font-weight: 400;
+    border-radius: 8px;
+}
+ .standard .bg-stand {
+    background: #6ECCEF42;
+}
+ .standard .bg-premiun{
+    background-color: #EFC46E42;
+}
+ .standard .bg-month{
+    color: #B78620;
+}
+.standard  .color-month{
+    color:  #037198;
+}
+.form-box-sec p {
+    font-size: 30px;
+    color: #777777;
+    line-height: 30px;
+    text-align: left;
+    padding-bottom: 20px;
+    font-family: 'PF Bague Sans Pro';
+    font-weight: 400;
+}
+.form-box-sec.payment h3 {
+    text-align: left;
+
+}
+.form-box-sec.otp-below {
+    float: left;
+    width: 100%;
+    padding-top: 0;
+}
+.login-with .form-box-sec ul {
+    margin: 0;
+}
+.login-with .form-box-sec ul label {
+    width: 100%;
+    font-size: 18px;
+    color: #999;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 14px 0px;
+    font-family: 'PF Bague Sans Pro';
+}
+.login-with .form-box-sec ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 0px 10px;
+}
+.login-with .form-box-sec ul label span {
+    color: #06C6B3;
+    font-weight: 700;
+}
+.login-with .form-box-sec ul li input {
+    width: 38px;
+    height: 36px;
+    text-align: center;
+    outline: none;
+    color: #999;
+    border: 1px solid #999;
+    border-radius: 4px;
+}
+.login-with.otp-box {
+    width: 100%;
+}
+.login-form-sec.Verification-otp {
+    width: 550px !important;
+}
+.login .login-with p {
+    font-size: 19px;
+    color: #212121;
+    line-height: 25px;
+    font-family: 'PF Bague Sans Pro';
+    font-weight: 400;
+    margin: 0;
+}
+.appoint-ment{
+    width: calc(100% - 250px);
+    float: left;
+}
+.appoint-ment {
+    width: calc(100% - 250px);
+    float: left;
+    padding: 20px 50px 20px 20px;
+}
+.appoint-ment  .appoint-sec {
+    float: left;
+    width: 100%;
+    padding: 12px;
+}
+.appoint-ment .appoint-sec p {
+    font-size: 22px;
+    color: #777777;
+    line-height: 30px;
+    font-weight: 400;
+    font-family: 'PF Bague Sans Pro';
+}
+.appoint-ment .appoint-sec a {
+    font-size: 16px;
+    text-decoration: none;
+    padding: 8px 24px;
+   
+    background: #06C6B3;
+    color: #FFFFFF;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: 'PF Bague Sans Pro';
+    border-radius: 5px;
+}
+.appoint-ment .new-requests ul {
+    margin-left: 0;
+    border: none;
+    border: 1px solid #06c6b3;
+    display: inline-block;
+    border-radius: 3px;
+    overflow: hidden;
+    margin-bottom: 15px;
+    margin-top: 25px;
+}
+.appoint-ment .new-requests ul.nav.nav-tabs li {
+    font-size: 17px;
+    line-height: 26px;
+    font-family: 'PF Bague Sans Pro';
+    background-color: #fff;
+    display: inline-block;
+    margin: 0 !important;
+}
+.appoint-ment .new-requests ul.nav.nav-tabs a {
+    color: #06C6B3;
+    padding: 10px 40px;
+    text-decoration: none;
+    border: none;
+    background-color: #fff;
+    margin-right: 0;
+    border-radius: 0px;
+}
+.appoint-ment .new-requests ul.nav.nav-tabs li a:hover , .appoint-ment .new-requests ul.nav.nav-tabs li.active a{
+    background-color: #06C6B3;
+    color: #fff;
+}
+.appoint-ment .new-requests {
+    float: left;
+    width: 100%;
+    position: relative;
+}
+.appoint-ment .new-requests .john-doe-box {
+    float: left;
+    width: 100%;
+    padding: 20px 20px;
+    box-shadow: 0px 2px 4px #00000029;
+    border-radius: 10px;
+    margin-bottom: 12px;
+}
+.appoint-ment .new-requests .john-doe-box figure {
+    float: left;
+    width: 100px;
+}
+.appoint-ment .new-requests .john-doe-box figure  img {
+    width: 100%;
+}
+.appoint-ment .new-requests .Jessica-pra {
+    width: calc(100% - 120px);
+    float: left;
+    vertical-align: inherit;
+    padding-left: 20px;
+}
+.appoint-ment .new-requests .Jessica-pra h3 {
+    margin: 0;
+    line-height: 1;
+    font-size: 17px;
+    color: #212121;
+    font-weight: 700;
+    font-family: 'PF Bague Sans Pro';
+    
+}
+.appoint-ment .new-requests .Jessica-pra p {
+    font-size: 15px;
+    margin: 0;
+    font-family: 'PF Bague Sans Pro';
+    line-height: 25px;
+    color: #212121;
+   
+}
+.Jessica-pra.appointment {
+    padding-left: 0px !important;
+}
+.Jessica-pra.appointment p {
+    padding-bottom: 4px !important;
+}
+.Jessica-pra.appointment h3{
+    margin-bottom: 4px !important;
+}
+.appoint-ment .appointment-for p {
+    font-size: 16px;
+    color: #ACACAC;
+    line-height: 30px;
+    letter-spacing: .52px;
+    font-family: 'PF Bague Sans Pro';
+    font-weight: 400;
+}
+.appoint-ment .appointment-for{
+    float: left;
+    width: 100%;
+    margin-bottom: 5px;
+}
+.appoint-ment .appointment-for p span {
+    color: #212121;
+}
+.appoint-ment .new-requests .john-doe-box span a {
+    min-width: 150px;
+    min-height: 42px;
+    font-size: 18px;
+    border-radius: 6px;
+    outline: none;
+    border: none;
+    font-family: 'PF Bague Sans Pro';
+    font-weight: 400;
+    margin: 0 0px 0px 20px;
+    border: 1px solid #9B3270;
+    background: #fff;
+    color: #9B3270;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none !important;
+    padding-top: 7px;
+}
+.appoint-ment .new-requests .john-doe-box span a.accept-bg {
+    color: #fff;
+    background: #06C6B3;
+    border: none;
+}
+.appoint-ment .new-requests .john-doe-box ul {
+    border: none;
+    margin-top: 0;
+    margin-bottom: 0px;
+}
+.appoint-ment .new-requests .john-doe-box li {
+    display: inline-block;
+}
+.appoint-ment .new-requests .john-doe-box li a {
+    padding-left: 15px;
+}
+.appoint-ment .new-requests .Jessica-pra p span {
+    color: #ACACAC;
+    padding-right: 10px;
+}
+.appoint-ment .new-requests .new-booking figure.small-img {
+    float: left;
+    /* width: 50px; */
+}
+.new-booking .number-table {
+    float: left;
+    width: 100%;
+    border-bottom: 10px solid #06C6B3;
+    border-radius: 6px;
+    padding-bottom: 26px;
+    padding-left: 25px;
+}
+.appoint-ment .new-requests .new-booking {
+    float: left;
+    width: 100%;
+    margin-top: 15px;
+    padding: 15px 10px;
+}
+.new-booking .number-table figure {
+    width: 70px;
+    float: left;
+}
+.new-booking .number-table figure img {
+    width: 100%;
+    vertical-align: text-top;
+}
+.number-table.table-box {
+    box-shadow: 0px 2px 4px #00000029;
+    border-bottom: none;
+}
+.appoint-ment .new-requests .john-doe-box figure.avarage-box {
+    width: 70px;
+    float: left;
+}
+.login .login-with p{text-align: center;}
+header .benefitme img[width="230px"] {
+    width: 150px;
+}
+header .benefitme .user-dropdown button span {
+    display: inline-block;
+    vertical-align: middle;
+}
+header .benefitme .user-dropdown button span img {
+    width: 38px;
+    border-radius: 40px;
+    height: 38px;
+    object-fit: cover;
+}
+.user-dropdown button#dLabel {
+    border: none;
+    background: transparent;
+    font-size: 15px;
+    outline: none !important;
+}
+
+@keyframes bake-pie {
+    from {
+      transform: rotate(0deg) translate3d(0,0,0);
+    }
+  }
+  
+.dashboard-chartbox .pieID {
+    display: inline-block;
+    vertical-align: top;
+  }
+  .dashboard-chartbox .pie {
+    height: 200px;
+    width: 200px;
+    position: relative;
+    margin: 0 30px 30px 0;
+    margin: 0 auto 20px!important;
+    display: inline-block;
+    top: 0;
+}
+.dashboard-chartbox .pie::before {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: 1;
+    width: 100px;
+    height: 100px;
+    background: #EEE;
+    border-radius: 50%;
+    top: 50px;
+    left: 50px;
+  }
+.dashboard-chartbox   .pie::after {
+    content: "";
+    display: block;
+    width: 120px;
+    height: 2px;
+    background: rgba(0,0,0,0.1);
+    border-radius: 50%;
+    box-shadow: 0 0 3px 4px rgba(0,0,0,0.1);
+    margin: 220px auto;
+    
+  }
+.dashboard-chartbox .slice {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    clip: rect(0px, 200px, 200px, 100px);
+    animation: bake-pie 1s;
+  }
+.dashboard-chartbox .slice span {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    clip: rect(0px, 200px, 200px, 100px);
+  }
+.dashboard-chartbox  .legend {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background: #FFF;
+    padding: 15px;
+    font-size: 13px;
+    box-shadow: 1px 1px 0 #DDD,
+                2px 2px 0 #BBB;
+  }
+.dashboard-chartbox  .legend li {
+    width: 110px;
+    height: 1.25em;
+    margin-bottom: 0.7em;
+    padding-left: 0.5em;
+    border-left: 1.25em solid black;
+  }
+  .legend em {
+    font-style: normal;
+  }
+.dashboard-chartbox .legend span {
+    float: right;
+  }
+  .dashboard-chartbox  .label {
+    height: 1em;
+    padding: .3em;
+    background: rgba(255, 255, 255, .8);
+    position: absolute;
+    display: none;
+    color:#333;
+    
+  }
+  .dashboard-heading {
+    float: left;
+    width: 100%;
+    background: rgb(183 183 183 / 15%);
+    padding: 10px 10px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.dashboard-heading h3 {
+    font-size: 15px;
+    margin: 0;
+    color: rgb(0 0 0 / 50%);
+}
+.registered-customer {
+    float: left;
+    width: 100%;
+    margin-bottom: 40px;
+    margin-top: 5px;
+}
+.registered-customer h3 , .current-offer h3{
+    font-size: 18px;
+    color: #000;
+    font-family: 'Futura PT';
+    margin: 0;
+}
+.customer-box-sec {
+    float: left;
+    width: 100%;
+    margin-top: 12px;
+}
+.customer-box-sec .customerbox {
+    float: left;
+    width: 100%;
+    padding: 20px 25px;
+    background: #D6FBD7;
+}
+.customer-box-sec .customerbox h4 {
+    margin: 0;
+    font-size: 18px;
+    color: #212121;
+    font-family: 'PF Bague Sans Pro';
+}
+.customer-box-sec .customerbox h4 b {
+    float: right;
+    font-weight: 900;
+    font-family: 'PF Bague Sans Pro';
+}
+.customer-box-sec .customerbox.lightorg {
+    background: #FBF2D6;
+}
+.customerbox.lightblue {
+    background: #D6F4FB;
+}
+.dashboard-chartbox {
+    float: left;
+    width: 100%;
+}
+.dashboard-chartbox .chartbox-sec {
+    padding: 22px 20px;
+    float: left;
+    width: 100%;
+    box-shadow: 0 0 3px rgb(0 0 0 / 16%);
+    text-align: center;
+    min-height: 358px;
+}
+.dashboard-chartbox .chartbox-sec h4 {
+    text-align: left;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Futura PT';
+    color: #212121;
+}
+.dashboard-chartbox .chartbox-sec .selectbox {
+    float: right;
+    font-weight: 400;
+    font-family: 'PF Bague Sans Pro';
+    min-width: 110px;
+    height: 30px;
+    border: 1px solid #707070;
+    box-shadow: none !important;
+    text-shadow: none;
+    outline: none !important;
+    font-size: 15px;
+    color: #212121;
+    padding: 4px 10px;
+}
+.dashboard-chartbox .chartbox-sec .pieID.pie {
+    margin-right: 10px;
+}
+.dashboard-chartbox  .legend {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background: #FFF;
+    padding: 0;
+    font-size: 12px;
+    box-shadow: none;
+}
+.dashboard-chartbox  .legend li {
+    width: 80px;
+    height: 1.25em;
+    margin-bottom: 0.7em;
+    padding-left: 0.5em;
+    border-left: 1.25em solid black;
+    display: inline-block;
+    margin-right: 10px;
+}
+.dashboard-chartbox  .legend li:last-child{margin-left: 0;}
+.dashboard-chartbox .pie::after{margin: 0; display: none;}
+.current-offer {
+    float: left;
+    width: 100%;
+    margin-top: 30px;
+}
+.current-offerBox {
+    float: left;
+    width: 100%;
+    box-shadow: 0 1px 4px rgb(0 0 0 / 20%);
+    margin-bottom: 30px;
+    padding: 15px 20px;
+    margin-top: 10px;
+}
+.current-offerBox .imgbox {
+    float: left;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    margin-right: 10px;
+    border: 1px solid #eee;
+}
+.current-offerBox .imgbox img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: inline-block;
+    vertical-align: middle;
+}
+.current-offerBox .current-offercont {
+    float: left;
+    width: calc(100% - 125px);
+    width: -ms-calc(100% - 125px);
+    width: -moz-calc(100% - 125px);
+    width: -webkit-calc(100% - 125px);
+}
+.current-offerBox .current-offercont h5 {
+    color: #212121;
+    font-size: 13px;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+.current-offerBox .current-offercont  h4 {
+    color: #212121;
+    font-size: 17px;
+    font-family: 'PF Bague Sans Pro';
+    font-weight: 600;
+    margin-top: 6px;
+    margin-bottom: 7px;
+}
+.current-offerBox .current-offercont h4 span {
+    opacity: .4;
+    font-weight: 500;
+    font-size: 16px;
+}
+.current-offerBox .current-offercont p {
+    color: #212121;
+    font-size: 15px;
+    font-family: 'PF Bague Sans Pro';
+    font-weight: 600;
+}
+.current-offerBox .current-offercont p .discount-cont {
+    background: rgb(255 0 0 / 70%);
+    padding: 8px 15px;
+    color: #fff;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.current-offerBox .current-offercont p 
+ .redclr {
+    color: #FF3939;
+    font-weight: 400;
+    padding-left: 12px;
+}
+.current-offerBox .socialIcon {
+    float: right;
+    list-style: none;
+    margin: 0;
+}
+.current-offerBox .socialIcon li {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 10px;
+}
+
+.current-offerBox .socialIcon li a {
+    display: inline-block;
+    vertical-align: middle;
+    color: #777777;
+    font-size: 13px;
+}
+.current-offerBox .socialIcon li a i {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -5px;
+    margin-right: 5px;
+}
+.current-offerBox .socialIcon li a i img {
+    width: 16px;
+}
+.current-offerBox .socialIcon li:last-child {
+    margin: 0;
+}
+.current-offerBox .socialIcon li:last-child a i {
+    margin-right: 0;
+}
+.current-offerBox .socialIcon li:last-child a i img {
+    width: 14px;
+}
+.current-offerBox .prabox {
+    padding: 15px 30px 0;
+    color: #ACACAC;
+    line-height: 24px;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+.current-offerBox .prabox p {
+    margin: 0;
+}
+.addproduct-btn {
+    background: #06c6b3;
+    padding: 12px 15px;
+    color: #fff !important;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none !important;
+}
+.products-hedmrtop {
+    margin-top: -5px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.appoint-ment .new-requests ul.socialIcon {
+    border: 0;
+}
+.add-newoffer.appoint-ment .current-offer {
+    margin-top: 0;
+}
+.add-newoffer.appoint-ment ul.nav.nav-tabs {
+    margin-top: 0;
+}
+.appoint-ment .new-requests .addproduct-btn {
+    position: absolute;
+    right: 0;
+    top: -62px;
+}
+div#messages .new-booking {
+    margin-bottom: 10px;
+}
+.appoint-ment .new-requests div#messages .john-doe-box li:last-child a img {
+    width: 18px;
+}
+.appoint-ment .new-requests div#messages .john-doe-box li:nth-child(2) a img {
+    width: 18px;
+}
+.appoint-ment .new-requests div#messages .john-doe-box li:first-child a img {
+    width: 24px;
+}
+.new-booking .active.col-md-4 .number-table {
+    float: left;
+    width: 100%;
+    border-bottom: 10px solid #06C6B3;
+    border-radius: 6px;
+    padding-bottom: 26px;
+    padding-left: 25px;
+}
+
+ul.nav.nav-tabs.number-sec.col-md-12{
+    border: 0;
+}
+ul.nav.nav-tabs.number-sec.col-md-12 a.number-table {
+    background: none !important;
+    padding: 15px;
+}
+ul.nav.nav-tabs.number-sec li a:hover ,  ul.nav.nav-tabs.number-sec li.active a{
+    float: left;
+    width: 100%;
+    border-bottom: 10px solid #06C6B3;
+    border-radius: 6px;
+    padding-bottom: 26px;
+    padding-left: 25px;
+}
+
+
+.add-newoffer span.box-input {
+    position: relative;
+    width: 17px;
+    height: 17px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.add-newoffer .Customer-journey .menu-text {
+    font-size: 18px;
+    line-height: 28px;
+    color: #000000;
+    font-weight: 400;
+    vertical-align: sub;
+    font-family: 'PF Bague Sans Pro';
+}
+.add-newoffer  span.box-input input {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+    cursor: pointer;
+    opacity: 0;
+    display: block;
+    margin: 0;
+}
+.add-newoffer span.box-input small {
+    background: #fff;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border-radius: 2px;
+    border: 1px solid#ACACAC;
+}
+.add-newoffer span.box-input input:checked + small {
+    background: #06C6B3;
+    border-color:#06C6B3;
+}
+
+.add-newoffer span.box-input input:checked + small:after{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 5px;
+    width: 6px;
+    height: 12px;
+    border: solid #fff;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+.add-newoffer .form-group .timer-icon {
+    background-image: url(../images/timer-icon.png);
+    background-repeat: no-repeat;
+    background-position: 96% center;
+    padding-right: 35px;
+}
+.add-newoffer .form-group .close-icon{
+    background-image: url(../images/close-icon.png);
+    background-repeat: no-repeat;
+    background-position: 98% center;
+    padding-right: 35px;
+}
+.add-newoffer .generate .add-new{
+    color: #06C6B3;
+}
+.appoint-ment .new-requests .john-doe-box .pizza-sec {
+    float: left;
+    width: 200px;
+}
+.appoint-ment .new-requests .john-doe-box .pizza-sec img {
+    border-radius: 15px;
+}
+.appoint-ment .new-requests .Jessica-pra.text-contant {
+    width: calc(100% - 200px);
+}
+.appoint-ment .new-requests .Jessica-pra.text-contant p {
+    color: rgb(0 0 0 / 60%);
+}
+.appoint-ment .new-requests .Jessica-pra.text-contant h3 {
+    line-height: 24px;
+    margin-bottom: 3px;
+}
+.Jessica-pra.text-contant span.offer {
+    color: red;
+    font-size: 14px;
+    line-height: 20px;
+}
+.appoint-ment .appoint-sec button {
+    border: none;
+    background: none;
+    color: #168AFF;
+    font-size: 16px;
+    padding-right: 20px;
+    font-family: 'PF Bague Sans Pro';
+}
+.appoint-ment .appoint-sec button i.fa.fa-refresh {
+    font-size: 19px;
+    vertical-align: text-top;
+    padding-right: 5px;
+}
+.appoint-ment .new-requests .Jessica-pra.text-contant p img {
+    width: 20px;
+    vertical-align: text-top;
+ 
+}
+.appoint-ment .new-requests .Jessica-pra.text-contant .per-night {
+    font-size: 12px;
+    font-weight: 400;
+    color: #ACACAC;
+    vertical-align: top;
+}
+.appoint-ment .new-requests .Jessica-pra.text-contant li {
+    display: inline-block;
+    font-size: 14px;
+    color: rgb(0 0 0 / 57%);
+    padding-right:10px ;
+}
+.appoint-ment .new-requests .Jessica-pra.text-contant li img {
+    width: 15px;
+    margin-right: 7px;
+}
+.appoint-ment .new-requests .Jessica-pra.text-contant ul {
+    margin: 5px 0px;
+}
+.appoint-ment .new-requests .Jessica-pra.room-for p {
+    margin-top: 26px;
+}
+
+.appoint-ment .new-requests .Jessica-pra .mobile-box figure {
+    width: 85px;
+    height: 80px;
+    padding: 6px;
+}
+.appoint-ment .new-requests .Jessica-pra .mobile-box figure img{
+    width: 100%;
+}
+.appoint-ment .new-requests .Jessica-pra .mobile-box {
+    padding-right: 15px !important;
+    float: left;
+}
+.appoint-ment .new-requests .Jessica-pra .mobile-box p {
+    font-size: 12px;
+}
+
+*,:after,:before{box-sizing:border-box}
+.Jessica-pra.calendar-box .pull-left{float:left}
+.Jessica-pra.calendar-box .pull-right{float:right}
+.Jessica-pra.calendar-box .clearfix:after,.clearfix:before{content:'';display:table}
+.Jessica-pra.calendar-box .clearfix:after{clear:both;display:block}
+
+
+.Jessica-pra.calendar-box .calendar {
+    width: 400px;
+    font-size: 100%;
+    perspective: 1000px;
+    cursor: default;
+    position: relative;
+}
+
+.calendar .header{height:50px;position:relative;color:#fff}
+.calendar .header .text{
+    position:absolute;
+    top:0;left:0;
+    right:0;bottom:0;
+    background-color:#9B3270;
+    padding:0px;
+    transform:rotateX(90deg);
+    transform-origin:bottom;
+    backface-visibility:hidden;
+    transition:.4s ease-in-out 0s;
+    box-shadow:0 6px 20px 0 rgba(0,0,0,.19), 0 8px 17px 0 rgba(0,0,0,.2);
+    opacity:0;
+    border-radius: 12px 12px 0px 0px;
+}
+.Jessica-pra.calendar-box .calendar .header .text>span {
+    text-align: center;
+    padding: 15px;
+    display: block;
+}
+.new-requests .form-control {
+    display: block;
+    width: 100%;
+    height: 40px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+.calendar .header.active .text{transform:rotateX(0deg);opacity:1}
+.months{width:100%;height: 320px;position:relative}
+.months .hr{height:1px;margin:15px 0;background:#ccc}
+.Jessica-pra.calendar-box .month {
+    padding: 15px;
+    width: inherit;
+    height: inherit;
+    background: #fff;
+    position: absolute;
+    backface-visibility: hidden;
+    transition: all .4s ease-in-out 0s;
+    box-shadow: 0px 2px 4px #00000029;
+    border-radius: 0px 0px 12px 12px;
+}
+.months[data-flow="left"] .month{transform:rotateY(-180deg)}
+.months[data-flow="right"] .month{transform:rotateY(180deg)}
+.table{width:100%;font-size:10px;font-weight:400;display:table}
+.table .row{display:table-row}
+.table .row.head{color:#308ff0;text-transform:uppercase}
+.Jessica-pra.calendar-box .table .row .cell {
+    width: 14.28%;
+    padding: 8px 5px;
+    text-align: center;
+    display: table-cell;
+    font-size: 16px;
+}
+.table .row .cell.disable{color:#ccc}
+.table .row .cell span{display:block;width:28px;height:28px;line-height:28px;transition:color,background .4s ease-in-out 0s}
+.Jessica-pra.calendar-box .table .row .cell.active span{
+    color:#fff;
+    background-color:#06C6B3;
+    border-radius: 50px;
+    font-size: 16px;
+    
+}
+.months .month[data-active="true"]{transform:rotateY(0)}
+.header [data-action]{color:inherit;position:absolute;top:50%;margin-top:-20px;width:40px;height:40px;z-index:1;opacity:0;transition:all .4s ease-in-out 0s}
+.header [data-action]>i{width:20px;height:20px;display:block;position:absolute;left:50%;top:50%;margin-top:-10px;margin-left:-10px}
+.header [data-action]>i:before,.header [data-action]>i:after{top:50%;margin-top:-1px;content:'';position:absolute;height:2px;width:20px;border-top:2px solid;border-radius:2px}
+.header [data-action*="prev"]{left:15px}
+.header [data-action*="next"]{right:15px}
+.header [data-action*="prev"]>i:before,.header [data-action*="prev"]>i:after{left:0}
+.header [data-action*="prev"]>i:before{top:3px;transform:rotate(-45deg)}
+.header [data-action*="prev"]>i:after{top:auto;bottom:3px;transform:rotate(45deg)}
+.header [data-action*="next"]>i:before,.header [data-action*="next"]>i:after{right:0}
+.header [data-action*="next"]>i:before{top:auto;bottom:3px;transform:rotate(-45deg)}
+.header [data-action*="next"]>i:after{top:3px;transform:rotate(45deg)}
+.header.active [data-action]{opacity:1}
+
+[data-theme="jan"]{background-color:none}
+[data-theme="jan"] .row.head{color:#000}
+[data-theme="jan"] .header .text,
+[data-theme="jan"] .table .row .cell.active span{background-color:none}
+
+[data-theme="feb"]{background-color:none}
+[data-theme="feb"] 
+.Jessica-pra.calendar-box .row.head{
+       color:#000;
+       font-size: 18px;
+}
+[data-theme="feb"] .header .text,
+[data-theme="feb"] .table .row .cell.active span{background-color:none}
+
+[data-theme="mar"]{background-color:none}
+[data-theme="mar"] .row.head{color:#000}
+[data-theme="mar"] .header .text,
+[data-theme="mar"] .table .row .cell.active span{background-color:none}
+
+[data-theme="apr"]{background-color:none}
+[data-theme="apr"] .row.head{color:#000}
+[data-theme="apr"] .header .text,
+[data-theme="apr"] .table .row .cell.active span{background-color:none}
+
+[data-theme="may"]{background-color:none}
+[data-theme="may"] .row.head{color:#000}
+[data-theme="may"] .header .text,
+[data-theme="may"] .table .row .cell.active span{background-color:none}
+
+[data-theme="jun"]{background-color:none}
+[data-theme="jun"] .row.head{color:#000}
+[data-theme="jun"] .header .text,
+[data-theme="jun"] .table .row .cell.active span{background-color:none}
+
+[data-theme="jul"]{background-color:none}
+[data-theme="jul"] .row.head{color:#000}
+[data-theme="jul"] .header .text,
+[data-theme="jul"] .table .row .cell.active span{background-color:none}
+
+[data-theme="aug"]{background-color:none}
+[data-theme="aug"] .row.head{color:#000}
+[data-theme="aug"] .header .text,
+[data-theme="aug"] .table .row .cell.active span{background-color:none}
+
+[data-theme="sep"]{background-color:none}
+[data-theme="sep"] .row.head{color:#000}
+[data-theme="sep"] .header .text,
+[data-theme="sep"] .table .row .cell.active span{background-color:none}
+
+[data-theme="oct"]{background-color:none}
+[data-theme="oct"] .row.head{color:#000}
+[data-theme="oct"] .header .text,
+[data-theme="oct"] .table .row .cell.active span{background-color:none}
+
+[data-theme="nov"]{background-color:none}
+[data-theme="nov"] .row.head{color:#000}
+[data-theme="nov"] .header .text,
+[data-theme="nov"] .table .row .cell.active span{background-color:none}
+
+[data-theme="dec"]{background-color:none}
+[data-theme="dec"] .row.head{color:#000}
+[data-theme="dec"] .header .text,
+[data-theme="dec"] .table .row .cell.active span{background-color:none}
+.Jessica-pra.appointment a {
+    font-size: 16px;
+    line-height: 16px;
+    color: #06C6B3;
+    font-weight: 300;
+    font-family: 'PF Bague Sans Pro';
+    text-decoration: none;
+}
+.Jessica-pra.appointment a img {
+    margin-left: 10px;
+    width: 12px;
+}
+.appointment-for.title label {
+    font-size: 15px;
+    color: #ACACAC;
+    font-weight: 400;
+    line-height: 28px;
+}
+.appointment-for.title .switch {
+    position: relative;
+    display: inline-block;
+    width: 26px;
+    height: 16px;
+    vertical-align: middle;
+}
+.appointment-for.title .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.appointment-for.title .slider.round {
+    border-radius: 34px;
+}
+.appointment-for.title .slider.round:before {
+    border-radius: 50%;
+}
+.appointment-for.title .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #06C6B3;
+    -webkit-transition: .4s;
+    transition: .4s;
+    width: 26px;
+} 
+.appointment-for.title .slider:before {
+    position: absolute;
+    content: "";
+    height: 12px;
+    font-size: 10px;
+    width: 12px;
+    left: 2px;
+    bottom: 2px;
+    background-color: #fff;
+    -webkit-transition: .4s;
+    transition: .4s;
+    text-align: center;
+    line-height: 12px;
+}
+.appointment-for.title input:checked + .slider:before {
+    -webkit-transform: translateX(20px);
+    -ms-transform: translateX(20px);
+    transform: translateX(10px);
+}
+.appointment-for.title .form-group {
+    margin-bottom: 8px;
+}
+.appointment-for.title .form-group .timer-icon {
+    background-image: url(../images/timer-icon.png);
+    background-repeat: no-repeat;
+    background-position: 96% center;
+    padding-right: 35px;
+}
+.appointment-for.title {
+    padding: 0px 20px;
+    box-shadow: 0px 3px 6px#00000029;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+.appointment-for.title .recurring {
+    color: #000;
+}
+.new-requests button {
+    min-width: 100%;
+    height: 48px;
+    border: 1px solid#9B3270;
+    background-color: #fff;
+    color: #9B3270;
+    font-size: 18px;
+    font-family: 'PF Bague Sans Pro';
+    line-height: 20px;
+    margin-top: 14px;
+}
+.new-requests .bgcolor {
+    background-color: #06C6B3;
+    border: none;
+    color: #fff;
+}
+.new-requests .Jessica-pra.calendar-box {
+    padding-left: 0px;
+}
+.appoint-ment .new-requests .Jessica-pra.text-contant a {
+    font-size: 16px;
+    color: #168AFF;
+    font-weight: 400;
+    line-height: 28px;
+    text-decoration: none;
+    font-family: 'PF Bague Sans Pro';
+}
+.form-box.check-in-add.award-sec {
+    float: left;
+    width: 100%;
+}
+.form-box.check-in-add.award-sec a {
+    font-size: 16px;
+    text-decoration: none;
+    color: #777777;
+    font-family: 'PF Bague Sans Pro';
+    font-weight: 400;
+    line-height: 24px;
+}
+.form-box.check-in-add.award-sec a img{
+    width: 15px;
+    margin-right: 5px;
+}
+.regular-visitor p {
+    font-size: 18px;
+    line-height: 30px;
+    color: #212121;
+    font-weight: 400;
+    font-family: 'PF Bague Sans Pro';
+}
+.regular-visitor {
+    float: left;
+    width: 100%;
+    padding: 40px 20px;
+}
+.regular-visitor .mascot {
+    font-size: 24px;
+    line-height: 35px;
+    color: #02BB46;
+    font-weight: 700;
+    font-family: 'PF Bague Sans Pro';
+}
+.aboutform-cont {
+    float: left;
+    width: 100%;
+}
+.add-newoffer .form-box .aboutform-cont h3 {
+    padding-left: 15px;
+}
+.add-newoffer .form-box .aboutform-cont textarea {
+    height: 140px;
+}
+.add-newoffer .generate.Customer-journey {
+    margin-bottom: 35px;
+}
+.add-newoffer .form-box .form-control.fb-icon{background-image: url(../images/facebook.png); background-position: 98% center; background-size: 18px; background-repeat: no-repeat;}
+.add-newoffer .form-box .form-control.insta-icon{background-image: url(../images/instagram.png); background-position: 98% center; background-size: 18px; background-repeat: no-repeat;}
+.add-newoffer .form-box .form-control.twi-icon{background-image: url(../images/twitter.png); background-position: 98% center; background-size: 18px; background-repeat: no-repeat;}
+.add-newoffer .logoupload-cont .coutome-uploadbtn {
+    padding-top: 0;
+    height: auto;
+}
+.add-newoffer .logoupload-cont .coutome-uploadbtn .upload-file {
+    height: 90px;
+    padding: 0;
+    margin-top: -3px;
+}
+.add-newoffer .logoupload-cont .coutome-uploadbtn {
+    height: 90px;
+    width: 90px;
+    border-radius: 90px;
+    padding-top: 28px;
+}
+.add-newoffer .form-group.logoupload-cont label {
+    width: 100%;
+    text-align: left;
+}
+.massageBox_sec {float: left; width: 100%; margin-top: 30px;}
+.massageBox_sec  .innerrow {
+    margin: 0 -15px;
+    display: block;
+}
+.massageBox_sec  .col_grid5 {
+    width: 41.66666667%;
+    float: left;
+    padding: 0 15px;
+}
+
+.notifivation_box {
+    box-shadow: 0px 3px 2px rgb(6 198 179 / 50%);
+    padding: 32px 28px 22px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-top: 8px;
+    background: #fff;
+}
+.massageBox_sec .fw {
+    width: 100%;
+    float: left;
+}
+.massageBox_sec .notifivation_box {
+    padding: 16px;
+    background-color: #fff;
+}
+
+.massageBox_sec .notifivation_box {
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+.massageBox_sec .img_notiProfile {
+    float: left;
+    width: 38px;
+    height: 38px;
+    overflow: hidden;
+    border-radius: 60px;
+    box-shadow: 0px 1px 3px rgb(0 0 0 / 20%);
+}
+.massageBox_sec .notification_cont {
+    float: left;
+    width: calc(100% - 45px);
+    width: -webkit-calc(100% - 45px);
+    width: -ms-calc(100% - 45px);
+    width: -moz-calc(100% - 45px);
+    padding-left: 14px;
+}
+.text-left {
+    text-align: left;
+}
+
+.massageBox_sec .col_grid7 {
+    width: 58.33333333%;
+    float: left;
+    padding: 0 15px;
+}
+.massageBox_sec .notifivation_box .col_grid5.text-right {
+    padding-left: 0;
+}
+
+.text-right {
+    text-align: right;
+}
+.massageBox_sec .col_grid5 {
+    width: 41.66666667%;
+    float: left;
+    padding: 0 15px;
+}
+.massageBox_sec .notification_cont h4 {
+    font-size: 15px;
+    font-family: 'Futura PT';
+    font-weight: normal;
+}
+
+.massageBox_sec .notification_cont h4 {
+    color: #086C84;
+    margin: 0;
+}
+.massageBox_sec .dateText {
+    color: #000;
+    font-size: 14px;
+    font-family: 'PF Bague Sans Pro';
+    opacity: .4;
+}
+
+.massageBox_sec .text-right {
+    text-align: right;
+}
+.massageBox_sec .notification_cont .notipra_text {
+    margin-top: 5px;
+}
+.massageBox_sec .notipra_text p {
+    color: #7F7F7F;
+    font-size: 14px;
+    line-height: 14px;
+    font-family: 'PF Bague Sans Pro';
+    margin: 0;
+}
+.massageBox_sec .col_grid7 {
+    width: 58.33333333%;
+    float: left;
+    padding: 0 15px;
+}
+.massageBox_sec .msgSendBox_Cont {
+    float: left;
+    width: 100%;
+    background: #fff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: relative;
+    padding: 0 12px 12px;
+}
+.massageBox_sec .padrow {
+    margin: 0 -12px;
+    display: block;
+}
+.msgSendBox_Cont .chatHeadBox {
+    padding: 14px 15px 12px;
+    background: #E5F6F6;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    font-size: 16px;
+    color: #086C84;
+    font-family: 'Futura PT';
+}
+.massageBox_sec  .chatHeadBox .chatuser_img, .usertick_box span {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.massageBox_sec  .chatHeadBox .chatuser_img img, .usertick_box span img {
+    width: 100%;
+}
+.massageBox_sec  .otherUser_greenSec {
+    margin-top: 40px;
+}
+.massageBox_sec .otherUser_greenBox {
+    line-height: 20px;
+    width: 380px;
+    float: right;
+    background: rgb(6 198 179 / 19%);
+    padding: 15px 30px 15px 18px;
+    text-align: left;
+    color: #212121;
+    font-family: 'PF Bague Sans Pro';
+    font-size: 14px;
+    border-radius: 20px;
+    border-bottom-right-radius: 0;
+}
+.massageBox_sec .usertick_box {
+    vertical-align: middle;
+    display: inline-block;
+    font-size: 12px;
+    color: #afafaf;
+    font-family: 'Futura PT';
+    margin-top: 11px;
+}
+.massageBox_sec  .usertick_box span {
+    width: 22px;
+    height: 22px;
+    margin-right: 4px;
+    margin-top: -4px;
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: middle;
+}
+.massageBox_sec .selpUser_redBox {
+    float: left;
+    border-radius: 20px;
+    border-bottom-left-radius: 0;
+    background: #9B3270;
+    color: #fff;
+}
+.massageBox_sec .findblog_search .input-icon i img {
+    width: 15px;
+}
+.massageBox_sec  .findblog_search {
+    position: relative;
+    box-shadow: 0px 2px 5px rgb(0 0 0 / 15%);
+    padding: 4px;
+    border-radius: 6px;
+    margin-bottom: 35px;
+    background-color: #fff;
+    margin-top: 30px;
+}
+.massageBox_sec  .findblog_search .from-group {
+    position: relative;
+    float: left;
+    width: 100%;
+}
+.massageBox_sec  .sendBox_msg_input .input-icon {
+    width: calc(100% - 100px);
+    width: -webkit-calc(100% - 100px);
+    width: -ms-calc(100% - 100px);
+    width: -moz-calc(100% - 100px);
+    float: left;
+}
+.massageBox_sec .findblog_search .input-icon i {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    z-index: 999;
+    color: #000;
+    opacity: .5;
+    cursor: pointer;
+    margin-top: -9px;
+}
+.massageBox_sec .findblog_search .input-icon .form-control {
+    width: 100%;
+    border: 0;
+    position: relative;
+    color: #000;
+    font-size: 16px;
+    padding: 8px 15px 1px 40px;
+    background-color: transparent;
+    height: 44px !important;
+    line-height: 44px !important;
+}
+.massageBox_sec  .findblog_search .btn_group {
+    float: right;
+    width: 100px;
+    min-width: 95px;
+}
+.massageBox_sec .sendBox_msg_input .btn_group button.input-btn {
+    height: 55px;
+    line-height: 58px;
+    font-size: 18px;
+    font-family: 'PF Bague Sans Pro';
+    letter-spacing: 0.5px;
+}
+
+.massageBox_sec .input-btn {
+    background: #06C6B3;
+    border: 0;
+    width: 100%;
+    border-radius: 6px;
+    font-size: 26px;
+    color: #fff;
+    letter-spacing: .5px;
+    font-family: 'PF Bague Sans Pro';
+    cursor: pointer;
+    z-index: 99;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    transition: all .5s ease .0s;
+    -webkit-transition: all .5s ease .0s;
+    -ms-transition: all .5s ease .0s;
+    -moz-transition: all .5s ease .0s;
+    padding: 12px !important;
+    box-shadow: 0px 3px 6px rgb(0 0 0 / 15%);
+    -webkit-box-shadow: 0px 3px 6px rgb(0 0 0 / 15%);
+    -moz-box-shadow: 0px 3px 6px rgb(0 0 0 / 15%);
+    font-weight: normal !important;
+    height: auto !important;
+    line-height: initial !important;
+    position: relative;
+}
+
+.massageBox_sec  .sendBox_msg_input .btn_group button.input-btn {
+    height: 55px;
+    line-height: 58px;
+    font-size: 18px;
+    font-family: 'PF Bague Sans Pro';
+    letter-spacing: 0.5px;
+}
+.massageBox_sec .img_notiProfile img {
+    width: 100%;
+    height: 100%;
+}
+.add-newuser-add {
+    float: right;
+    width: calc(100% - 250px);
+    width: -webkit-calc(100% - 250px);
+    width: -ms-calc(100% - 250px);
+    width: -moz-calc(100% - 250px);
+    padding: 25px 50px 30px 25px;
+}
+
+.company-categroy {
+    width: calc(100% - 250px);
+    width: -webkit-calc(100% - 250px);
+    width: -ms-calc(100% - 250px);
+    width: -moz-calc(100% - 250px);
+    float: right;
+    padding: 25px 45px 50px 20px;
+}
+.company-categroy .company-sec {
+    float: left;
+    width: 100%;
+    padding: 10px;
+    border-radius: 2px;
+    background: rgb(204 204 204 / 39%);
+    border: 0;
+}
+.company-categroy .company-sec p {
+    font-size: 20px;
+    color: #777777;
+    font-family: 'PF Bague Sans Pro';
+    font-weight: 400;
+    margin-bottom: 0;
+    margin-top: 9px;
+    line-height: 20px;
+}
+.company-categroy .table-responsive {
+    float: left;
+    width: 100%;
+}
+.sub-category  .table {
+    width: 100%;
+    max-width: 100%;
+    margin-top: 15px;
+}
+.company-categroy tr {
+    box-shadow: 0px 2px 4px #00000029;
+    border-radius: 8px;
+}
+.company-categroy td {
+    border-top: 0 !important;
+    padding: 12px 15px !important;
+    font-size: 17px;
+    color: #212121;
+    font-weight: 600;
+    font-family: 'PF Bague Sans Pro';
+}
+.company-categroy tr td span a {
+    padding: 0px 5px;
+}
+
+.company-categroy .company-sec a {
+    text-decoration: none;
+    font-size: 15px;
+    background: #06C6B3;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: #ffff;
+    display: inline-block;
+}
+.company-categroy .sub-category {
+    float: left;
+    width: 100%;
+    padding: 30px 0 0;
+}
+.company-categroy .sub-category  ul {
+    border: 1px solid #06c6b3;
+    display: inline-block;
+    margin: 0 !important;
+    border-radius: 3px;
+    overflow: hidden;
+}
+.company-categroy .sub-category  ul.nav.nav-tabs li {
+    font-size: 18px;
+    line-height: 26px;
+    font-family: 'Poppins';
+    background-color: #fff;
+    display: inline-block;
+    margin: 0 !important;
+}
+.company-categroy .sub-category  ul.nav.nav-tabs li.active {
+    border-radius: 5px;
+}
+.company-categroy .sub-category  ul.nav.nav-tabs .checkin-venuepg{
+    border: 1px solid #06C6B3;
+    display: inline-block;
+    width: 295px;
+}
+.company-categroy .sub-category  ul.nav.nav-tabs a {
+    color: #06C6B3;
+    padding: 8px 24px;
+    text-decoration: none;
+    border: none;
+    background-color: #fff;
+    margin-right: 0;
+    border-radius: 0;
+    font-family: 'PF Bague Sans Pro';
+}
+.company-categroy .sub-category  ul.nav.nav-tabs a:hover{
+color: #000;
+}
+.company-categroy .sub-category  ul.nav.nav-tabs li a:hover , .company-categroy .sub-category  ul.nav.nav-tabs li.active a{
+background-color: #06C6B3;
+color: #fff;
+}
+.company-categroy .table-responsive span {
+    font-weight: 300;
+}          
+
+.add-newuser-add .user-name .upload-file {
+    float: left;
+    width: 100%;
+    min-height: 220px;
+    position: relative;
+    text-align: center;
+    border: 1px dashed #B9B9B9;
+    border-radius: 10px;
+    padding-top: 80px;
+    color: #B9B9B9;
+    font-family: 'PF Bague Sans Pro';
+    font-weight: 400;
+    letter-spacing: .52px;
+    font-size: 18px;
+}
+.add-newuser-add .user-name .choise-file {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    z-index: 9;
+}
+.add-newuser-add .user-name .upload-file figure {
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.add-newuser-add .company-name {
+    float: left;
+    width: 100%;
+    padding: 20px;
+    box-shadow: 0 3px 6px #00000029;
+    border-radius: 8px;
+}
+.company-name.role-manager ul li span {
+    color: #ACACAC;
+}
+.add-newuser-add .company-name li {
+    font-size: 16px;
+    list-style: none;
+    line-height: 26px;
+    color: #212121;   
+    font-weight: 400;
+    font-family: 'PF Bague Sans Pro';
+}
+.add-newuser-add .company-name ul {
+    margin: 0;
+}
+.add-newuser-add h3 {
+    font-size: 22px;
+    color: #000;
+    font-weight: 600;
+    font-family: 'Futura PT';
+}
+.add-newuser-add .company-name h3 {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    padding-bottom: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: 'PF Bague Sans Pro';
+}
+.add-newuser-add .company-name p {
+    font-size: 16px;
+    color: #212121;
+    margin: 0;
+    padding-bottom: 6px;
+    font-family: 'PF Bague Sans Pro';
+    font-weight: 400;
+}
+.add-newuser-add .company-name .free-bgcolor {
+    color: #06C6B3;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    padding-left: 8px;
+}
+.add-newuser-add .role-manager span {
+    min-width: 130px;
+    display: inline-block;
+    font-size: 17px;
+    font-weight: 400;
+    color: #ACACAC;
+}
+.add-newuser-add .company-name span {
+    font-size: 16px;
+    color: #212121;
+    font-weight: 300;
+}
+.add-newuser-add span.auto-accept {
+    margin: 4px 0px;
+    width: 100%;
+    display: inline-block;
+}
+.add-newuser-add .auto-accept {
+    margin: 30px 0px;
+    font-size: 18px;
+    color: #ACACAC;
+    line-height: 24px;
+    font-family: 'PF Bague Sans Pro';
+    font-weight: 400;
+}
+.add-newuser-add .min-color {
+    color: #9B3270;
+}
+.add-newuser-add .pull-right.messg-icon{
+    min-width: 40px;
+}
+.add-newuser-add .accept-btn {
+    float: left;
+    width: 100%;
+}
+.add-newuser-add .accept-btn button {
+    min-width: 160px;
+    padding: 10px;
+    font-size: 18px;
+    line-height: 28px;
+    color: #9B3270;
+    background: #fff;
+    border: 1px solid #9B3270;
+    border-radius: 6px;
+    font-weight: 400;
+    font-family: 'PF Bague Sans Pro';
+}
+.add-newuser-add .accept-btn .bgcolor{
+    background-color: #06C6B3;
+    color: #FFFFFF;
+    border: none;
+}
+.add-newuser-add .normal-business {
+    float: left;
+    width: 75%;
+    margin-top: 18px;
+}
+
+.normal-business span.box-input {
+    position: relative;
+    width: 17px;
+    height: 17px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.normal-business span.box-input input{
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+    cursor: pointer;
+    opacity: 0;
+    display: block;
+    margin: 0;
+}
+.companyinfo-banner {
+    width: 100%;
+    float: left;
+    margin-top: 15px;
+}
+.companyinfo-banner img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.parallax-resturent-sec {
+    float: left;
+    width: 100%;
+}
+.parallax-resturent-sec .imgleft {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 100px;
+    float: left;
+    margin-top: -40px;
+}
+.parallax-resturent-sec .imgleft  img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+.parallax-resturent-sec .right-pracont {
+    float: left;
+    width: calc(100% - 100px);
+    width: -webkit-calc(100% - 100px);
+    width: -ms-calc(100% - 100px);
+    width: -moz-calc(100% - 100px);
+    padding-left: 18px;
+}
+.parallax-resturent-sec .right-pracont .social-cont {
+    width: auto;
+    float: right;
+    list-style: none;
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+.parallax-resturent-sec .right-pracont .social-cont li {
+    display: inline-block;
+    vertical-align: middle;
+}
+.parallax-resturent-sec .right-pracont .social-cont li a {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10px;
+}
+.parallax-resturent-sec .right-pracont .social-cont li a img {
+    width: 25px;
+}
+.parallax-resturent-sec .freeversion-sec {
+    float: left;
+    width: 100%;
+}
+.parallax-resturent-sec .freeversion-sec h4 {
+    margin: 0;
+    font-size: 14px;
+    color: #B7B7B7;
+    line-height: 1;
+    margin-bottom: 10px;
+}
+.parallax-resturent-sec .freeversion-sec h4 span {
+    margin-left: 10px;
+}
+.parallax-resturent-sec .freeversion-sec h4.red {
+    color: #FF4E4E;
+}
+.parallax-resturent-sec .freeversion-sec .msg-sec {
+    margin-top: -45px;
+}
+.parallax-resturent-sec .freeversion-sec .msg-sec a {
+    display: inline-block;
+    vertical-align: top;
+}
+.parallax-resturent-sec .freeversion-sec .msg-sec a img {
+    width: 35px;
+}
+.parallax-resturent-sec .right-pracont h3 {
+    margin-top: 12px;
+}
+.parallax-resturent-sec {
+    padding-left: 20px;
+}
+.praadress-cont {
+    float: left;
+    width: 100%;
+}
+.praadress-cont h4 {
+    font-size: 15px;
+    color: #000;
+}
+.praadress-cont h4 i {
+    display: inline-block;
+    vertical-align: bottom;
+    margin-right: 8px;
+}
+.praadress-cont h4 i img {
+    width: 13px;
+}
+.praadress-cont h4 span {
+    color: #B7B7B7;
+    margin-right: 10px;
+}
+.praadress-cont .mrtop20 {
+    margin-top: 20px;
+}
+.company-aboutpra-cont {
+    float: left;
+    width: 100%;
+    margin-top: 10px;
+}
+.company-aboutpra-cont h3 {
+    margin-top: 4px;
+    font-size: 18px;
+}
+.company-aboutpra-cont  p {
+    font-size: 14px;
+    color: #ACACAC;
+    line-height: 25px;
+}
+.praadress-cont .pra {
+    color: #B7B7B7;
+    font-size: 16px;
+    line-height: 24px;
+}
+.calldetail-box {
+    width: 100%;
+    float: left;
+    list-style: none;
+}
+.calldetail-box li {
+    display: inline-block;
+    vertical-align: middle;
+}
+.calldetail-box li a {
+    display: inline-block;
+    vertical-align: middle;
+}
+.calldetail-box li a img {
+    display: inline-block;
+    vertical-align: middle;
+    width: 13px;
+    margin-right: 0 !important;
+}
+.sabscrib-sec {
+    float: left;
+    width: 100%;
+    padding-left: 15px;
+}
+.sabscrib-sec h3 {
+    font-family: 'Futura PT' !important;
+    line-height: 1 !important;
+}
+.sabscrib-sec p{font-size: 17px !important;}
+.sabscrib-sec .advertisements-sec {
+    float: left;
+    width: 100%;
+}
+.sabscrib-sec .advertisements-sec p {
+    font-size: 16px !important;
+}
+.sabscrib-sec .advertisements-sec p img {
+    width: 11px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -4px;
+    margin-right: 10px;
+}
+.john-doe.pading-none {
+    box-shadow: none;
+}
+.add-newuser-add .user-name .form-control.extrapad {
+    padding-left: 30px;
+}
+.rediocheck-box {
+    float: left;
+    width: 100%;
+}
+.rediocheck-box .rediocheck-cont {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+.rediocheck-box .rediocheck-cont .redio-input {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 !important;
+    margin-top: -5px !important;
+    margin-right: 5px !important;
+}
+.rediocheck-box .rediocheck-cont label {
+    display: inline-block;
+    margin: 0 !important;
+    width: auto;
+    line-height: 1;
+}
+.add-newuser-add.fw {
+    width: 100% !important;
+    padding: 15px 0 0;
+}
+.add-newuser-add.fw .form-group {
+    margin: 0 0 10px;
+}
+.add-newuser-add.fw .form-group label {
+    display: inline;
+    margin-left: 5px;
+    width: auto;
+}
+
+  .graph-cart.wrapper {
+    display: block;
+    margin: 2em auto;
+    border: 0;
+    width: 100%;
+    height: 350px;
+    position: relative;
+    float: left;
+    box-shadow: 0 3px 3px rgb(0 0 0 / 10%);
+}
+.graph-cart.wrapper .label {
+    height: 1em;
+    padding: .3em;
+    background: rgba(255, 255, 255, .8);
+    position: absolute;
+    display: none;
+    color:#333;
+    
+  }
+  .payment-table {
+    float: left;
+    width: 100%;
+}
+.payment-table table.table {
+    float: left;
+    width: 100%;
+}
+.payment-table table.table th {
+    border: 0;
+    background: #9B3270;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 8px 15px;
+}
+.payment-table table.table  td {
+    padding: 8px 15px;
+    font-size: 14px;
+    color: #000;
+}
+.payment-table table.table td .lightblue {
+    color: #06C6B3;
+}
+.payment-table table.table td 
+span.greentext {
+color: #00B548;
+}
+.payment-table table.table td 
+span.erdtext {
+color: #FF5151;
+}
+.payment-table table.table th:last-child {
+width: 145px;
+}
+.add-newuser-add table.menu-table .mexican {
+    width: 250px;
+    padding: 25px;
+    vertical-align: top;
+}
+table.Companies .table-for {
+    width: 0px;
+}
+.company-categroy table.Companies {
+    float: left;
+    width: 100%;
+}
+.add-newoffer .form-box textarea.form-control {
+    height: 150px;
+}
+
+
+
+
+
+
+header .benefitme {
+    float: left;
+    width: 100%;
+    padding: 15px 30px 10px;
+    box-shadow: 0 2px 4px #00000033;
+    vertical-align: middle;
+}
+header .benefitme .user-dropdown .dropdown {
+    position: relative;
+    float: right;
+}
+header .benefitme .user-dropdown ul.dropdown-menu {
+    position: absolute;
+    min-width: 110px;
+    text-align: left;
+    left: auto;
+    border: none;
+    right: 0;
+    padding: 0;
+    margin-top: 10px;
+    box-shadow: 0 3px 7px rgb(0 0 0 / 18%);
+}
+header .benefitme .user-dropdown .dropdown-menu li a {
+    padding: 4px 10px;
+    color: #06C6B3;
+    font-size: 13px;
+}
+header .benefitme .user-dropdown button#dLabel {
+    border: none;
+    background: transparent;
+    font-size: 15px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.side-bar {
+    float: left;
+    width: 250px;
+    background-color: #06C6B3;
+    min-height: 100vh;
+}
+.side-bar ul li {
+    list-style: none;
+}
+.side-bar a img {
+    display: inline-block;
+    vertical-align: middle;
+    width: 15px;
+    margin-top: -3px;
+    margin-right: 10px;
+    position: absolute;
+    left: 45px;
+    top: 16px;
+}
+.side-bar a {
+    width: 100%;
+    padding: 10px 26px 10px 70px;
+    display: inline-block;
+    font-size: 16px;
+    text-decoration: none;
+    color: #FFFFFF;
+    line-height: 20px;
+    font-family: 'PF Bague Sans Pro';
+    font-weight: 300;
+    vertical-align: middle;
+    position: relative;
+}
+.add-newoffer{
+    width: calc(100% - 250px);
+    float: left;
+    padding: 0px 25px;
+}
+.add-newoffer .pra-sec p {
+    font-size: 18px;
+    padding: 25px 30px 10px;
+    color: #777777;
+    line-height: 30px;
+    font-family: 'PF Bague Sans Pro';
+    font-weight: 300;
+}
+.add-newoffer .form-box {
+    width: 75%;
+    float: left;
+}
+.add-newoffer .pro-service a {
+    font-size: 18px;
+    line-height: 30px;
+    color: #06C6B3;
+    text-decoration: none;
+    font-family: 'PF Bague Sans Pro';
+    font-weight: 300;
+    padding: 10px 14px;
+    display: block;
+}
+.add-newoffer .form-box.Customer-journey figure {
+    float: left;
+    width: 100%;
+    text-align: center;
+    padding: 6px 12px;
+}
+.add-newoffer .pro-service span {
+    display: inline-block;
+}
+.add-newoffer .pro-service {
+    float: left;
+    width: 100%;
+    box-shadow: 0 2px 4px #00000029;
+    border-radius: 8px;
+   margin-bottom: 30px;
+}
+.add-newoffer .pro-service img {
+    margin-left: 16px;
+}
+.add-newoffer .form-box figure p {
+    padding-top: 10px;
+    font-size: 12px;
+    line-height: 20px;
+    font-family: 'PF Bague Sans Pro';
+    font-weight: 300;
+    padding-left: 14px;
+}
+.add-newoffer .form-box button {
+    min-width: 100%;
+    height: 48px;
+    border: 1px solid#9B3270;
+    background-color: #fff;
+    color: #9B3270;
+    font-size: 18px;
+    font-family: 'PF Bague Sans Pro';
+    line-height: 20px;
+    margin-top: 14px;
+}
+.add-newoffer .form-box .bgcolor{
+    background-color: #06C6B3;
+    border:none;
+    color: #FFFFFF;
+}
+.add-newoffer .form-box .form-control {
+    height: 48px;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #ACACAC;
+    border: 1px solid#70707094;
+    font-family: 'PF Bague Sans Pro';
+}
+.add-newoffer .form-box .form-group .discount-offer{
+    background-image: url(../images/discount_sale_icon.png);
+    background-repeat: no-repeat;
+    background-position: 96% center;
+    padding-right: 35px;
+    background-size: 16px;
+}
+.add-newoffer .form-box .form-group .bg-calender {
+    background-image: url(../images/calender_icon.png);
+    background-repeat: no-repeat;
+    background-position: 96% center;
+    padding-right: 35px;
+    background-size: 14px;
+}
+.add-newoffer .Customer-journey {
+    width: 100%;
+    float: left;
+}
+.add-newoffer .form-box h3 {
+    font-size: 20px;
+    margin: 0;
+    line-height: 24px;
+    font-weight: 700;
+    padding: 8px 0px;
+    font-family: 'Futura PT';
+}
+.form-box.Customer-journey .Message {
+    box-shadow: none;
+    margin-bottom: 0;
+}
+.add-newoffer .Customer-journey label {
+    font-size: 16px;
+    color: #ACACAC;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: 'PF Bague Sans Pro';
+}
+.add-newoffer .Customer-journey option{
+    color: #000000;
+}
+.add-newoffer .Customer-journey .text-color{
+    font-size: 18px;
+    -webkit-appearance: none;
+    background-image: url(../images/down_arrow_icon.png);
+    background-repeat: no-repeat;
+    background-position:96% center ;
+    padding-right: 35px;
+    background-size: 12px;
+}
+.add-newoffer .generate .givepoint-img{
+    -webkit-appearance: none;
+    background-image: url(../images/down_arrow_icon.png);
+    background-repeat: no-repeat;
+    background-position:97% center ;
+    padding-right: 35px;
+    background-size: 12px;
+}
+.add-newoffer .Customer-journey .category-mr {
+    margin-right: -25px;
+    margin-left: -25px;
+}
+.add-newoffer .generate {
+    float: left;
+    width: 100%;
+    margin-top: 14px;
+}
+.add-newoffer .generate p {
+    margin-top: 0px;
+    font-size: 16px;
+    color: #000000;
+    font-weight: bold;
+}
+.add-newoffer .code-img {
+    float: left;
+    width: 100%;
+    padding: 24px;
+}
+.add-newoffer .generate .loction {
+    margin-top: 20px;
+}
+.add-newoffer .code-img figure {
+    float: left;
+    width: 180px;
+    padding: 30px;
+    height: 180px;
+}
+.add-newoffer .code-img figure img {
+    width: 100%;
+    height: 100%;
+}
+.add-newoffer .code-img a{
+    color: #06C6B3;
+    font-family: 'PF Bague Sans Pro';
+    font-weight: 400;
+   text-decoration: none;
+   font-size: 18px;
+}
+.add-newoffer .code-img p{
+    text-align: center;
+}
+/* -----------footer-css--------- */
+.footer-sec {
+    float: left;
+    width: 100%;
+    padding: 10px 30px ;
+    background-color: #DB3F9B;
+    margin-bottom: 20px;
+}
+.footer-sec ul{
+    margin-top: 7px;
+}
+.footer-sec ul li {
+    display: inline-block;  
+}
+.footer-sec ul li a {
+    font-size: 16px;
+    padding-right: 40px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.footer-sec .gogle-play {
+    padding-right: 25px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+/* -----------footer-css--------- */
+
+
+
+.add-newoffer .form-box .coutome-uploadbtn {
+    color: #ACACAC;
+    float: left;
+    font-size: 18px;
+    padding-top: 50px;
+    width: 100%;
+    position: relative;
+    height: 170px;
+    text-align: center;
+    border: 1px solid #707070;
+    border-radius: 6px;
+}
+.add-newoffer .generate span figure  {
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.add-newoffer .form-group {
+    margin-bottom: 15px;
+    float: left;
+    width: 100%;
+}
+.add-newoffer .form-box .upload-file {
+    height: 170px;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    z-index: 9;
+}
+.add-newoffer .form-group .discount-sale{
+    background-image: url(../images/discount_sale_icon.png);
+    background-repeat: no-repeat;
+    background-position:96% center ;
+    padding-right: 35px;
+}
+.add-newoffer .Customer-journey .click-bar {
+    margin: 10px 0px 20px;
+}
+.add-newoffer .switch {
+    position: relative;
+    display: inline-block;
+    width: 26px;
+    height: 16px;
+    vertical-align: middle;
+}
+.add-newoffer .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.add-newoffer .slider.round {
+    border-radius: 34px;
+}
+.add-newoffer .slider.round:before {
+    border-radius: 50%;
+}
+.add-newoffer .generate span {
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 400;
+    font-family: 'PF Bague Sans Pro';
+    color: #ACACAC;
+}
+.add-newoffer .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #06C6B3;
+    -webkit-transition: .4s;
+    transition: .4s;
+    width: 26px;
+} 
+.add-newoffer .slider:before {
+    position: absolute;
+    content: "";
+    height: 12px;
+    font-size: 10px;
+    width: 12px;
+    left: 2px;
+    bottom: 2px;
+    background-color: #FFFFFF;
+    -webkit-transition: .4s;
+    transition: .4s;
+    text-align: center;
+    line-height: 12px;
+}
+.add-newoffer input:checked + .slider:before {
+    -webkit-transform: translateX(20px);
+    -ms-transform: translateX(20px);
+    transform: translateX(10px);
+}
+.category-sec {
+    width: calc(100% - 250px);
+    float: left;
+    padding: 30PX 20px;
+}
+.category-sec .menu-category {
+    float: left;
+    width: 100%;
+    padding-right: 8px;
+}
+.menu-category a {
+    font-size: 16px;
+    background: #06C6B3;
+    padding: 10px;
+    color: #FFFFFF;
+    border-radius: 6px;
+    font-family: 'PF Bague Sans Pro';
+    font-weight: 400;
+    text-decoration: none;
+}
+.menu-category span {
+    font-size: 18px;
+    line-height: 30px;
+    color: #777777;
+}
+.menu-category .color-text{
+    color:#06C6B3;
+}
+.category-sec .table-responsive {
+    float: left;
+    width: 100%;
+    margin-top: 40px;
+}
+.category-sec td {
+    border-top: 0 !important;
+    padding: 24px 20px !important;
+    font-size: 18px;
+    color: #212121;
+    font-family: 'PF Bague Sans Pro';
+    font-weight: 700;
+}
+.category-sec td a img {
+    width: 18px;
+    margin-left: 18px;
+}
+
+.category-sec .table-responsive i.fa.fa-trash-o {
+    color: #9B3270;
+    font-size: 28px;
+}
+.category-sec tr td span a {
+    padding: 0px 5px; 
+}
+.category-sec tr {
+    box-shadow: 0px 2px 4px #00000029;
+    border-radius: 8px;
+}
+.category-sec .menu-switch .refresh a  {
+    color: #168AFF;
+    padding-right: 22px;
+    font-size: 20px;
+    font-weight: 400;
+    background-color: #fff;
+    font-family: 'PF Bague Sans Pro';
+}
+.category-sec .menu-images {
+    float: left;
+    width: 100%;
+    margin-top: 30px;
+    position: relative;
+}
+.category-sec figure img {
+    float: left;
+    width: 100%;
+    border-radius: 10px;
+}
+.category-sec .menu-images figure {
+    float: left;
+    width: 100%;
+    position: relative; 
+}
+.category-sec .menu-images span {
+    position: absolute;
+    z-index: 9;
+    right: 0;
+    top: 0;
+    background: #FFFFFF;
+    height: 32px;
+    width: 32px;
+    text-align: center;
+    line-height: 32px;
+    border-radius: 0px 0px 0px 10px;
+    box-shadow: 0px 3px 6px #00000029;
+}
+.category-sec .menu-images span a{
+    color: #9B3270;
+    font-size: 18px;
+}
+.check-in-tabing .checkin-venuepg {
+    float: left;
+    width: 100%;
+}
+.check-in-tabing ul {
+    margin-left: 0;
+    border: none;
+    border: 1px solid #06c6b3;
+    display: inline-block;
+    margin: 0 !important;
+    border-radius: 3px;
+    overflow: hidden;
+}
+.check-in-tabing ul.nav.nav-tabs li {
+    font-size: 18px;
+    line-height: 26px;
+    font-family: 'Poppins';
+    background-color: #FFFFFF;
+    display: inline-block;
+    margin: 0 !important;
+}
+.check-in-tabing ul.nav.nav-tabs li.active {
+    border-radius: 5px;
+}
+.check-in-tabing ul.nav.nav-tabs .checkin-venuepg{
+    border: 1px solid #06C6B3;
+    display: inline-block;
+    width: 295px;
+}
+.check-in-tabing ul.nav.nav-tabs a {
+    color: #06C6B3;
+    padding: 10px 50px;
+    text-decoration: none;
+    border: none;
+    background-color: #FFFFFF;
+    margin-right: 0;
+}
+.check-in-tabing ul.nav.nav-tabs a:hover{
+    color: #000;
+}
+.check-in-tabing ul.nav.nav-tabs li a:hover , .check-in-tabing ul.nav.nav-tabs li.active a{
+    background-color: #06C6B3;
+    color: #FFFFFF;
+}
+.check-in-add .generate.Customer-journey figure img {
+    width: auto;
+    display: inline-block;
+    max-width: 100%;
+}
+.check-in-add .generate.Customer-journey figure {
+    display: inline-block;
+    vertical-align: middle;
+    width: 200px;
+    float: none;
+    padding: 20px;
+}
+.login {
+    vertical-align: middle;
+    width: 100%;
+    background-image: url(../images/l_bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: table;
+    background-position: center 250px;
+}
+.login .login-form {
+    display: table-cell;
+    width: 800px;
+    margin: 0 auto;
+    vertical-align: middle;
+    text-align: center;
+}
+.login .login-form  .login-form-sec {
+    display: inline-block;
+    width: 950px;
+    vertical-align: middle;
+    background: #FFFFFF;
+    border-radius: 16px;
+    box-shadow: 0px 12px 14px #00000029;
+}
+.login .login-form .login-form-sec .contrary-popular {
+    width: 50%;
+    background: rgb(155,50,112);
+    background: linear-gradient(0deg, rgba(155,50,112,1) 0%, rgba(219,63,155,1) 100%);
+    float: left;
+    padding:50px 32px 80px;
+    border-top-left-radius: 16px ;
+    border-bottom-left-radius:16px ;
+    min-height: 570px;
+}
+.login-form-sec .contrary-popular  figure {
+    float: left;
+    width: 100%;
+    margin-bottom: 40px;
+}
+.login-form-sec .contrary-popular figure img {
+    width: 230px;
+    margin-bottom: 30px;
+}
+.login-form-sec .contrary-popular h3 {
+    color: #FFFFFF;
+    font-size: 29px;
+    line-height: 30px;
+    font-weight: 600;
+    font-family: 'PF Bague Sans Pro';
+    letter-spacing: .80px;
+    margin: 15px 0px;
+}
+.login-form-sec .contrary-popular  p {
+    text-align: center;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-family: 'PF Bague Sans Pro';
+    font-weight: 400;
+    line-height: 26px;
+}
+.login .login-with {
+    float: left;
+    width: 50%;
+    padding-top: 40px;
+}
+.login  h3 {
+    font-size: 32px;
+    line-height: 23px;
+    font-weight: bold;
+    font-family: 'Futura PT';
+    color: #000000;
+    margin-bottom: 18px;
+}
+.login-with .form-box-sec {
+    float: left;
+    width: 100%;
+    padding: 25px 32px;
+}
+.login-with .form-box-sec .form-control {
+    height: 48px;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    font-family: 'PF Bague Sans Pro';
+    border: 1px solid#70707094;
+}
+.login-with .form-box-sec button {
+    font-size: 18px;
+    font-family: 'PF Bague Sans Pro';
+    line-height: 20px;
+    margin-top: 14px;
+    width: 100%;
+    height: 45px;
+    color: #FFFFFF;
+    background-color: #06C6B3;
+    border: none;
+}
+.login .login-facebook {
+    float: left;
+    width: 100%;
+}
+.login .login-with .form-box-sec .password-show {
+    background-image: url(../images/pass_show.png);
+    background-repeat: no-repeat;
+    background-position: 96% center;
+    background-size: 24px;
+}
+.login .login-facebook button {
+    font-size: 15px;
+    background: #FFFFFF;
+    color: #1977F3;
+    border: 1px solid #1977F3;
+    margin-bottom: 24px;
+}
+.login .login-facebook button img{
+    margin-right: 8px;
+}
+.login .login-facebook .text-color{
+    color: #E84234;
+    border: 1px solid#E84234;
+}
+.login .login-facebook p{
+    font-size: 18px;
+    line-height: 30px;
+    color: #ACACAC;
+    font-family: 'PF Bague Sans Pro';
+    font-weight: 400;
+}
+.login .login-facebook span {
+    color: #06C6B3;
+    font-size: 22px;
+}
+.login .login-with .sign-up{
+    background-image: url(../images/down_arrow_icon.png);
+    background-repeat: no-repeat;
+    background-position: 96% center;
+    padding-right: 35px;
+    -webkit-appearance: none;
+    background-size: 14px;
+    color: #000;
+}
+.login .sign-up-benefitme{
+    max-height: 570px;
+    overflow-x:  auto;
+}
+.login .login-with .switch {
+    float: right;
+    position: relative;
+    width: 26px;
+    height: 16px;
+    vertical-align: middle;
+}
+.login .login-with .switch.off-cilck{
+    margin-right: 10px;
+}
+.login .login-with  .switch input {
+    width: 0;
+    height: 0;
+    opacity: 0;
+}
+.form-box-sec .slider.bg-color{
+    background-color: #ACACAC;
+}
+.form-box-sec .General{
+    font-size: 18px;
+    line-height: 24px;
+    color: #212121;
+    font-family: 'PF Bague Sans Pro';
+    font-weight: 400;
+}
+.form-box-sec .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #06C6B3;
+    -webkit-transition: .4s;
+    transition: .4s;
+    width: 26px;
+} 
+.login-with .form-box-sec .slider.click:before {
+    border-radius: 50%;
+}
+.login-with .form-box-sec .slider{
+    border-radius: 34px;
+}
+.form-box-sec .slider.bg-color:before{
+    position: absolute;
+    content: "";
+    height: 12px;
+    font-size: 10px;
+    width: 12px;
+    left: 2px;
+    bottom: 2px;
+    background-color:#FFFFFF;
+    -webkit-transition: .4s;
+    transition: .4s;
+    text-align: center;
+    line-height: 12px;
+}
+.login-with .form-box-sec .slider:before {
+    position: absolute;
+    content: "";
+    height: 12px;
+    font-size: 10px;
+    width: 12px;
+    right: 2px;
+    bottom: 2px;
+    background-color:#FFFFFF;
+    -webkit-transition: .4s;
+    transition: .4s;
+    text-align: center;
+    line-height: 12px;
+}
+.login-with .form-box-sec input:checked + .slider:before {
+    -webkit-transform: translateX(-20px);
+    -ms-transform: translateX(-20px);
+    transform: translateX(-10px);
+}
+.login-with .form-box-sec input:checked + .slider.bg-color:before {
+    -webkit-transform: translateX(20px);
+    -ms-transform: translateX(20px);
+    transform: translateX(10px);
+}
+.login-with .form-box-sec .bg-calender {
+    background-image: url(../images/calender_icon.png);
+    background-repeat: no-repeat;
+    background-position: 96% center;
+    padding-right: 35px;
+    background-size: 14px;
+}
+.Subscription {
+    width: 100%;
+    float: left;
+    background-color: #06C6B3;
+    padding: 30px 0px 50px;
+}
+.Subscription figure{
+    float: left;
+    width: 100%;
+    margin-top: 25px;
+}
+.Subscription h3 {
+    font-size: 43px;
+    color: #FFFFFF;
+    line-height: 40px;
+    font-family: 'Futura PT';
+    font-weight: 600;
+}
+.Subscription p {
+    font-size: 28px;
+    color: #FFFFFF;
+    line-height: 30px;
+    font-family: 'PF Bague Sans Pro';
+    font-weight: 400;
+}
+.Subscription ul {
+    margin-bottom: 22px;
+}
+.Subscription ul li {
+    color: #FFFFFF;
+    list-style: none;
+    padding: 2px 0px;
+    font-size: 20px;
+    line-height: 28px;
+    font-family: 'PF Bague Sans Pro';
+    font-weight: 400;
+}
+.Subscription a {
+    font-size: 18px;
+    padding: 10px 20px 10px;
+    background: #FFFFFF;
+    text-decoration: none;
+    margin-top: 0px;
+    color: #06C6B3;
+    border-radius: 5px;
+    font-family: 'PF Bague Sans Pro';
+    font-weight: 400;
+}
+.subscri-features {
+    float: left;
+    width: 100%;
+}
+.subscri-features h3 {
+    font-size: 40px;
+    line-height: 50px;
+    font-family: 'Futura PT';
+    font-weight: 600;
+    color: #000000;
+    text-align: center;
+}
+.subscri-features p {
+    font-size: 26px;
+    line-height: 30px;
+    font-family: 'PF Bague Sans Pro';
+    font-weight: 400;
+    color: #777777;
+    text-align: center;
+}
+ .standard {
+    float: left;
+    width: 100%;
+    margin-top: 20px;
+}
+.standard p{
+    text-align: left !important;
+}
+ .standard p {
+    text-align: left;
+    font-size: 30px;
+    padding: 18px 16px 18px 26px;
+    background: #01C0A242;
+    border-radius: 10px 10px 0px 0px;
+    color: #212121;
+    font-family: 'PF Bague Sans Pro';
+}
+ .standard .month {
+    color: #006756;
+    font-weight: 600;
+}
+.standard .products-promotions {
+    float: left;
+    width: 100%;
+    padding: 8px 32px;
+}
+.standard .products-promotions li {
+    font-size: 18px;
+    list-style: none;
+    padding: 8px 0px;
+    color: #212121;
+    font-family: 'PF Bague Sans Pro';
+    font-weight: 400;
+}
+.standard .products-promotions img {
+    margin-right: 8px;
+    width: 14px;
+}
+.basic-sec{
+    background: #FFFFFF !important;
+    width: auto;
+}
+.basic-sec figure{
+    text-align: center;
+    margin-bottom: 20px !important;
+}
+.basic-sec img {
+    width: auto !important;
+}
+.basic-sec h3{
+     color: #000000 !important;
+     text-align: center !important;
+     font-size: 32px !important;
+     line-height: 23px !important;
+     font-weight: bold !important;
+     font-family: 'Futura PT' !important;
+     margin-bottom: 24px !important;
+}
+.basic-sec p{font-size: 30px !important;
+    padding: 18px 16px 18px 26px !important;
+    background: #01C0A242 !important;
+    border-radius: 10px 10px 0px 0px !important;
+    color: #212121 !important;
+    font-family: 'PF Bague Sans Pro' !important;
+}
+.standard .products-promotions button.form-control {
+    background: #06C6B3;
+    height: 45px;
+    border: none;
+    font-size: 18px;
+    font-family: 'PF Bague Sans Pro';
+    font-weight: 400;
+    border-radius: 8px;
+}
+ .standard .bg-stand {
+    background: #6ECCEF42;
+}
+ .standard .bg-premiun{
+    background-color: #EFC46E42;
+}
+ .standard .bg-month{
+    color: #B78620;
+}
+.standard  .color-month{
+    color:  #037198;
+}
+.form-box-sec p {
+    font-size: 30px;
+    color: #777777;
+    line-height: 30px;
+    text-align: left;
+    padding-bottom: 20px;
+    font-family: 'PF Bague Sans Pro';
+    font-weight: 400;
+}
+.form-box-sec.payment h3 {
+    text-align: left;
+
+}
+.form-box-sec.otp-below {
+    float: left;
+    width: 100%;
+    padding-top: 0;
+}
+.login-with .form-box-sec ul {
+    margin: 0;
+}
+.login-with .form-box-sec ul label {
+    width: 100%;
+    font-size: 18px;
+    color: #999999;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 14px 0px;
+    font-family: 'PF Bague Sans Pro';
+}
+.login-with .form-box-sec ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 0px 10px;
+}
+.login-with .form-box-sec ul label span {
+    color: #06C6B3;
+    font-weight: 700;
+}
+.login-with .form-box-sec ul li input {
+    width: 38px;
+    height: 36px;
+    text-align: center;
+    outline: none;
+    color: #999999;
+    border: 1px solid #999999;
+    border-radius: 4px;
+}
+.login-with.otp-box {
+    width: 100%;
+}
+.login-form-sec.Verification-otp {
+    width: 550px !important;
+}
+.login .login-with p {
+    font-size: 19px;
+    color: #212121;
+    line-height: 25px;
+    font-family: 'PF Bague Sans Pro';
+    font-weight: 400;
+    margin: 0;
+}
+.appoint-ment{
+    width: calc(100% - 250px);
+    float: left;
+}
+.appoint-ment {
+    width: calc(100% - 250px);
+    float: left;
+    padding: 20px 50px 20px 20px;
+}
+.appoint-ment  .appoint-sec {
+    float: left;
+    width: 100%;
+    padding: 12px;
+}
+.appoint-ment .appoint-sec p {
+    font-size: 22px;
+    color: #777777;
+    line-height: 30px;
+    font-weight: 400;
+    font-family: 'PF Bague Sans Pro';
+}
+.appoint-ment .appoint-sec a {
+    font-size: 16px;
+    text-decoration: none;
+    padding: 8px 24px;
+   
+    background: #06C6B3;
+    color: #FFFFFF;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: 'PF Bague Sans Pro';
+    border-radius: 5px;
+}
+.appoint-ment .new-requests ul {
+    margin-left: 0;
+    border: none;
+    border: 1px solid #06c6b3;
+    display: inline-block;
+    border-radius: 3px;
+    overflow: hidden;
+    margin-bottom: 15px;
+    margin-top: 25px;
+}
+.appoint-ment .new-requests ul.nav.nav-tabs li {
+    font-size: 17px;
+    line-height: 26px;
+    font-family: 'PF Bague Sans Pro';
+    background-color: #FFFFFF;
+    display: inline-block;
+    margin: 0 !important;
+}
+.appoint-ment .new-requests ul.nav.nav-tabs a {
+    color: #06C6B3;
+    padding: 10px 40px;
+    text-decoration: none;
+    border: none;
+    background-color: #FFFFFF;
+    margin-right: 0;
+    border-radius: 0px;
+}
+.appoint-ment .new-requests ul.nav.nav-tabs li a:hover , .appoint-ment .new-requests ul.nav.nav-tabs li.active a{
+    background-color: #06C6B3;
+    color: #FFFFFF;
+}
+.appoint-ment .new-requests {
+    float: left;
+    width: 100%;
+    position: relative;
+}
+.appoint-ment .new-requests .john-doe-box {
+    float: left;
+    width: 100%;
+    padding: 20px 20px;
+    box-shadow: 0px 4px 3px #00000029;
+    border-radius: 10px;
+    margin-bottom: 12px;
+}
+.appoint-ment .new-requests .john-doe-box figure {
+    float: left;
+    width: 100px;
+}
+.appoint-ment .new-requests .john-doe-box figure  img {
+    width: 100%;
+}
+.appoint-ment .new-requests .Jessica-pra {
+    width: calc(100% - 120px);
+    float: left;
+    vertical-align: inherit;
+    padding-left: 20px;
+}
+.appoint-ment .new-requests .Jessica-pra h3 {
+    margin: 0;
+    line-height: 1;
+    font-size: 17px;
+    color: #212121;
+    font-weight: 700;
+    font-family: 'PF Bague Sans Pro';
+    
+}
+.appoint-ment .new-requests .Jessica-pra p {
+    font-size: 15px;
+    margin: 0;
+    font-family: 'PF Bague Sans Pro';
+    line-height: 25px;
+    color: #212121;
+   
+}
+.Jessica-pra.appointment {
+    padding-left: 0px !important;
+}
+.Jessica-pra.appointment p {
+    padding-bottom: 4px !important;
+}
+.Jessica-pra.appointment h3{
+    margin-bottom: 4px !important;
+}
+.appoint-ment .appointment-for p {
+    font-size: 16px;
+    color: #ACACAC;
+    line-height: 30px;
+    letter-spacing: .52px;
+    font-family: 'PF Bague Sans Pro';
+    font-weight: 400;
+}
+.appoint-ment .appointment-for{
+    float: left;
+    width: 100%;
+    margin-bottom: 5px;
+}
+.appoint-ment .appointment-for p span {
+    color: #212121;
+}
+.appoint-ment .new-requests .john-doe-box span a {
+    min-width: 150px;
+    min-height: 42px;
+    font-size: 18px;
+    border-radius: 6px;
+    outline: none;
+    border: none;
+    font-family: 'PF Bague Sans Pro';
+    font-weight: 400;
+    margin: 0 0px 0px 20px;
+    border: 1px solid #9B3270;
+    background: #FFFFFF;
+    color: #9B3270;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none !important;
+    padding-top: 7px;
+}
+.appoint-ment .new-requests .john-doe-box span a.accept-bg {
+    color: #FFFFFF;
+    background: #06C6B3;
+    border: none;
+}
+.appoint-ment .new-requests .john-doe-box ul {
+    border: none;
+    margin-top: 0;
+    margin-bottom: 0px;
+}
+.appoint-ment .new-requests .john-doe-box li {
+    display: inline-block;
+}
+.appoint-ment .new-requests .john-doe-box li a {
+    padding-left: 15px;
+}
+.appoint-ment .new-requests .Jessica-pra p span {
+    color: #ACACAC;
+    padding-right: 10px;
+}
+.appoint-ment .new-requests .new-booking figure.small-img {
+    float: left;
+    /* width: 50px; */
+}
+.new-booking .number-table {
+    float: left;
+    width: 100%;
+    border-bottom: 10px solid #06C6B3;
+    border-radius: 6px;
+    padding-bottom: 26px;
+    padding-left: 25px;
+}
+.appoint-ment .new-requests .new-booking {
+    float: left;
+    width: 100%;
+    margin-top: 15px;
+    padding: 15px 10px;
+}
+.new-booking .number-table figure {
+    width: 70px;
+    float: left;
+}
+.new-booking .number-table figure img {
+    width: 100%;
+    vertical-align: text-top;
+}
+.number-table.table-box {
+    box-shadow: 0px 2px 4px #00000029;
+    border-bottom: none;
+}
+.appoint-ment .new-requests .john-doe-box figure.avarage-box {
+    width: 70px;
+    float: left;
+}
+.login .login-with p{text-align: center;}
+header .benefitme img[width="230px"] {
+    width: 150px;
+}
+header .benefitme .user-dropdown button span {
+    display: inline-block;
+    vertical-align: middle;
+}
+header .benefitme .user-dropdown button span img {
+    width: 38px;
+    border-radius: 40px;
+    height: 38px;
+    object-fit: cover;
+}
+.user-dropdown button#dLabel {
+    border: none;
+    background: transparent;
+    font-size: 15px;
+    outline: none !important;
+}
+
+@keyframes bake-pie {
+    from {
+      transform: rotate(0deg) translate3d(0,0,0);
+    }
+  }
+  
+.dashboard-chartbox .pieID {
+    display: inline-block;
+    vertical-align: top;
+  }
+  .dashboard-chartbox .pie {
+    height: 200px;
+    width: 200px;
+    position: relative;
+    margin: 0 30px 30px 0;
+    margin: 0 auto 20px!important;
+    display: inline-block;
+    top: 0;
+}
+.dashboard-chartbox .pie::before {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: 1;
+    width: 100px;
+    height: 100px;
+    background: #eeeeee;
+    border-radius: 50%;
+    top: 50px;
+    left: 50px;
+  }
+.dashboard-chartbox   .pie::after {
+    content: "";
+    display: block;
+    width: 120px;
+    height: 2px;
+    background: rgba(0,0,0,0.1);
+    border-radius: 50%;
+    box-shadow: 0 0 3px 4px rgba(0,0,0,0.1);
+    margin: 220px auto;
+    
+  }
+.dashboard-chartbox .slice {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    clip: rect(0px, 200px, 200px, 100px);
+    animation: bake-pie 1s;
+  }
+.dashboard-chartbox .slice span {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #000000;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    clip: rect(0px, 200px, 200px, 100px);
+  }
+.dashboard-chartbox  .legend {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background: #FFFFFF;
+    padding: 15px;
+    font-size: 13px;
+    box-shadow: 1px 1px 0 #DDDDDD,
+                2px 2px 0 #BBBBBB;
+  }
+.dashboard-chartbox  .legend li {
+    width: 110px;
+    height: 1.25em;
+    margin-bottom: 0.7em;
+    padding-left: 0.5em;
+    border-left: 1.25em solid black;
+  }
+  .legend em {
+    font-style: normal;
+  }
+.dashboard-chartbox .legend span {
+    float: right;
+  }
+  .dashboard-chartbox  .label {
+    height: 1em;
+    padding: .3em;
+    background: rgba(255, 255, 255, .8);
+    position: absolute;
+    display: none;
+    color:#333333;
+    
+  }
+  .dashboard-heading {
+    float: left;
+    width: 100%;
+    background: rgb(183 183 183 / 15%);
+    padding: 10px 10px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.dashboard-heading h3 {
+    font-size: 15px;
+    margin: 0;
+    color: rgb(0 0 0 / 50%);
+}
+.registered-customer {
+    float: left;
+    width: 100%;
+    margin-bottom: 40px;
+    margin-top: 5px;
+}
+.registered-customer h3 , .current-offer h3{
+    font-size: 18px;
+    color: #000;
+    font-family: 'Futura PT';
+    margin: 0;
+}
+.customer-box-sec {
+    float: left;
+    width: 100%;
+    margin-top: 12px;
+}
+.customer-box-sec .customerbox {
+    float: left;
+    width: 100%;
+    padding: 20px 25px;
+    background: #D6FBD7;
+}
+.customer-box-sec .customerbox h4 {
+    margin: 0;
+    font-size: 18px;
+    color: #212121;
+    font-family: 'PF Bague Sans Pro';
+}
+.customer-box-sec .customerbox h4 b {
+    float: right;
+    font-weight: 900;
+    font-family: 'PF Bague Sans Pro';
+}
+.customer-box-sec .customerbox.lightorg {
+    background: #FBF2D6;
+}
+.customerbox.lightblue {
+    background: #D6F4FB;
+}
+.dashboard-chartbox {
+    float: left;
+    width: 100%;
+}
+.dashboard-chartbox .chartbox-sec {
+    padding: 22px 20px;
+    float: left;
+    width: 100%;
+    box-shadow: 0 0 3px rgb(0 0 0 / 16%);
+    text-align: center;
+    min-height: 358px;
+}
+.dashboard-chartbox .chartbox-sec h4 {
+    text-align: left;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Futura PT';
+    color: #212121;
+}
+.dashboard-chartbox .chartbox-sec .selectbox {
+    float: right;
+    font-weight: 400;
+    font-family: 'PF Bague Sans Pro';
+    min-width: 110px;
+    height: 30px;
+    border: 1px solid #707070;
+    box-shadow: none !important;
+    text-shadow: none;
+    outline: none !important;
+    font-size: 15px;
+    color: #212121;
+    padding: 4px 10px;
+}
+.dashboard-chartbox .chartbox-sec .pieID.pie {
+    margin-right: 10px;
+}
+.dashboard-chartbox  .legend {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background: #FFFFFF;
+    padding: 0;
+    font-size: 12px;
+    box-shadow: none;
+}
+.dashboard-chartbox  .legend li {
+    width: 80px;
+    height: 1.25em;
+    margin-bottom: 0.7em;
+    padding-left: 0.5em;
+    border-left: 1.25em solid black;
+    display: inline-block;
+    margin-right: 10px;
+}
+.dashboard-chartbox  .legend li:last-child{margin-left: 0;}
+.dashboard-chartbox .pie::after{margin: 0; display: none;}
+.current-offer {
+    float: left;
+    width: 100%;
+    margin-top: 30px;
+}
+.current-offerBox {
+    float: left;
+    width: 100%;
+    box-shadow: 0 1px 4px rgb(0 0 0 / 20%);
+    margin-bottom: 30px;
+    padding: 15px 20px;
+    margin-top: 10px;
+}
+.current-offerBox .imgbox {
+    float: left;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    margin-right: 10px;
+    border: 1px solid #eeeeee;
+}
+.current-offerBox .imgbox img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: inline-block;
+    vertical-align: middle;
+}
+.current-offerBox .current-offercont {
+    float: left;
+    width: calc(100% - 125px);
+    width: -ms-calc(100% - 125px);
+    width: -moz-calc(100% - 125px);
+    width: -webkit-calc(100% - 125px);
+}
+.current-offerBox .current-offercont h5 {
+    color: #212121;
+    font-size: 13px;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+.current-offerBox .current-offercont  h4 {
+    color: #212121;
+    font-size: 17px;
+    font-family: 'PF Bague Sans Pro';
+    font-weight: 600;
+    margin-top: 6px;
+    margin-bottom: 7px;
+}
+.current-offerBox .current-offercont h4 span {
+    opacity: .4;
+    font-weight: 500;
+    font-size: 16px;
+}
+.current-offerBox .current-offercont p {
+    color: #212121;
+    font-size: 15px;
+    font-family: 'PF Bague Sans Pro';
+    font-weight: 600;
+}
+.current-offerBox .current-offercont p .discount-cont {
+    background: rgb(255 0 0 / 70%);
+    padding: 8px 15px;
+    color: #FFFFFF;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.current-offerBox .current-offercont p 
+ .redclr {
+    color: #FF3939;
+    font-weight: 400;
+    padding-left: 12px;
+}
+.current-offerBox .socialIcon {
+    float: right;
+    list-style: none;
+    margin: 0;
+}
+.current-offerBox .socialIcon li {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 10px;
+}
+
+.current-offerBox .socialIcon li a {
+    display: inline-block;
+    vertical-align: middle;
+    color: #777777;
+    font-size: 13px;
+}
+.current-offerBox .socialIcon li a i {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -5px;
+    margin-right: 5px;
+}
+.current-offerBox .socialIcon li a i img {
+    width: 16px;
+}
+.current-offerBox .socialIcon li:last-child {
+    margin: 0;
+}
+.current-offerBox .socialIcon li:last-child a i {
+    margin-right: 0;
+}
+.current-offerBox .socialIcon li:last-child a i img {
+    width: 14px;
+}
+.current-offerBox .prabox {
+    padding: 15px 30px 0;
+    color: #ACACAC;
+    line-height: 24px;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+.current-offerBox .prabox p {
+    margin: 0;
+}
+.addproduct-btn {
+    background: #06c6b3;
+    padding: 12px 15px;
+    color: #FFFFFF !important;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none !important;
+}
+.products-hedmrtop {
+    margin-top: -5px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.appoint-ment .new-requests ul.socialIcon {
+    border: 0;
+}
+.add-newoffer.appoint-ment .current-offer {
+    margin-top: 0;
+}
+.add-newoffer.appoint-ment ul.nav.nav-tabs {
+    margin-top: 0;
+}
+.appoint-ment .new-requests .addproduct-btn {
+    position: absolute;
+    right: 0;
+    top: -62px;
+}
+div#messages .new-booking {
+    margin-bottom: 10px;
+}
+.appoint-ment .new-requests div#messages .john-doe-box li:last-child a img {
+    width: 18px;
+}
+.appoint-ment .new-requests div#messages .john-doe-box li:nth-child(2) a img {
+    width: 18px;
+}
+.appoint-ment .new-requests div#messages .john-doe-box li:first-child a img {
+    width: 24px;
+}
+.new-booking .active.col-md-4 .number-table {
+    float: left;
+    width: 100%;
+    border-bottom: 10px solid #06C6B3;
+    border-radius: 6px;
+    padding-bottom: 26px;
+    padding-left: 25px;
+}
+
+ul.nav.nav-tabs.number-sec.col-md-12{
+    border: 0;
+}
+ul.nav.nav-tabs.number-sec.col-md-12 a.number-table {
+    background: none !important;
+    padding: 15px;
+}
+ul.nav.nav-tabs.number-sec li a:hover ,  ul.nav.nav-tabs.number-sec li.active a{
+    float: left;
+    width: 100%;
+    border-bottom: 10px solid #06C6B3;
+    border-radius: 6px;
+    padding-bottom: 26px;
+    padding-left: 25px;
+}
+
+
+.add-newoffer span.box-input {
+    position: relative;
+    width: 17px;
+    height: 17px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.add-newoffer .Customer-journey .menu-text {
+    font-size: 18px;
+    line-height: 28px;
+    color: #000000;
+    font-weight: 400;
+    vertical-align: sub;
+    font-family: 'PF Bague Sans Pro';
+}
+.add-newoffer  span.box-input input {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+    cursor: pointer;
+    opacity: 0;
+    display: block;
+    margin: 0;
+}
+.add-newoffer span.box-input small {
+    background: #FFFFFF;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border-radius: 2px;
+    border: 1px solid#ACACAC;
+}
+.add-newoffer span.box-input input:checked + small {
+    background: #06C6B3;
+    border-color:#06C6B3;
+}
+
+.add-newoffer span.box-input input:checked + small:after{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 5px;
+    width: 6px;
+    height: 12px;
+    border: solid #FFFFFF;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+.add-newoffer .form-group .timer-icon {
+    background-image: url(../images/timer-icon.png);
+    background-repeat: no-repeat;
+    background-position: 96% center;
+    padding-right: 35px;
+}
+.add-newoffer .form-group .close-icon{
+    background-image: url(../images/close-icon.png);
+    background-repeat: no-repeat;
+    background-position: 98% center;
+    padding-right: 35px;
+}
+.add-newoffer .generate .add-new{
+    color: #06C6B3;
+}
+.appoint-ment .new-requests .john-doe-box .pizza-sec {
+    float: left;
+    width: 200px;
+}
+.appoint-ment .new-requests .john-doe-box .pizza-sec img {
+    border-radius: 15px;
+}
+.appoint-ment .new-requests .Jessica-pra.text-contant {
+    width: calc(100% - 200px);
+}
+.appoint-ment .new-requests .Jessica-pra.text-contant p {
+    color: rgb(0 0 0 / 60%);
+}
+.appoint-ment .new-requests .Jessica-pra.text-contant h3 {
+    line-height: 24px;
+    margin-bottom: 3px;
+}
+.Jessica-pra.text-contant span.offer {
+    color: red;
+    font-size: 14px;
+    line-height: 20px;
+}
+.appoint-ment .appoint-sec button {
+    border: none;
+    background: none;
+    color: #168AFF;
+    font-size: 16px;
+    padding-right: 20px;
+    font-family: 'PF Bague Sans Pro';
+}
+.appoint-ment .appoint-sec button i.fa.fa-refresh {
+    font-size: 19px;
+    vertical-align: text-top;
+    padding-right: 5px;
+}
+.appoint-ment .new-requests .Jessica-pra.text-contant p img {
+    width: 20px;
+    vertical-align: text-top;
+ 
+}
+.appoint-ment .new-requests .Jessica-pra.text-contant .per-night {
+    font-size: 12px;
+    font-weight: 400;
+    color: #ACACAC;
+    vertical-align: top;
+}
+.appoint-ment .new-requests .Jessica-pra.text-contant li {
+    display: inline-block;
+    font-size: 14px;
+    color: rgb(0 0 0 / 57%);
+    padding-right:10px ;
+}
+.appoint-ment .new-requests .Jessica-pra.text-contant li img {
+    width: 15px;
+    margin-right: 7px;
+}
+.appoint-ment .new-requests .Jessica-pra.text-contant ul {
+    margin: 5px 0px;
+}
+.appoint-ment .new-requests .Jessica-pra.room-for p {
+    margin-top: 26px;
+}
+
+.appoint-ment .new-requests .Jessica-pra .mobile-box figure {
+    width: 85px;
+    height: 80px;
+    padding: 6px;
+}
+.appoint-ment .new-requests .Jessica-pra .mobile-box figure img{
+    width: 100%;
+}
+.appoint-ment .new-requests .Jessica-pra .mobile-box {
+    padding-right: 15px !important;
+    float: left;
+}
+.appoint-ment .new-requests .Jessica-pra .mobile-box p {
+    font-size: 12px;
+}
+
+*,:after,:before{box-sizing:border-box}
+.Jessica-pra.calendar-box .pull-left{float:left}
+.Jessica-pra.calendar-box .pull-right{float:right}
+.Jessica-pra.calendar-box .clearfix:after,.clearfix:before{content:'';display:table}
+.Jessica-pra.calendar-box .clearfix:after{clear:both;display:block}
+
+
+.Jessica-pra.calendar-box .calendar {
+    width: 400px;
+    font-size: 100%;
+    perspective: 1000px;
+    cursor: default;
+    position: relative;
+}
+
+.calendar .header{height:50px;position:relative;color:#FFFFFF}
+.calendar .header .text{
+    position:absolute;
+    top:0;left:0;
+    right:0;bottom:0;
+    background-color:#9B3270;
+    padding:0px;
+    transform:rotateX(90deg);
+    transform-origin:bottom;
+    backface-visibility:hidden;
+    transition:.4s ease-in-out 0s;
+    box-shadow:0 6px 20px 0 rgba(0,0,0,.19), 0 8px 17px 0 rgba(0,0,0,.2);
+    opacity:0;
+    border-radius: 12px 12px 0px 0px;
+}
+.Jessica-pra.calendar-box .calendar .header .text>span {
+    text-align: center;
+    padding: 15px;
+    display: block;
+}
+.new-requests .form-control {
+    display: block;
+    width: 100%;
+    height: 40px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555555;
+    background-color: #FFFFFF;
+    background-image: none;
+    border: 1px solid #cccccc;
+    border-radius: 7px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+.calendar .header.active .text{transform:rotateX(0deg);opacity:1}
+.months{width:100%;height: 320px;position:relative}
+.months .hr{height:1px;margin:15px 0;background:#cccccc}
+.Jessica-pra.calendar-box .month {
+    padding: 15px;
+    width: inherit;
+    height: inherit;
+    background: #FFFFFF;
+    position: absolute;
+    backface-visibility: hidden;
+    transition: all .4s ease-in-out 0s;
+    box-shadow: 0px 2px 4px #00000029;
+    border-radius: 0px 0px 12px 12px;
+}
+.months[data-flow="left"] .month{transform:rotateY(-180deg)}
+.months[data-flow="right"] .month{transform:rotateY(180deg)}
+.table{width:100%;font-size:10px;font-weight:400;display:table}
+.table .row{display:table-row}
+.table .row.head{color:#308ff0;text-transform:uppercase}
+.Jessica-pra.calendar-box .table .row .cell {
+    width: 14.28%;
+    padding: 8px 5px;
+    text-align: center;
+    display: table-cell;
+    font-size: 16px;
+}
+.table .row .cell.disable{color:#cccccc}
+.table .row .cell span{display:block;width:28px;height:28px;line-height:28px;transition:color,background .4s ease-in-out 0s}
+.Jessica-pra.calendar-box .table .row .cell.active span{
+    color:#FFFFFF;
+    background-color:#06C6B3;
+    border-radius: 50px;
+    font-size: 16px;
+    
+}
+.months .month[data-active="true"]{transform:rotateY(0)}
+.header [data-action]{color:inherit;position:absolute;top:50%;margin-top:-20px;width:40px;height:40px;z-index:1;opacity:0;transition:all .4s ease-in-out 0s}
+.header [data-action]>i{width:20px;height:20px;display:block;position:absolute;left:50%;top:50%;margin-top:-10px;margin-left:-10px}
+.header [data-action]>i:before,.header [data-action]>i:after{top:50%;margin-top:-1px;content:'';position:absolute;height:2px;width:20px;border-top:2px solid;border-radius:2px}
+.header [data-action*="prev"]{left:15px}
+.header [data-action*="next"]{right:15px}
+.header [data-action*="prev"]>i:before,.header [data-action*="prev"]>i:after{left:0}
+.header [data-action*="prev"]>i:before{top:3px;transform:rotate(-45deg)}
+.header [data-action*="prev"]>i:after{top:auto;bottom:3px;transform:rotate(45deg)}
+.header [data-action*="next"]>i:before,.header [data-action*="next"]>i:after{right:0}
+.header [data-action*="next"]>i:before{top:auto;bottom:3px;transform:rotate(-45deg)}
+.header [data-action*="next"]>i:after{top:3px;transform:rotate(45deg)}
+.header.active [data-action]{opacity:1}
+
+[data-theme="jan"]{background-color:none}
+[data-theme="jan"] .row.head{color:#000000}
+[data-theme="jan"] .header .text,
+[data-theme="jan"] .table .row .cell.active span{background-color:none}
+
+[data-theme="feb"]{background-color:none}
+[data-theme="feb"] 
+.Jessica-pra.calendar-box .row.head{
+       color:#000000;
+       font-size: 18px;
+}
+[data-theme="feb"] .header .text,
+[data-theme="feb"] .table .row .cell.active span{background-color:none}
+
+[data-theme="mar"]{background-color:none}
+[data-theme="mar"] .row.head{color:#000}
+[data-theme="mar"] .header .text,
+[data-theme="mar"] .table .row .cell.active span{background-color:none}
+
+[data-theme="apr"]{background-color:none}
+[data-theme="apr"] .row.head{color:#000000}
+[data-theme="apr"] .header .text,
+[data-theme="apr"] .table .row .cell.active span{background-color:none}
+
+[data-theme="may"]{background-color:none}
+[data-theme="may"] .row.head{color:#000000}
+[data-theme="may"] .header .text,
+[data-theme="may"] .table .row .cell.active span{background-color:none}
+
+[data-theme="jun"]{background-color:none}
+[data-theme="jun"] .row.head{color:#000000}
+[data-theme="jun"] .header .text,
+[data-theme="jun"] .table .row .cell.active span{background-color:none}
+
+[data-theme="jul"]{background-color:none}
+[data-theme="jul"] .row.head{color:#000000}
+[data-theme="jul"] .header .text,
+[data-theme="jul"] .table .row .cell.active span{background-color:none}
+
+[data-theme="aug"]{background-color:none}
+[data-theme="aug"] .row.head{color:#000000}
+[data-theme="aug"] .header .text,
+[data-theme="aug"] .table .row .cell.active span{background-color:none}
+
+[data-theme="sep"]{background-color:none}
+[data-theme="sep"] .row.head{color:#000000}
+[data-theme="sep"] .header .text,
+[data-theme="sep"] .table .row .cell.active span{background-color:none}
+
+[data-theme="oct"]{background-color:none}
+[data-theme="oct"] .row.head{color:#000000}
+[data-theme="oct"] .header .text,
+[data-theme="oct"] .table .row .cell.active span{background-color:none}
+
+[data-theme="nov"]{background-color:none}
+[data-theme="nov"] .row.head{color:#000000}
+[data-theme="nov"] .header .text,
+[data-theme="nov"] .table .row .cell.active span{background-color:none}
+
+[data-theme="dec"]{background-color:none}
+[data-theme="dec"] .row.head{color:#000000}
+[data-theme="dec"] .header .text,
+[data-theme="dec"] .table .row .cell.active span{background-color:none}
+.Jessica-pra.appointment a {
+    font-size: 16px;
+    line-height: 16px;
+    color: #06C6B3;
+    font-weight: 300;
+    font-family: 'PF Bague Sans Pro';
+    text-decoration: none;
+}
+.Jessica-pra.appointment a img {
+    margin-left: 10px;
+    width: 12px;
+}
+.appointment-for.title label {
+    font-size: 15px;
+    color: #ACACAC;
+    font-weight: 400;
+    line-height: 28px;
+}
+.appointment-for.title .switch {
+    position: relative;
+    display: inline-block;
+    width: 26px;
+    height: 16px;
+    vertical-align: middle;
+}
+.appointment-for.title .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.appointment-for.title .slider.round {
+    border-radius: 34px;
+}
+.appointment-for.title .slider.round:before {
+    border-radius: 50%;
+}
+.appointment-for.title .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #06C6B3;
+    -webkit-transition: .4s;
+    transition: .4s;
+    width: 26px;
+} 
+.appointment-for.title .slider:before {
+    position: absolute;
+    content: "";
+    height: 12px;
+    font-size: 10px;
+    width: 12px;
+    left: 2px;
+    bottom: 2px;
+    background-color: #fff;
+    -webkit-transition: .4s;
+    transition: .4s;
+    text-align: center;
+    line-height: 12px;
+}
+.appointment-for.title input:checked + .slider:before {
+    -webkit-transform: translateX(20px);
+    -ms-transform: translateX(20px);
+    transform: translateX(10px);
+}
+.appointment-for.title .form-group {
+    margin-bottom: 8px;
+}
+.appointment-for.title .form-group .timer-icon {
+    background-image: url(../images/timer-icon.png);
+    background-repeat: no-repeat;
+    background-position: 96% center;
+    padding-right: 35px;
+}
+.appointment-for.title {
+    padding: 0px 20px;
+    box-shadow: 0px 3px 6px#00000029;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+.appointment-for.title .recurring {
+    color: #000000;
+}
+.new-requests button {
+    min-width: 100%;
+    height: 48px;
+    border: 1px solid#9B3270;
+    background-color: #fff;
+    color: #9B3270;
+    font-size: 18px;
+    font-family: 'PF Bague Sans Pro';
+    line-height: 20px;
+    margin-top: 14px;
+}
+.new-requests .bgcolor {
+    background-color: #06C6B3;
+    border: none;
+    color: #FFFFFF;
+}
+.new-requests .Jessica-pra.calendar-box {
+    padding-left: 0px;
+}
+.appoint-ment .new-requests .Jessica-pra.text-contant a {
+    font-size: 16px;
+    color: #168AFF;
+    font-weight: 400;
+    line-height: 28px;
+    text-decoration: none;
+    font-family: 'PF Bague Sans Pro';
+}
+.form-box.check-in-add.award-sec {
+    float: left;
+    width: 100%;
+}
+.form-box.check-in-add.award-sec a {
+    font-family: 'PF Bague Sans Pro';
+    font-weight: 400;
+    line-height: 24px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #777777;
+}
+.form-box.check-in-add.award-sec a img{
+    width: 15px;
+    margin-right: 5px;
+}
+.regular-visitor p {
+    font-size: 18px;
+    line-height: 30px;
+    color: #212121;
+    font-weight: 400;
+    font-family: 'PF Bague Sans Pro';
+
+}
+.regular-visitor{
+    float: left;
+    width: 100%;
+    padding: 40px 20px;
+}
+.regular-visitor .mascot{
+    font-size: 24px;
+    line-height: 35px;
+    color: #02BB46;
+    font-weight: 700;
+    font-family: 'PF Bague Sans Pro';
+}
+#Message-popup .modal-header button.close , .ConnectPclose , #saveMessage-popup .modal-header button.close {
+    opacity: 1 !important;
+    width: 25px;
+    height: 25px;
+    line-height: 1!important;
+    background: #9B3270 !important;
+    padding: 0 !important;
+    text-shadow: none!important;
+    color: #fff!important;
+    font-weight: 400!important;
+    border-radius: 30px!important;
+    margin-top: 10px!important;
+    margin-right: 10px!important;
+    text-align: center!important;
+    padding-left: 2px !important;
+    display: inline-block;
+}
+#Message-popup  .modal-header , #ConnectProduct .modal-header , #saveMessage-popup .modal-header  {
+    padding: 0;
+    border: 0;
+}
+#Message-popup  .modal-body , #ConnectProduct .modal-body , #saveMessage-popup .modal-body {
+    padding: 0 30px;
+    display: inline-block;
+    width: 100%;
+}
+#Message-popup .modal-body .messagepopCant , #ConnectProduct .messagepopCant , #saveMessage-popup  .messagepopCant{
+    float: left;
+    width: 100%;
+}
+#Message-popup .modal-body .messagepopCant h3 , #ConnectProduct .modal-body .messagepopCant h3 , #saveMessage-popup .modal-body .messagepopCant h3 {
+    font-size: 24px;
+    margin-top: 0;
+    color: #000000;
+    font-weight: 700;
+    font-family: 'PF Bague Sans Pro';
+    margin-bottom: 15px;
+}
+.messagepopCant .form-group {
+    float: left;
+    width: 100%;
+}
+.messagepopCant .form-group textarea.form-control {
+    height: 150px;
+    border: 1px solid #707070;
+    color: #000;
+    font-size: 14px;
+    letter-spacing: .2px;
+}
+.comanebtn {
+    font-size: 16px;
+    text-decoration: none;
+    padding: 8px 24px;
+    background: #06C6B3;
+    color: #FFFFFF;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: 'PF Bague Sans Pro';
+    border-radius: 5px;
+}
+.messagepopCant .form-group .comanebtn {
+    margin: 25px auto 15px;
+    display: block;
+    width: auto !important;
+    min-width: 190px;
+}
+#Message-popup .modal-content , #ConnectProduct .modal-content , #saveMessage-popup .modal-content  {
+    border: 0;
+    box-shadow: 0 0 30px rgb(0 0 0 / 12%);
+}
+.offerconnect {
+    float: left;
+    width: 100%;
+}
+.offerconnect .nav-tabs {
+    border: 0;
+    float: left;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.offerconnect .nav-tabs li a {
+    margin: 0;
+    background: #fff;
+    color: #000;
+    padding: 10px 25px;
+    border: 1px solid #06C6B3 !important;
+    box-shadow: none;
+    border-radius: 0 !important;
+}
+
+.offerconnect .nav-tabs li.active a {
+    background: #06C6B3;
+    color: #fff;
+}
+.offerconnect input.form-control {
+    height: 42px;
+}
+.offerconnect .tab-pane {
+    border: 0 !important;
+    box-shadow: none !important;
+    float: left;
+    width: 100%;
+}
+.offerconnect .tab-pane .firstimg {
+    float: left;
+    width: 70px;
+    overflow: hidden;
+    height: 70px;
+    border: 1px solid #ddd;
+}
+.offerconnect .tab-pane .firstimg img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    padding: 2px;
+}
+.offerconnect .tab-pane  td {
+    vertical-align: middle;
+    font-size: 14px;
+    color: #000;
+    font-weight: 500;
+}
+.offerconnect .tab-pane td .tdcheckbox {
+    float: right;
+    width: 18px;
+    height: 18px;
+    position: relative;
+    border: 1px solid #9B3270;
+}
+.offerconnect .tab-pane td .tdcheckbox input.checkbox {
+    position: absolute;
+    top: .0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    cursor: pointer;
+    z-index: 999;
+    opacity: 0;
+}
+.offerconnect .tab-pane td .tdcheckbox small {
+    width: 18px;
+    height: 18px;
+    text-align: center;
+    display: inline-block;
+    line-height: 18px;
+    vertical-align: top;
+    color: #9B3270;
+    opacity: 0;
+}
+.offerconnect .tab-pane td .tdcheckbox input.checkbox:checked + small{
+    opacity: 1;
+}
+#saveMessage-popup .modal-dialog {
+    width: 200px;
+    border: 1px solid #eee;
+    text-align: center;
+}
+#saveMessage-popup .modal-dialog figure img {
+    width: 30px;
+    margin-bottom: 8px;
+}
+#saveMessage-popup .modal-dialog  p {
+    color: #000;
+    font-size: 14px;
+}
+.roompopup-sec .modal-content.appoint-ment {
+    width: 100%;
+    padding: 0;
+}
+.roompopup-sec .appoint-ment .new-requests .john-doe-box .pizza-sec {
+    float: left;
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    overflow: hidden;
+}
+.roompopup-sec  .appoint-ment .new-requests .john-doe-box figure img {
+    width: 100%;
+    height: 100%;
+    border-radius: 100% !important;
+}
+.roompopup-sec  .appoint-ment .new-requests .john-doe-box.pad0 {
+    padding: 0;
+    box-shadow: none !important;
+}
+.roompopup-sec .appoint-ment .new-requests .john-doe-box.pad0 .text-contant {
+    width: 100%;
+    padding: 0;
+}
+.roompopup-sec  .modal-header {
+    padding: 0;
+    border: 0;
+}
+.roompopup-sec .Jessica-pra {
+    width: 100% !important;
+}
+
+.roompopup-sec .imgprofile  .Jessica-pra {
+    width: calc(100% - 120px) !important;
+}
+table#calendar {
+    width: 100%;
+    border: 0;
+    border-spacing: 0;
+    border-radius: 0;
+}
+
+table#calendar {
+    width: 100%;
+    border: 0;
+    border-spacing: 0;
+    border-radius: 0;
+}
+table#calendar th {
+    color: #fff !important;
+    padding: 10px 15px;
+    font-size: 16px  !important;
+    vertical-align: middle !important;
+    background: #9B3270 !important;
+}
+table#calendar th span#month {
+    vertical-align: middle;
+    display: inline-block;
+}
+table#calendar tr#monthrow th {
+    padding: 15px;
+}
+table#calendar tr#monthrow th button {
+    color: #fff !important;
+    padding: 0;
+    height: auto;
+    min-width: 0;
+    margin: 0;
+}
+table#calendar .daysoftheweek th {
+    background: #fff !important;
+    color: #555!important;
+    font-size: 12px !important;
+}
+table#calendar  tr.week td {
+    padding: 20px 18px;
+    background: #fff;
+    color: #000;
+}
+table#calendar tr.week td.current-date {
+    color: #fff;
+    background: #06C6B3;
+    text-align: center !important;
+    border-radius: 0;
+    box-shadow: none !important;
+    border: none;
+    display: table-cell;
+}
+table#calendar  tr.week td {
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+table#calendar  tr.week td:first-child{border-left: 1px solid #ddd;}
+table#calendar .daysoftheweek th{
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+table#calendar .daysoftheweek th:first-child{border-left: 1px solid #ddd;}
+.roompopup-sec .calender-pgsec {
+    float: left;
+    width: 100%;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+.roompopup-sec .appoint-ment .text-contant span {
+    display: inline-block;
+    vertical-align: middle;
+}
+.roompopup-sec .appoint-ment .text-contant span a {
+    min-width: auto;
+    border: 0;
+    margin-left: 10px;
+    padding: 0 !important;
+    line-height: 1 !important;
+    min-height: auto !important;
+}
+.roompopup-sec .appoint-ment .text-contant span a img {
+    width: 14px;
+}
+a.addtable-btn {
+    float: right;
+    background: #06c6b3;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-top: -10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.appoint-ment .new-requests .john-doe-box {
+    margin-top: 0px;
+}
+.appoint-ment .new-requests.requests_mr0 .john-doe-box {
+    margin-top: 0;
+}
+a.switch_sec {
+    padding: 0 !important;
+    background: transparent !important;
+    color: #168AFF !important;
+    margin-right: 10px;
+}
+.check-in-tabing ul.nav.nav-tabs a{font-family: 'PF Bague Sans Pro';}
+.new-requests.advertising_mr0 {
+    margin-top: 20px !important;
+}
+a.editmenu_right {
+    margin-top: 7px;
+}
+.edit-companyinfo-userimg .coutome-uploadbtn {
+    width: 110px !important;
+    height: 110px !important;
+    border-radius: 110px !important;
+    padding-top: 40px !important;
+}
+.praadress-cont .mrtop20 a {
+    margin: 0 0px 0 15px;
+}
+.praadress-cont .mrtop20 a img {
+    width: 14px;
+}
+.company-categroy .tab-content #home .editmenu_right.pull-right {
+    margin-top: -35px;
+}
+
+
+.current-offer {
+    float: left;
+    width: 100%;
+    margin-top: 30px;
+}
+.current-offerBox {
+    float: left;
+    width: 100%;
+    box-shadow: 0 1px 4px rgb(0 0 0 / 20%);
+    margin-bottom: 30px;
+    padding: 15px 20px;
+    margin-top: 10px;
+}
+.current-offerBox .imgbox {
+    float: left;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    margin-right: 10px;
+    border: 1px solid #eee;
+}
+.current-offerBox .imgbox img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: inline-block;
+    vertical-align: middle;
+}
+.current-offerBox .current-offercont {
+    float: left;
+    width: calc(100% - 125px);
+    width: -ms-calc(100% - 125px);
+    width: -moz-calc(100% - 125px);
+    width: -webkit-calc(100% - 125px);
+}
+.current-offerBox .current-offercont h5 {
+    color: #212121;
+    font-size: 13px;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+.current-offerBox .current-offercont  h4 {
+    color: #212121;
+    font-size: 17px;
+    font-family: 'PF Bague Sans Pro';
+    font-weight: 600;
+    margin-top: 6px;
+    margin-bottom: 7px;
+}
+.current-offerBox .current-offercont h4 span {
+    opacity: .4;
+    font-weight: 500;
+    font-size: 16px;
+}
+.current-offerBox .current-offercont p {
+    color: #212121;
+    font-size: 15px;
+    font-family: 'PF Bague Sans Pro';
+    font-weight: 600;
+}
+.current-offerBox .current-offercont p .discount-cont {
+    background: rgb(255 0 0 / 70%);
+    padding: 8px 15px;
+    color: #fff;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.current-offerBox .current-offercont p 
+ .redclr {
+    color: #FF3939;
+    font-weight: 400;
+    padding-left: 12px;
+}
+.current-offerBox .socialIcon {
+    float: right;
+    list-style: none;
+    margin: 0;
+}
+.current-offerBox .socialIcon li {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 10px;
+}
+
+.current-offerBox .socialIcon li a {
+    display: inline-block;
+    vertical-align: middle;
+    color: #777777;
+    font-size: 13px;
+}
+.current-offerBox .socialIcon li a i {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -5px;
+    margin-right: 5px;
+}
+.current-offerBox .socialIcon li a i img {
+    width: 16px;
+}
+.current-offerBox .socialIcon li:last-child {
+    margin: 0;
+}
+.current-offerBox .socialIcon li:last-child a i {
+    margin-right: 0;
+}
+.current-offerBox .socialIcon li:last-child a i img {
+    width: 14px;
+}
+.current-offerBox .prabox {
+    padding: 15px 30px 0;
+    color: #ACACAC;
+    line-height: 24px;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+.current-offerBox .prabox p {
+    margin: 0;
+}
+.addproduct-btn {
+    background: #06c6b3;
+    padding: 12px 15px;
+    color: #fff !important;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none !important;
+}
+.products-hedmrtop {
+    margin-top: -5px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.appoint-ment .new-requests ul.socialIcon {
+    border: 0;
+}
+.add-newoffer.appoint-ment .current-offer {
+    margin-top: 0;
+}
+.add-newoffer.appoint-ment ul.nav.nav-tabs {
+    margin-top: 0;
+}
+.appoint-ment .new-requests .addproduct-btn {
+    position: absolute;
+    right: 0;
+    top: -62px;
+}
+div#messages .new-booking {
+    margin-bottom: 10px;
+}
+.appoint-ment .new-requests div#messages .john-doe-box li:last-child a img {
+    width: 11px;
+}
+.appoint-ment .new-requests div#messages .john-doe-box li:nth-child(2) a img {
+    width: 14px;
+}
+.appoint-ment .new-requests div#messages .john-doe-box li:first-child a img {
+    width: 16px;
+}
+
+.login .login-facebook p a {
+    color: #06c6b3;
+}
+#verification-box .modal-content {
+    border: 0;
+    box-shadow: none;
+    background: none !important;
+}
+div#verification-box .login {
+    background: transparent;
+}
+div#verification-box .login .login-form {
+    width: 100%;
+}
+.Subscription {
+    background: url(../images/bgmg-verify.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.grrnbtn {
+    font-size: 18px;
+    font-family: 'PF Bague Sans Pro';
+    line-height: 20px;
+    margin-top: 14px;
+    width: 100%;
+    height: 45px;
+    background-color: #06C6B3;
+    border: none;
+    color: #fff !important;
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none !important;
+    border-radius: 4px;
+}
+#popup_successfully {
+    text-align: center;
+}
+#popup_successfully .modal-dialog {
+    width: 250px;
+    border: 0;
+}   
+#popup_successfully .modal-dialog .modal-content {
+    border: 0;
+    padding: 30px;
+    box-shadow: none;
+}
+#popup_successfully .modal-dialog .modal-content img {
+    width: 30px;
+}
+#popup_successfully .modal-dialog .modal-content  h4 {
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 0;
+    font-weight: 600;
+}
+.add-newoffer .form-box textarea.form-control {
+    height: 100px;
+}
+.login-with .form-box-sec.payment p {
+    text-align: left;
+}
+body {
+    background: #06c6b3;
+}
+.add-newoffer , header .benefitme{background: #fff;}
+.side-bar + div {
+    background: #f5f5f5;
+    min-height: 100vh;
+}
